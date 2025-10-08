@@ -1,0 +1,38 @@
+[
+  {
+    "question": "What is the output of the following code: console.log(typeof null);",
+    "options": [
+      "null",
+      "object",
+      "undefined",
+      "number"
+    ],
+    "answer": "object",
+    "reason": "In JavaScript, the typeof operator returns 'object' for null due to a historical bug in the language's implementation.",
+    "date": "2025-10-08T18:04:00.252Z"
+  },
+  {
+    "question": "What is the output of the following code: console.log(typeof NaN);",
+    "options": [
+      "number",
+      "undefined",
+      "string",
+      "object"
+    ],
+    "answer": "number",
+    "reason": "In JavaScript, NaN (Not-a-Number) is considered a numeric type, so typeof NaN returns 'number'.",
+    "date": "2025-10-08T18:04:09.119Z"
+  },
+  {
+    "question": "What does the '===' operator do in JavaScript?",
+    "options": [
+      "Compares two values for equality and type",
+      "Compares two values for equality only",
+      "Assigns a value to a variable",
+      "Checks if a variable is undefined"
+    ],
+    "answer": "Compares two values for equality and type",
+    "reason": "The '===' operator checks both the value and the type of the operands, ensuring that they are identical in both aspects.",
+    "date": "2025-10-08T18:04:18.525Z"
+  }
+]
