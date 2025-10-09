@@ -38,8 +38,8 @@ jobs:
 
       - name: Commit & push changes
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git config user.name "suhail-kk"
+          git config user.email "suhailkotta2001@gmail.com"
           git add public/questions.json
           git commit -m "Add daily question $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
