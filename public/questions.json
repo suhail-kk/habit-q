@@ -34,5 +34,16 @@
     "answer": "Compares two values for equality and type",
     "reason": "The '===' operator checks both the value and the type of the operands, ensuring that they are identical in both aspects.",
     "date": "2025-10-08T18:04:18.525Z"
+  },
+  {
+    "question": "What is the output of the following JavaScript code: console.log(typeof null);",
+    "options": [
+      "null",
+      "object",
+      "undefined",
+      "string"
+    ],
+    "answer": "object",
+    "reason": "In JavaScript, the typeof operator returns 'object' for null due to a historical bug in the language's implementation."
   }
 ]
