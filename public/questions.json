@@ -56,5 +56,16 @@
     ],
     "answer": "object",
     "reason": "In JavaScript, the typeof operator returns 'object' for null, which is a known quirk of the language."
+  },
+  {
+    "question": "What is the output of the following JavaScript code: console.log(typeof null);",
+    "options": [
+      "null",
+      "object",
+      "undefined",
+      "string"
+    ],
+    "answer": "object",
+    "reason": "In JavaScript, the typeof operator returns 'object' for null, which is considered a bug in the language's design."
   }
 ]
