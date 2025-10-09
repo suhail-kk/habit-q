@@ -2,24 +2,31 @@ name: Daily Question Generator
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Run every day at 00:00 UTC
-  workflow_dispatch: # allows manual trigger
+    - cron: "0 0 * * *"  # Runs every day at 00:00 UTC
+  workflow_dispatch:      # Allows manual trigger
 
 jobs:
   generate:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
       - name: Setup Node.js
-        uses: actions/setup-node@v3
+        uses: actions/setup-node@v4
         with:
           node-version: 20
 
       - name: Install dependencies
         run: npm install
+
+      - name: Ensure questions file exists
+        run: |
+          mkdir -p public
+          if [ ! -f public/questions.json ]; then
+            echo "[]" > public/questions.json
+          fi
 
       - name: Generate daily question
         run: node scripts/generate-daily-question.js
@@ -30,7 +37,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add questions.json
+          git add public/questions.json
           git commit -m "Add daily question $(date +'%Y-%m-%d')" || echo "No changes to commit"
           git push
         env:
