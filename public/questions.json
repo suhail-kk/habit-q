@@ -36,36 +36,39 @@
     "date": "2025-10-08T18:04:18.525Z"
   },
   {
-    "question": "What is the output of the following JavaScript code: console.log(typeof null);",
+    "question": "What will be the output of the following code: console.log([] + []);",
     "options": [
-      "null",
-      "object",
       "undefined",
-      "string"
+      "null",
+      "",
+      "0"
     ],
-    "answer": "object",
-    "reason": "In JavaScript, the typeof operator returns 'object' for null due to a historical bug in the language's implementation."
+    "answer": "",
+    "reason": "In JavaScript, when two arrays are added together using the + operator, they are coerced into strings, resulting in an empty string.",
+    "date": "2025-10-09T16:13:11.066Z"
   },
   {
-    "question": "What is the output of the following code: console.log(typeof null);",
+    "question": "What will be the output of the following code: console.log(1 + '1');",
     "options": [
-      "null",
-      "object",
-      "undefined",
-      "number"
+      "1",
+      "'11'",
+      "11",
+      "NaN"
     ],
-    "answer": "object",
-    "reason": "In JavaScript, the typeof operator returns 'object' for null, which is a known quirk of the language."
+    "answer": "'11'",
+    "reason": "In JavaScript, when you add a number and a string, the number is coerced into a string, resulting in concatenation.",
+    "date": "2025-10-09T16:13:30.831Z"
   },
   {
-    "question": "What is the output of the following JavaScript code: console.log(typeof null);",
+    "question": "Can you explain the differences between synchronous and asynchronous programming in JavaScript and provide an example of how you would handle error management in asynchronous code using Promises or async/await?",
     "options": [
-      "null",
-      "object",
-      "undefined",
-      "string"
+      "Synchronous programming blocks execution until the current operation completes, while asynchronous programming allows other operations to run concurrently. Error management in async code can be handled using try/catch with async/await.",
+      "Synchronous programming allows multiple operations to run simultaneously, while asynchronous programming runs operations sequentially. Error management is not required in async code.",
+      "Synchronous programming uses callbacks exclusively, while asynchronous programming can only use Promises. Error management in async code is done using global error handlers.",
+      "Synchronous programming requires a web worker to handle tasks, while asynchronous programming does not. Error management in async code is done through event listeners."
     ],
-    "answer": "object",
-    "reason": "In JavaScript, the typeof operator returns 'object' for null, which is considered a bug in the language's design."
+    "answer": "Synchronous programming blocks execution until the current operation completes, while asynchronous programming allows other operations to run concurrently. Error management in async code can be handled using try/catch with async/await.",
+    "date": "2025-10-09T16:19:38.614Z",
+    "reason": "This question assesses the candidate's understanding of advanced JavaScript concepts, specifically asynchronous programming, which is crucial for effective Node.js and front-end development. It also evaluates their ability to manage errors in a modern coding environment."
   }
 ]
