@@ -70,5 +70,17 @@
     "answer": "Synchronous programming blocks execution until the current operation completes, while asynchronous programming allows other operations to run concurrently. Error management in async code can be handled using try/catch with async/await.",
     "date": "2025-10-09T16:19:38.614Z",
     "reason": "This question assesses the candidate's understanding of advanced JavaScript concepts, specifically asynchronous programming, which is crucial for effective Node.js and front-end development. It also evaluates their ability to manage errors in a modern coding environment."
+  },
+  {
+    "question": "Can you describe a complex project where you had to design a scalable architecture using AWS and discuss the trade-offs you considered in your design choices?",
+    "options": [
+      "I have not worked with AWS.",
+      "I can discuss a project but haven't used AWS for architecture.",
+      "I can explain trade-offs in architecture but not specifically about AWS.",
+      "I have experience designing scalable architectures using AWS and can discuss the trade-offs."
+    ],
+    "answer": "I have experience designing scalable architectures using AWS and can discuss the trade-offs.",
+    "date": "2025-10-10T01:38:34.858Z",
+    "reason": "This question assesses the candidate's practical experience with AWS architecture and their ability to critically evaluate design decisions, which is crucial for mid-level and senior developers."
   }
 ]
