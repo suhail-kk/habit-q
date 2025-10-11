@@ -82,5 +82,17 @@
     "answer": "I have experience designing scalable architectures using AWS and can discuss the trade-offs.",
     "date": "2025-10-10T01:38:34.858Z",
     "reason": "This question assesses the candidate's practical experience with AWS architecture and their ability to critically evaluate design decisions, which is crucial for mid-level and senior developers."
+  },
+  {
+    "question": "Can you discuss how you would implement a caching strategy in a Node.js application that interacts with a database, and explain the benefits and potential drawbacks of your approach?",
+    "options": [
+      "Using in-memory caching with Redis to store frequently accessed data for quicker access, while discussing potential issues with data consistency.",
+      "Implementing file-based caching to reduce database load, highlighting the challenges of cache invalidation.",
+      "Applying a CDN for serving static assets, emphasizing its impact on reducing server response time without affecting dynamic data.",
+      "Utilizing browser caching to improve user experience, while mentioning the limitations of cache control headers."
+    ],
+    "answer": "Using in-memory caching with Redis to store frequently accessed data for quicker access, while discussing potential issues with data consistency.",
+    "date": "2025-10-11T01:27:01.719Z",
+    "reason": "This question assesses the candidate's understanding of caching mechanisms, their ability to design a solution that enhances application performance, as well as their awareness of potential pitfalls, which is crucial for building efficient and robust applications."
   }
 ]
