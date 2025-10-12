@@ -94,5 +94,17 @@
     "answer": "Using in-memory caching with Redis to store frequently accessed data for quicker access, while discussing potential issues with data consistency.",
     "date": "2025-10-11T01:27:01.719Z",
     "reason": "This question assesses the candidate's understanding of caching mechanisms, their ability to design a solution that enhances application performance, as well as their awareness of potential pitfalls, which is crucial for building efficient and robust applications."
+  },
+  {
+    "question": "Can you explain the concept of closures in JavaScript and provide an example of how you would use closures to create a private variable or function?",
+    "options": [
+      "Closures allow functions to retain access to their lexical scope, enabling private variables and functions.",
+      "Closures are used to handle asynchronous operations in JavaScript, but they do not relate to private variables.",
+      "Closures are a design pattern for managing state in large applications without using classes.",
+      "Closures are a way to define global variables that can be accessed throughout the application."
+    ],
+    "answer": "Closures allow functions to retain access to their lexical scope, enabling private variables and functions.",
+    "date": "2025-10-12T01:41:35.365Z",
+    "reason": "This question assesses the candidate's understanding of a fundamental JavaScript concept that is crucial for writing effective and maintainable code, particularly in scenarios involving encapsulation and modular design."
   }
 ]
