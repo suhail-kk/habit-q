@@ -106,5 +106,17 @@
     "answer": "Closures allow functions to retain access to their lexical scope, enabling private variables and functions.",
     "date": "2025-10-12T01:41:35.365Z",
     "reason": "This question assesses the candidate's understanding of a fundamental JavaScript concept that is crucial for writing effective and maintainable code, particularly in scenarios involving encapsulation and modular design."
+  },
+  {
+    "question": "Can you describe the Event Loop in JavaScript and explain how it handles asynchronous operations, including the roles of the call stack, callback queue, and microtask queue?",
+    "options": [
+      "The Event Loop processes tasks in a single thread and uses a queue to manage asynchronous operations, with the call stack executing tasks one at a time.",
+      "The Event Loop processes tasks in parallel and can execute multiple tasks at the same time without any queue management.",
+      "The Event Loop executes all asynchronous operations immediately without needing a call stack or any queues.",
+      "The Event Loop only handles synchronous operations and does not deal with any form of asynchronous programming."
+    ],
+    "answer": "The Event Loop processes tasks in a single thread and uses a queue to manage asynchronous operations, with the call stack executing tasks one at a time.",
+    "date": "2025-10-13T01:44:32.114Z",
+    "reason": "This question assesses the candidate's understanding of fundamental JavaScript concepts that are crucial for managing asynchronous programming and performance in web applications."
   }
 ]
