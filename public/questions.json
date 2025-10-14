@@ -118,5 +118,17 @@
     "answer": "The Event Loop processes tasks in a single thread and uses a queue to manage asynchronous operations, with the call stack executing tasks one at a time.",
     "date": "2025-10-13T01:44:32.114Z",
     "reason": "This question assesses the candidate's understanding of fundamental JavaScript concepts that are crucial for managing asynchronous programming and performance in web applications."
+  },
+  {
+    "question": "Can you describe a situation where you needed to optimize the performance of a Node.js application? What strategies did you employ, and what metrics did you use to measure success?",
+    "options": [
+      "1. I added more servers and load balancers without changing the code.",
+      "2. I used profiling tools to identify bottlenecks and implemented optimizations like asynchronous processing and database indexing.",
+      "3. I only focused on front-end performance as it was not my responsibility to optimize the back-end.",
+      "4. I did not find performance issues in my previous projects."
+    ],
+    "answer": "2. I used profiling tools to identify bottlenecks and implemented optimizations like asynchronous processing and database indexing.",
+    "date": "2025-10-14T01:38:31.448Z",
+    "reason": "This question assesses the candidate's experience with performance optimization in Node.js, their understanding of profiling tools, and their ability to implement effective strategies to enhance application performance."
   }
 ]
