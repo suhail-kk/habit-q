@@ -130,5 +130,17 @@
     "answer": "2. I used profiling tools to identify bottlenecks and implemented optimizations like asynchronous processing and database indexing.",
     "date": "2025-10-14T01:38:31.448Z",
     "reason": "This question assesses the candidate's experience with performance optimization in Node.js, their understanding of profiling tools, and their ability to implement effective strategies to enhance application performance."
+  },
+  {
+    "question": "Can you walk us through your approach to implementing a microservices architecture in a cloud environment, specifically focusing on how you would manage inter-service communication, data consistency, and service discovery?",
+    "options": [
+      "1. By using REST APIs for communication and a shared database for consistency.",
+      "2. By implementing a message broker for communication, and ensuring eventual consistency through asynchronous processing.",
+      "3. By relying on direct database queries between services and using hard-coded URLs for service discovery.",
+      "4. By deploying all services in a single instance to simplify infrastructure management."
+    ],
+    "answer": "2. By implementing a message broker for communication, and ensuring eventual consistency through asynchronous processing.",
+    "date": "2025-10-15T01:41:27.806Z",
+    "reason": "This question assesses the candidate's understanding of microservices architecture, cloud-based solutions, and key challenges such as communication, data consistency, and service discovery, which are crucial for building scalable and resilient systems."
   }
 ]
