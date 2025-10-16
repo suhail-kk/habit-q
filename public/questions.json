@@ -142,5 +142,17 @@
     "answer": "2. By implementing a message broker for communication, and ensuring eventual consistency through asynchronous processing.",
     "date": "2025-10-15T01:41:27.806Z",
     "reason": "This question assesses the candidate's understanding of microservices architecture, cloud-based solutions, and key challenges such as communication, data consistency, and service discovery, which are crucial for building scalable and resilient systems."
+  },
+  {
+    "question": "How would you approach designing a fault-tolerant system in the cloud, particularly using AWS services? Discuss the services you would choose, the architecture you would implement, and how you would ensure data integrity and availability in case of failures.",
+    "options": [
+      "By using multiple EC2 instances across different availability zones and implementing load balancers along with automatic scaling.",
+      "By relying solely on S3 for data storage and backup, using Lambda functions for processing.",
+      "By deploying a single EC2 instance with a manual backup strategy to minimize costs.",
+      "By using only DynamoDB as a database solution without considering replication or failover mechanisms."
+    ],
+    "answer": "By using multiple EC2 instances across different availability zones and implementing load balancers along with automatic scaling.",
+    "date": "2025-10-16T01:40:22.500Z",
+    "reason": "This question assesses the candidate's understanding of cloud architectures, AWS services, and their ability to design systems that prioritize reliability and data integrity, which are crucial in modern applications."
   }
 ]
