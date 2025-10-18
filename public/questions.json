@@ -166,5 +166,17 @@
     "answer": "I use a combination of Jest for unit testing and other tools for integration tests, ensuring comprehensive coverage.",
     "date": "2025-10-17T01:39:13.532Z",
     "reason": "This question evaluates the candidate's understanding of automated testing strategies, their practical experience with relevant tools, and their commitment to maintaining code quality, which is essential in modern development practices."
+  },
+  {
+    "question": "Can you explain the principles of object-oriented programming in Python and provide an example of how you would implement inheritance and polymorphism in a real-world application?",
+    "options": [
+      "Object-oriented programming in Python focuses on using functions as primary building blocks, and inheritance allows for code reuse, while polymorphism enables methods to operate on different object types.",
+      "Object-oriented programming in Python involves defining classes and creating instances, where inheritance allows one class to inherit attributes and methods from another, and polymorphism allows methods to be overridden for different classes.",
+      "In Python, object-oriented programming is primarily concerned with the use of modules and functions, with inheritance allowing for dynamic function calls and polymorphism enabling static type checking.",
+      "The principles of object-oriented programming in Python are mainly about using decorators and context managers, where inheritance is unnecessary and polymorphism is achieved through function overloading."
+    ],
+    "answer": "Object-oriented programming in Python involves defining classes and creating instances, where inheritance allows one class to inherit attributes and methods from another, and polymorphism allows methods to be overridden for different classes.",
+    "date": "2025-10-18T01:27:16.171Z",
+    "reason": "This question assesses the candidate's understanding of advanced OOP concepts in Python, which are essential for writing maintainable and reusable code in complex applications."
   }
 ]
