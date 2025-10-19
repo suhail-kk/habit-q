@@ -178,5 +178,17 @@
     "answer": "Object-oriented programming in Python involves defining classes and creating instances, where inheritance allows one class to inherit attributes and methods from another, and polymorphism allows methods to be overridden for different classes.",
     "date": "2025-10-18T01:27:16.171Z",
     "reason": "This question assesses the candidate's understanding of advanced OOP concepts in Python, which are essential for writing maintainable and reusable code in complex applications."
+  },
+  {
+    "question": "Can you discuss your experience with implementing database indexing strategies in both SQL and NoSQL databases? How do you decide when and what type of indexing to use, and how do you measure the performance impact of these strategies?",
+    "options": [
+      "A) Indexing is only necessary for SQL databases, and I always use primary keys for indexing.",
+      "B) I only consider indexing after performance issues arise, focusing on trial and error.",
+      "C) I evaluate query patterns and data access frequency to implement the appropriate indexing strategy, measuring performance through query execution times and database profiling.",
+      "D) Indexing is a one-size-fits-all solution, and I apply the same indexing approach to every database."
+    ],
+    "answer": "C) I evaluate query patterns and data access frequency to implement the appropriate indexing strategy, measuring performance through query execution times and database profiling.",
+    "date": "2025-10-19T01:50:00.056Z",
+    "reason": "This question assesses the candidate's understanding of database optimization techniques, their ability to analyze performance issues, and their knowledge of both SQL and NoSQL databases, which is crucial for building efficient applications."
   }
 ]
