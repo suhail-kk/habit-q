@@ -190,5 +190,17 @@
     "answer": "C) I evaluate query patterns and data access frequency to implement the appropriate indexing strategy, measuring performance through query execution times and database profiling.",
     "date": "2025-10-19T01:50:00.056Z",
     "reason": "This question assesses the candidate's understanding of database optimization techniques, their ability to analyze performance issues, and their knowledge of both SQL and NoSQL databases, which is crucial for building efficient applications."
+  },
+  {
+    "question": "Can you explain the differences between SQL and NoSQL databases, discussing the scenarios where one might be preferable over the other, and how you would approach data modeling in each case?",
+    "options": [
+      "SQL databases are always faster than NoSQL databases.",
+      "NoSQL databases do not support transactions.",
+      "SQL databases are structured, while NoSQL databases offer flexibility in structuring data.",
+      "SQL databases are best for unstructured data."
+    ],
+    "answer": "SQL databases are structured, while NoSQL databases offer flexibility in structuring data.",
+    "date": "2025-10-20T01:47:28.397Z",
+    "reason": "This question assesses the candidate's understanding of database technologies, their ability to choose the appropriate database type for specific use cases, and their data modeling skills, which are crucial for building scalable and efficient applications."
   }
 ]
