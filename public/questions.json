@@ -202,5 +202,17 @@
     "answer": "SQL databases are structured, while NoSQL databases offer flexibility in structuring data.",
     "date": "2025-10-20T01:47:28.397Z",
     "reason": "This question assesses the candidate's understanding of database technologies, their ability to choose the appropriate database type for specific use cases, and their data modeling skills, which are crucial for building scalable and efficient applications."
+  },
+  {
+    "question": "Can you describe a time when you had to improve the performance of a database query in an application? Discuss the techniques you used to analyze and optimize the query, including any tools or metrics you applied to measure the impact of your changes.",
+    "options": [
+      "A specific database optimization technique you found effective, such as indexing.",
+      "A general approach to analyzing database performance without specific examples.",
+      "A discussion of database normalization and denormalization without practical application.",
+      "A comparison of different database technologies without focusing on performance."
+    ],
+    "answer": "A specific database optimization technique you found effective, such as indexing.",
+    "date": "2025-10-21T01:41:54.283Z",
+    "reason": "This question assesses the candidate's practical experience with database performance optimization, their ability to analyze queries, and their knowledge of tools and metrics that are essential for improving application performance, all of which are critical for a mid-level or senior developer."
   }
 ]
