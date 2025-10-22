@@ -214,5 +214,17 @@
     "answer": "A specific database optimization technique you found effective, such as indexing.",
     "date": "2025-10-21T01:41:54.283Z",
     "reason": "This question assesses the candidate's practical experience with database performance optimization, their ability to analyze queries, and their knowledge of tools and metrics that are essential for improving application performance, all of which are critical for a mid-level or senior developer."
+  },
+  {
+    "question": "Can you discuss the various design patterns you have utilized in your software development projects? Please provide examples of specific patterns you've implemented, the problems they solved, and the impact they had on the system's scalability and maintainability.",
+    "options": [
+      "Factory Pattern, Singleton Pattern, Observer Pattern, Strategy Pattern",
+      "Decorator Pattern, Command Pattern, Proxy Pattern, MVP Pattern",
+      "Model-View-Controller (MVC), Event Sourcing, Microservices Architecture, Layered Architecture",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "date": "2025-10-22T01:45:09.619Z",
+    "reason": "This question assesses the candidate's understanding of design patterns, their practical application in real-world scenarios, and how these patterns contribute to system architecture and maintainability, which are crucial for mid-level and senior developers."
   }
 ]
