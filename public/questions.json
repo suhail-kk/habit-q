@@ -226,5 +226,17 @@
     "answer": "All of the above",
     "date": "2025-10-22T01:45:09.619Z",
     "reason": "This question assesses the candidate's understanding of design patterns, their practical application in real-world scenarios, and how these patterns contribute to system architecture and maintainability, which are crucial for mid-level and senior developers."
+  },
+  {
+    "question": "Can you explain how you would approach designing a CI/CD pipeline for a microservices architecture running on AWS, including the tools you would use, the stages of the pipeline, and how you would ensure that deployments are reliable and can be rolled back if necessary?",
+    "options": [
+      "A) I would only focus on automated testing and not worry about deployment strategies.",
+      "B) I would use AWS CodePipeline for CI/CD, but not integrate any testing tools.",
+      "C) I would design a pipeline using tools like AWS CodeBuild, AWS CodeDeploy, and integrate unit and integration tests to ensure reliability.",
+      "D) I prefer to manually deploy my services instead of automating the process."
+    ],
+    "answer": "C",
+    "date": "2025-10-23T01:41:03.017Z",
+    "reason": "This question assesses the candidate's understanding of CI/CD practices in a cloud environment, their familiarity with AWS services, and their ability to design a robust and reliable deployment process for microservices, which is essential for modern software development."
   }
 ]
