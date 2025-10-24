@@ -238,5 +238,17 @@
     "answer": "C",
     "date": "2025-10-23T01:41:03.017Z",
     "reason": "This question assesses the candidate's understanding of CI/CD practices in a cloud environment, their familiarity with AWS services, and their ability to design a robust and reliable deployment process for microservices, which is essential for modern software development."
+  },
+  {
+    "question": "Can you discuss your approach to managing state in a complex JavaScript application, particularly when using frameworks like React or Vue? What strategies do you use for ensuring state consistency across components, and how do you handle side effects?",
+    "options": [
+      "Using local component state for all data management",
+      "Implementing a centralized state management library like Redux or Vuex",
+      "Using only props to pass data between components",
+      "Avoiding state management altogether"
+    ],
+    "answer": "Implementing a centralized state management library like Redux or Vuex",
+    "date": "2025-10-24T01:37:23.074Z",
+    "reason": "This question assesses the candidate's understanding of state management in modern JavaScript frameworks, a critical aspect of building scalable and maintainable applications. It also evaluates their ability to address complexities related to state consistency and side effects."
   }
 ]
