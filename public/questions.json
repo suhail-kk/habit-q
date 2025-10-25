@@ -250,5 +250,17 @@
     "answer": "Implementing a centralized state management library like Redux or Vuex",
     "date": "2025-10-24T01:37:23.074Z",
     "reason": "This question assesses the candidate's understanding of state management in modern JavaScript frameworks, a critical aspect of building scalable and maintainable applications. It also evaluates their ability to address complexities related to state consistency and side effects."
+  },
+  {
+    "question": "Can you describe the strategies you would employ to ensure data consistency and integrity in a distributed system architecture, particularly when using microservices and cloud technologies like AWS? Please discuss how you would handle challenges such as eventual consistency and network partitioning.",
+    "options": [
+      "Implement strong consistency models across all services.",
+      "Use distributed transactions to manage data integrity.",
+      "Adopt an eventual consistency model with appropriate fallback mechanisms.",
+      "Ignore consistency issues as they are not critical in cloud architectures."
+    ],
+    "answer": "Adopt an eventual consistency model with appropriate fallback mechanisms.",
+    "date": "2025-10-25T01:38:27.444Z",
+    "reason": "This question assesses the candidate's understanding of data management in distributed systems, a critical aspect for modern applications, especially in a microservices architecture. It allows the candidate to demonstrate their knowledge of consistency models and their ability to solve real-world challenges related to data integrity."
   }
 ]
