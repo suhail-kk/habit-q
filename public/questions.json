@@ -262,5 +262,17 @@
     "answer": "Adopt an eventual consistency model with appropriate fallback mechanisms.",
     "date": "2025-10-25T01:38:27.444Z",
     "reason": "This question assesses the candidate's understanding of data management in distributed systems, a critical aspect for modern applications, especially in a microservices architecture. It allows the candidate to demonstrate their knowledge of consistency models and their ability to solve real-world challenges related to data integrity."
+  },
+  {
+    "question": "Can you describe your approach to logging and monitoring in a Node.js application deployed on AWS? What tools and practices do you use to ensure that you can effectively diagnose issues in production?",
+    "options": [
+      "1. I rely on console.log statements and manually check the logs periodically.",
+      "2. I use a combination of AWS CloudWatch for monitoring and a third-party logging service like Loggly or ELK stack for detailed logging and analysis.",
+      "3. I only log errors and exceptions to reduce overhead.",
+      "4. I do not monitor production applications as I believe it adds unnecessary complexity."
+    ],
+    "answer": "2. I use a combination of AWS CloudWatch for monitoring and a third-party logging service like Loggly or ELK stack for detailed logging and analysis.",
+    "date": "2025-10-26T01:46:41.715Z",
+    "reason": "This question assesses the candidate's understanding of logging and monitoring practices, which are crucial for maintaining application health and diagnosing issues in production environments. It also evaluates familiarity with AWS services and third-party tools essential for effective operation."
   }
 ]
