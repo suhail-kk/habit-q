@@ -274,5 +274,17 @@
     "answer": "2. I use a combination of AWS CloudWatch for monitoring and a third-party logging service like Loggly or ELK stack for detailed logging and analysis.",
     "date": "2025-10-26T01:46:41.715Z",
     "reason": "This question assesses the candidate's understanding of logging and monitoring practices, which are crucial for maintaining application health and diagnosing issues in production environments. It also evaluates familiarity with AWS services and third-party tools essential for effective operation."
+  },
+  {
+    "question": "Can you explain how event-driven architecture can improve scalability and responsiveness in a Node.js application? Provide examples of how you would implement this approach and the challenges you might face.",
+    "options": [
+      "Event-driven architecture allows synchronous processing of requests, ensuring that all tasks are completed before responding to users.",
+      "Event-driven architecture increases scalability by decoupling services and enabling asynchronous message passing, which allows for better resource utilization.",
+      "Event-driven architecture requires all components to be written in JavaScript, limiting integration with other languages and technologies.",
+      "Event-driven architecture is primarily useful for small applications with minimal load and does not scale well in cloud environments."
+    ],
+    "answer": "Event-driven architecture increases scalability by decoupling services and enabling asynchronous message passing, which allows for better resource utilization.",
+    "date": "2025-10-27T01:50:36.220Z",
+    "reason": "This question assesses the candidate's understanding of advanced architectural concepts and their ability to apply them in real-world scenarios, which is crucial for mid-level and senior developers."
   }
 ]
