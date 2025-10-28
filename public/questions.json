@@ -286,5 +286,17 @@
     "answer": "Event-driven architecture increases scalability by decoupling services and enabling asynchronous message passing, which allows for better resource utilization.",
     "date": "2025-10-27T01:50:36.220Z",
     "reason": "This question assesses the candidate's understanding of advanced architectural concepts and their ability to apply them in real-world scenarios, which is crucial for mid-level and senior developers."
+  },
+  {
+    "question": "Can you discuss the differences between monolithic and microservices architectures, and explain how you would approach transitioning an existing monolithic application to a microservices architecture? What challenges do you anticipate, and how would you address them?",
+    "options": [
+      "Monolithic architecture is simpler to deploy, while microservices require more overhead and coordination.",
+      "Microservices architectures provide better scalability and fault isolation, but they complicate deployment and monitoring.",
+      "Transitioning requires a thorough assessment of dependencies, potential re-architecting of components, and careful planning to minimize downtime.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "date": "2025-10-28T01:40:57.223Z",
+    "reason": "This question assesses the candidate's understanding of architectural concepts, practical experience with software design, and ability to identify and resolve challenges during transitions, which are critical for mid-level or senior developers."
   }
 ]
