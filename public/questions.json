@@ -298,5 +298,17 @@
     "answer": "All of the above.",
     "date": "2025-10-28T01:40:57.223Z",
     "reason": "This question assesses the candidate's understanding of architectural concepts, practical experience with software design, and ability to identify and resolve challenges during transitions, which are critical for mid-level or senior developers."
+  },
+  {
+    "question": "Can you discuss how you would approach implementing security best practices in a Node.js application, including authentication and authorization strategies, and how you would safeguard against common vulnerabilities such as SQL injection and cross-site scripting (XSS)?",
+    "options": [
+      "Using JWT for authentication and validation checks for user inputs to prevent SQL injection.",
+      "Implementing role-based access control (RBAC) and ensuring all user inputs are sanitized.",
+      "Using HTTPS for all communications and monitoring for suspicious activity.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "date": "2025-10-29T01:47:20.411Z",
+    "reason": "This question assesses the candidate's understanding of security in web applications, which is crucial for protecting sensitive data and ensuring application integrity in real-world scenarios."
   }
 ]
