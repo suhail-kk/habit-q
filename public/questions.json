@@ -310,5 +310,17 @@
     "answer": "All of the above.",
     "date": "2025-10-29T01:47:20.411Z",
     "reason": "This question assesses the candidate's understanding of security in web applications, which is crucial for protecting sensitive data and ensuring application integrity in real-world scenarios."
+  },
+  {
+    "question": "Can you describe your experience with integrating third-party APIs into your applications? What challenges have you faced during integration, and how did you ensure reliability and maintainability in your implementation?",
+    "options": [
+      "I have never integrated third-party APIs.",
+      "I only use APIs provided by my company.",
+      "I rely on documentation and examples without considering error handling.",
+      "I implement proper error handling, logging, and version management to maintain reliability."
+    ],
+    "answer": "I implement proper error handling, logging, and version management to maintain reliability.",
+    "date": "2025-10-30T01:47:13.035Z",
+    "reason": "This question assesses the candidate's practical experience with API integration, highlights their problem-solving abilities, and evaluates their understanding of best practices for reliability and maintainability in software development."
   }
 ]
