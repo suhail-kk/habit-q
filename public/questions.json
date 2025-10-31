@@ -322,5 +322,17 @@
     "answer": "I implement proper error handling, logging, and version management to maintain reliability.",
     "date": "2025-10-30T01:47:13.035Z",
     "reason": "This question assesses the candidate's practical experience with API integration, highlights their problem-solving abilities, and evaluates their understanding of best practices for reliability and maintainability in software development."
+  },
+  {
+    "question": "Can you explain how you would approach the design of a resilient and scalable RESTful API using Node.js and Express? Discuss the key considerations you would take into account regarding error handling, rate limiting, and versioning.",
+    "options": [
+      "Focusing only on error handling without considering scalability or versioning.",
+      "Prioritizing performance over error handling and documentation.",
+      "Designing with scalability, error handling, and versioning in mind, considering rate limiting and documentation.",
+      "Ignoring RESTful principles in favor of quick development."
+    ],
+    "answer": "Designing with scalability, error handling, and versioning in mind, considering rate limiting and documentation.",
+    "date": "2025-10-31T01:43:51.620Z",
+    "reason": "This question evaluates a candidate's understanding of RESTful API design, as well as their ability to consider important factors such as scalability and error management, which are crucial for building robust applications."
   }
 ]
