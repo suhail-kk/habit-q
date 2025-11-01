@@ -334,5 +334,17 @@
     "answer": "Designing with scalability, error handling, and versioning in mind, considering rate limiting and documentation.",
     "date": "2025-10-31T01:43:51.620Z",
     "reason": "This question evaluates a candidate's understanding of RESTful API design, as well as their ability to consider important factors such as scalability and error management, which are crucial for building robust applications."
+  },
+  {
+    "question": "Can you describe your approach to designing a robust data access layer in a Node.js application that interacts with both SQL and NoSQL databases? What considerations do you keep in mind regarding performance, consistency, and maintainability?",
+    "options": [
+      "1. Focus solely on one type of database to simplify the architecture",
+      "2. Use an ORM for SQL databases and a specific library for NoSQL databases, ensuring abstractions manage the differences",
+      "3. Avoid any data validation and rely on the databases to handle it",
+      "4. Implement all database queries directly within the route handlers for quick access"
+    ],
+    "answer": "2. Use an ORM for SQL databases and a specific library for NoSQL databases, ensuring abstractions manage the differences",
+    "date": "2025-11-01T01:47:17.277Z",
+    "reason": "This question assesses the candidate's understanding of database integration in a Node.js application, highlighting their ability to design a maintainable and efficient data access layer, which is critical for application performance and scalability."
   }
 ]
