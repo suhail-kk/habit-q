@@ -346,5 +346,17 @@
     "answer": "2. Use an ORM for SQL databases and a specific library for NoSQL databases, ensuring abstractions manage the differences",
     "date": "2025-11-01T01:47:17.277Z",
     "reason": "This question assesses the candidate's understanding of database integration in a Node.js application, highlighting their ability to design a maintainable and efficient data access layer, which is critical for application performance and scalability."
+  },
+  {
+    "question": "Can you discuss how you would design a caching strategy for a web application using Node.js and Express, considering factors such as cache expiration, invalidation, and data consistency? What tools or libraries would you choose, and how would you measure the effectiveness of your caching solution?",
+    "options": [
+      "A. I would implement caching using Redis and set a fixed expiration time for all cached items.",
+      "B. I would use in-memory caching with a library like Node-cache and rely solely on application logic for invalidation.",
+      "C. I would choose a hybrid approach using Redis for shared caching, implement cache invalidation rules based on data changes, and measure effectiveness through monitoring cache hit ratios.",
+      "D. I would avoid caching altogether since it adds complexity and only use direct database queries."
+    ],
+    "answer": "C",
+    "date": "2025-11-02T01:49:12.086Z",
+    "reason": "This question assesses the candidate's understanding of caching mechanisms and strategies, critical for enhancing application performance and scalability. It also evaluates their ability to consider trade-offs between complexity, consistency, and efficiency in web application development."
   }
 ]
