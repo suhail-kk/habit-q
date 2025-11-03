@@ -358,5 +358,17 @@
     "answer": "C",
     "date": "2025-11-02T01:49:12.086Z",
     "reason": "This question assesses the candidate's understanding of caching mechanisms and strategies, critical for enhancing application performance and scalability. It also evaluates their ability to consider trade-offs between complexity, consistency, and efficiency in web application development."
+  },
+  {
+    "question": "Can you describe a situation where you had to ensure the security of an application deployed on AWS? What services did you use, what security best practices did you implement, and how did you monitor for vulnerabilities post-deployment?",
+    "options": [
+      "Discussed using IAM roles and security groups for access control, and implemented CloudTrail for monitoring.",
+      "Focused solely on using S3 bucket permissions and did not monitor post-deployment.",
+      "Implemented only network security by setting up VPC without considering other layers.",
+      "Used AWS Lambda exclusively without addressing security implications."
+    ],
+    "answer": "Discussed using IAM roles and security groups for access control, and implemented CloudTrail for monitoring.",
+    "date": "2025-11-03T01:48:30.356Z",
+    "reason": "This question evaluates the candidate's experience with AWS security practices and their ability to implement comprehensive security measures in cloud environments, which is critical for protecting sensitive data and maintaining compliance."
   }
 ]
