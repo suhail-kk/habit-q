@@ -370,5 +370,17 @@
     "answer": "Discussed using IAM roles and security groups for access control, and implemented CloudTrail for monitoring.",
     "date": "2025-11-03T01:48:30.356Z",
     "reason": "This question evaluates the candidate's experience with AWS security practices and their ability to implement comprehensive security measures in cloud environments, which is critical for protecting sensitive data and maintaining compliance."
+  },
+  {
+    "question": "Can you discuss the role of middleware in an Express application and provide examples of how you would use middleware for tasks such as authentication, error handling, and logging? What considerations do you keep in mind when designing middleware for scalability and maintainability?",
+    "options": [
+      "Middleware is used to handle HTTP requests and responses, enhancing request processing.",
+      "Middleware can only be used for logging and cannot handle errors.",
+      "Middleware is optional in Express applications and not necessary for routing.",
+      "Middleware is limited to authentication purposes only."
+    ],
+    "answer": "Middleware is used to handle HTTP requests and responses, enhancing request processing.",
+    "date": "2025-11-04T01:44:15.923Z",
+    "reason": "This question assesses the candidate's understanding of middleware in Express, its practical applications, and their ability to design scalable and maintainable solutions, which are crucial skills for mid-level and senior developers."
   }
 ]
