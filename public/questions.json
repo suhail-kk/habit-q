@@ -382,5 +382,17 @@
     "answer": "Middleware is used to handle HTTP requests and responses, enhancing request processing.",
     "date": "2025-11-04T01:44:15.923Z",
     "reason": "This question assesses the candidate's understanding of middleware in Express, its practical applications, and their ability to design scalable and maintainable solutions, which are crucial skills for mid-level and senior developers."
+  },
+  {
+    "question": "Can you describe your approach to managing dependencies in a Node.js project? What tools and practices do you utilize to ensure that your dependencies are secure, up-to-date, and compatible with your application?",
+    "options": [
+      "By manually tracking and updating dependencies every month.",
+      "Using npm audit for security checks and regularly reviewing package updates.",
+      "Ignoring dependency management since it's rarely a problem.",
+      "Only updating dependencies when there is a critical issue."
+    ],
+    "answer": "Using npm audit for security checks and regularly reviewing package updates.",
+    "date": "2025-11-05T01:45:17.291Z",
+    "reason": "This question assesses the candidate's understanding of dependency management, a crucial aspect of maintaining a secure and efficient codebase in Node.js applications. It also reveals their familiarity with tools and best practices in the ecosystem."
   }
 ]
