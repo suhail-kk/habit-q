@@ -394,5 +394,17 @@
     "answer": "Using npm audit for security checks and regularly reviewing package updates.",
     "date": "2025-11-05T01:45:17.291Z",
     "reason": "This question assesses the candidate's understanding of dependency management, a crucial aspect of maintaining a secure and efficient codebase in Node.js applications. It also reveals their familiarity with tools and best practices in the ecosystem."
+  },
+  {
+    "question": "Can you describe a situation where you implemented asynchronous programming in a Node.js application to improve performance? What patterns did you use, and how did you ensure that the application remained maintainable and scalable?",
+    "options": [
+      "1. I used callbacks and avoided Promises to keep the code simple.",
+      "2. I relied solely on synchronous code to reduce complexity.",
+      "3. I implemented async/await and error handling strategies to improve readability and maintainability.",
+      "4. I focused on writing as much code as possible without considering performance."
+    ],
+    "answer": "3. I implemented async/await and error handling strategies to improve readability and maintainability.",
+    "date": "2025-11-06T01:45:23.040Z",
+    "reason": "This question assesses the candidate's experience with asynchronous programming in Node.js, their understanding of best practices, and their ability to improve application performance while maintaining code quality."
   }
 ]
