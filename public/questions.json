@@ -406,5 +406,17 @@
     "answer": "3. I implemented async/await and error handling strategies to improve readability and maintainability.",
     "date": "2025-11-06T01:45:23.040Z",
     "reason": "This question assesses the candidate's experience with asynchronous programming in Node.js, their understanding of best practices, and their ability to improve application performance while maintaining code quality."
+  },
+  {
+    "question": "How would you approach designing a system that effectively handles real-time data processing in a Node.js application, particularly focusing on the choice of architecture, data storage solutions, and potential use of streaming technologies? What challenges do you foresee in implementing this system?",
+    "options": [
+      "A. By using a monolithic architecture with synchronous database calls and traditional REST APIs.",
+      "B. By utilizing serverless functions for every data processing task and ignoring state management.",
+      "C. By designing an event-driven architecture with message queues and a combination of NoSQL databases for scalability, while using streaming technologies for real-time data processing.",
+      "D. By implementing a multi-threaded approach with direct database queries for every request."
+    ],
+    "answer": "C",
+    "date": "2025-11-07T01:44:19.205Z",
+    "reason": "This question allows the interviewee to demonstrate their understanding of modern architectures, real-time data processing challenges, and the ability to think critically about system design in a Node.js context. It assesses knowledge of event-driven systems, message queues, and the integration of various technologies."
   }
 ]
