@@ -418,5 +418,17 @@
     "answer": "C",
     "date": "2025-11-07T01:44:19.205Z",
     "reason": "This question allows the interviewee to demonstrate their understanding of modern architectures, real-time data processing challenges, and the ability to think critically about system design in a Node.js context. It assesses knowledge of event-driven systems, message queues, and the integration of various technologies."
+  },
+  {
+    "question": "Can you discuss how you would implement logging and monitoring in a distributed microservices architecture deployed on AWS, including the tools you would choose and how you would ensure observability across services?",
+    "options": [
+      "1. Use AWS CloudWatch for centralized logging, with Logstash for log aggregation and Kibana for visualization.",
+      "2. Implement basic console logging in each service without any central monitoring solution.",
+      "3. Rely solely on manual audits of each service's logs without any automated tools.",
+      "4. Use a combination of lightweight logging in services and a local database for log storage."
+    ],
+    "answer": "1. Use AWS CloudWatch for centralized logging, with Logstash for log aggregation and Kibana for visualization.",
+    "date": "2025-11-08T01:38:58.807Z",
+    "reason": "This question evaluates the candidate's understanding of logging and monitoring practices in a distributed system, emphasizing the need for observability and the ability to troubleshoot and maintain a microservices architecture effectively."
   }
 ]
