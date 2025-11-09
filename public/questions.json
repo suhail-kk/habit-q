@@ -430,5 +430,17 @@
     "answer": "1. Use AWS CloudWatch for centralized logging, with Logstash for log aggregation and Kibana for visualization.",
     "date": "2025-11-08T01:38:58.807Z",
     "reason": "This question evaluates the candidate's understanding of logging and monitoring practices in a distributed system, emphasizing the need for observability and the ability to troubleshoot and maintain a microservices architecture effectively."
+  },
+  {
+    "question": "Can you explain how you would leverage advanced Python features like decorators and context managers to enhance code reusability and maintainability? Please provide examples of their use in real-world scenarios.",
+    "options": [
+      "A. Decorators can modify functions or methods without changing their code directly, while context managers can manage resources like file handling and database connections, ensuring they are properly opened and closed.",
+      "B. Decorators are only used for logging purposes, and context managers are limited to file handling.",
+      "C. Both decorators and context managers are used for error handling and cannot be applied to other functionalities.",
+      "D. Decorators are meant for object-oriented programming, while context managers are strictly for functional programming."
+    ],
+    "answer": "A. Decorators can modify functions or methods without changing their code directly, while context managers can manage resources like file handling and database connections, ensuring they are properly opened and closed.",
+    "date": "2025-11-09T01:48:02.218Z",
+    "reason": "This question assesses the candidate's depth of knowledge in Python, specifically their understanding of advanced concepts that can significantly improve code quality. It encourages them to demonstrate practical experience and the ability to write clean, maintainable code."
   }
 ]
