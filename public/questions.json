@@ -442,5 +442,17 @@
     "answer": "A. Decorators can modify functions or methods without changing their code directly, while context managers can manage resources like file handling and database connections, ensuring they are properly opened and closed.",
     "date": "2025-11-09T01:48:02.218Z",
     "reason": "This question assesses the candidate's depth of knowledge in Python, specifically their understanding of advanced concepts that can significantly improve code quality. It encourages them to demonstrate practical experience and the ability to write clean, maintainable code."
+  },
+  {
+    "question": "Can you discuss how you would approach implementing event sourcing in a Node.js application? What advantages does this pattern provide for maintaining state and handling data changes, and what challenges might arise during implementation?",
+    "options": [
+      "Event sourcing allows for better scalability and performance but complicates querying data.",
+      "Event sourcing simplifies the architecture by avoiding the need for state management.",
+      "Event sourcing provides a complete audit trail of changes but can lead to increased complexity in data retrieval.",
+      "Event sourcing is only beneficial for applications with high read operations and not for write-heavy applications."
+    ],
+    "answer": "Event sourcing provides a complete audit trail of changes but can lead to increased complexity in data retrieval.",
+    "date": "2025-11-10T01:49:46.969Z",
+    "reason": "This question assesses the candidate's understanding of advanced architectural patterns, specifically event sourcing, and their ability to navigate both its benefits and challenges in a practical application context."
   }
 ]
