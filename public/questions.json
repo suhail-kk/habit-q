@@ -454,5 +454,17 @@
     "answer": "Event sourcing provides a complete audit trail of changes but can lead to increased complexity in data retrieval.",
     "date": "2025-11-10T01:49:46.969Z",
     "reason": "This question assesses the candidate's understanding of advanced architectural patterns, specifically event sourcing, and their ability to navigate both its benefits and challenges in a practical application context."
+  },
+  {
+    "question": "Can you describe your experience with implementing a serverless architecture using AWS Lambda? What factors do you consider when choosing to use serverless functions over traditional server-based approaches, and how do you manage deployment and scaling challenges?",
+    "options": [
+      "I have not worked with serverless architectures before.",
+      "I focus solely on traditional server-based architectures and do not consider serverless options.",
+      "I have implemented serverless architectures, considering cost, scalability, and deployment speed.",
+      "I prefer to use only AWS services without considering any other options."
+    ],
+    "answer": "I have implemented serverless architectures, considering cost, scalability, and deployment speed.",
+    "date": "2025-11-11T01:46:10.161Z",
+    "reason": "This question assesses the candidate's understanding of serverless architectures, their practical experience, and their ability to make informed decisions based on various factors, which are crucial for modern application development."
   }
 ]
