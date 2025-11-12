@@ -466,5 +466,17 @@
     "answer": "I have implemented serverless architectures, considering cost, scalability, and deployment speed.",
     "date": "2025-11-11T01:46:10.161Z",
     "reason": "This question assesses the candidate's understanding of serverless architectures, their practical experience, and their ability to make informed decisions based on various factors, which are crucial for modern application development."
+  },
+  {
+    "question": "Can you discuss the implications of adopting a microservices architecture in a legacy application environment? What strategies would you implement to ensure a smooth transition while maintaining system integrity and performance?",
+    "options": [
+      "A. Focus solely on the migration of the database schema to a microservices-friendly format.",
+      "B. Gradually decompose the monolith into services while implementing service contracts and API gateways to ensure compatibility.",
+      "C. Rewrite the entire application as microservices without maintaining any legacy components.",
+      "D. Implement microservices only for new features while leaving the legacy system untouched."
+    ],
+    "answer": "B. Gradually decompose the monolith into services while implementing service contracts and API gateways to ensure compatibility.",
+    "date": "2025-11-12T01:45:31.686Z",
+    "reason": "This question assesses the candidate's understanding of microservices architecture and their ability to manage the complexities and risks involved in migrating from a legacy system. It evaluates strategic thinking and practical implementation skills."
   }
 ]
