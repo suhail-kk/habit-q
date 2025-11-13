@@ -478,5 +478,17 @@
     "answer": "B. Gradually decompose the monolith into services while implementing service contracts and API gateways to ensure compatibility.",
     "date": "2025-11-12T01:45:31.686Z",
     "reason": "This question assesses the candidate's understanding of microservices architecture and their ability to manage the complexities and risks involved in migrating from a legacy system. It evaluates strategic thinking and practical implementation skills."
+  },
+  {
+    "question": "Can you describe your approach to implementing rate limiting in a Node.js API? What strategies would you employ to balance user experience with the need to protect your application from abuse, and how would you monitor the effectiveness of your rate limiting implementation?",
+    "options": [
+      "Use in-memory data structures for tracking requests and implement a fixed window algorithm.",
+      "Implement rate limiting only for authenticated users to ensure better performance.",
+      "Ignore rate limiting as it complicates the API design and affects user experience.",
+      "Use a combination of sliding window and token bucket algorithms to adapt to varying traffic patterns."
+    ],
+    "answer": "Use a combination of sliding window and token bucket algorithms to adapt to varying traffic patterns.",
+    "date": "2025-11-13T01:46:40.332Z",
+    "reason": "This question assesses the candidate's understanding of API design principles, particularly in managing traffic to maintain performance and security. It also evaluates their knowledge of various algorithms used for rate limiting, which is crucial for developing robust and scalable applications."
   }
 ]
