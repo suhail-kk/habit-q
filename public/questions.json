@@ -490,5 +490,17 @@
     "answer": "Use a combination of sliding window and token bucket algorithms to adapt to varying traffic patterns.",
     "date": "2025-11-13T01:46:40.332Z",
     "reason": "This question assesses the candidate's understanding of API design principles, particularly in managing traffic to maintain performance and security. It also evaluates their knowledge of various algorithms used for rate limiting, which is crucial for developing robust and scalable applications."
+  },
+  {
+    "question": "Can you describe your approach to implementing a data backup and recovery strategy in a cloud environment, particularly using AWS services? What considerations do you take into account to ensure data integrity and availability during failures?",
+    "options": [
+      "A. Focus on regular snapshots and versioning of S3 buckets without considering failover strategies.",
+      "B. Implement automated backups using AWS Backup and ensure that recovery procedures are tested regularly.",
+      "C. Rely solely on data replication across multiple regions without a defined recovery plan.",
+      "D. Create backups manually and store them on local servers."
+    ],
+    "answer": "B. Implement automated backups using AWS Backup and ensure that recovery procedures are tested regularly.",
+    "date": "2025-11-14T01:46:12.083Z",
+    "reason": "This question assesses the candidate's understanding of data management best practices in cloud environments, specifically focusing on the importance of automation, testing recovery processes, and ensuring data integrity and availability, which are critical for maintaining robust applications."
   }
 ]
