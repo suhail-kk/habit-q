@@ -502,5 +502,17 @@
     "answer": "B. Implement automated backups using AWS Backup and ensure that recovery procedures are tested regularly.",
     "date": "2025-11-14T01:46:12.083Z",
     "reason": "This question assesses the candidate's understanding of data management best practices in cloud environments, specifically focusing on the importance of automation, testing recovery processes, and ensuring data integrity and availability, which are critical for maintaining robust applications."
+  },
+  {
+    "question": "Can you discuss your experience with implementing service mesh architectures in microservices environments? What advantages do you see in using service mesh for communication, security, and observability, and how would you address potential challenges?",
+    "options": [
+      "Service mesh provides advanced traffic management and security features but adds complexity to the architecture.",
+      "Service mesh simplifies microservices communication without any overhead.",
+      "Service mesh is primarily used for monolithic applications.",
+      "Service mesh is only beneficial for large-scale applications."
+    ],
+    "answer": "Service mesh provides advanced traffic management and security features but adds complexity to the architecture.",
+    "date": "2025-11-15T01:41:56.626Z",
+    "reason": "This question assesses the candidate's understanding of modern architectural patterns and their ability to evaluate trade-offs in complex systems, which is crucial for mid-level and senior developers."
   }
 ]
