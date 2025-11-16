@@ -514,5 +514,17 @@
     "answer": "Service mesh provides advanced traffic management and security features but adds complexity to the architecture.",
     "date": "2025-11-15T01:41:56.626Z",
     "reason": "This question assesses the candidate's understanding of modern architectural patterns and their ability to evaluate trade-offs in complex systems, which is crucial for mid-level and senior developers."
+  },
+  {
+    "question": "Can you walk through your approach to handling data migrations in a production environment, specifically when transitioning between different database systems such as from SQL to NoSQL? What strategies would you use to minimize downtime and ensure data integrity during this process?",
+    "options": [
+      "A. Use a one-time bulk data transfer and switch over at once.",
+      "B. Implement a dual-write strategy to sync data during transition.",
+      "C. Migrate data without testing and hope for the best.",
+      "D. Conduct the migration during peak hours for maximum impact."
+    ],
+    "answer": "B. Implement a dual-write strategy to sync data during transition.",
+    "date": "2025-11-16T01:50:58.127Z",
+    "reason": "This question assesses the candidate's understanding of data migration strategies, emphasizes the importance of minimizing downtime and maintaining data integrity, and evaluates their practical experience with database systems."
   }
 ]
