@@ -526,5 +526,17 @@
     "answer": "B. Implement a dual-write strategy to sync data during transition.",
     "date": "2025-11-16T01:50:58.127Z",
     "reason": "This question assesses the candidate's understanding of data migration strategies, emphasizes the importance of minimizing downtime and maintaining data integrity, and evaluates their practical experience with database systems."
+  },
+  {
+    "question": "Can you discuss your approach to designing a robust data access layer in a Node.js application that interacts with both SQL and NoSQL databases? What considerations do you keep in mind regarding performance, consistency, and maintainability?",
+    "options": [
+      "Focusing solely on SQL databases for consistency and using ORM libraries for management.",
+      "Implementing a unified interface for both databases while ensuring each is accessed through its specific driver.",
+      "Only using NoSQL databases for flexibility, avoiding SQL databases completely.",
+      "Making the data access layer tightly coupled with business logic to simplify development."
+    ],
+    "answer": "Implementing a unified interface for both databases while ensuring each is accessed through its specific driver.",
+    "date": "2025-11-17T01:46:54.593Z",
+    "reason": "This question assesses the candidate's understanding of data access patterns, their ability to balance performance and consistency across different database types, and their approach to maintainability in a complex application architecture."
   }
 ]
