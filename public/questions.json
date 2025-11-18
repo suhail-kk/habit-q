@@ -538,5 +538,17 @@
     "answer": "Implementing a unified interface for both databases while ensuring each is accessed through its specific driver.",
     "date": "2025-11-17T01:46:54.593Z",
     "reason": "This question assesses the candidate's understanding of data access patterns, their ability to balance performance and consistency across different database types, and their approach to maintainability in a complex application architecture."
+  },
+  {
+    "question": "Can you explain how you would approach implementing a message queue in a Node.js application to handle asynchronous processing, and what considerations would you take into account regarding reliability, scalability, and error handling?",
+    "options": [
+      "A. By using a built-in Node.js module without any external dependencies.",
+      "B. By integrating a third-party message broker such as RabbitMQ or Kafka and defining clear message schemas.",
+      "C. By using synchronous requests to handle all operations and avoid complexity.",
+      "D. By only focusing on the implementation without considering performance metrics."
+    ],
+    "answer": "B. By integrating a third-party message broker such as RabbitMQ or Kafka and defining clear message schemas.",
+    "date": "2025-11-18T01:45:03.595Z",
+    "reason": "This question assesses the candidate's understanding of asynchronous processing, reliability, and scalability in Node.js applications, which are key aspects of modern software architecture."
   }
 ]
