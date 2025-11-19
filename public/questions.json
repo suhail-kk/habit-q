@@ -550,5 +550,17 @@
     "answer": "B. By integrating a third-party message broker such as RabbitMQ or Kafka and defining clear message schemas.",
     "date": "2025-11-18T01:45:03.595Z",
     "reason": "This question assesses the candidate's understanding of asynchronous processing, reliability, and scalability in Node.js applications, which are key aspects of modern software architecture."
+  },
+  {
+    "question": "Can you explain the concept of eventual consistency in distributed systems and how you would implement it in a microservices architecture using cloud technologies? What challenges might arise, and how would you address them?",
+    "options": [
+      "Eventual consistency means that all updates to a distributed system will propagate to all nodes eventually, but not necessarily immediately; to implement it, one might use asynchronous replication and conflict resolution strategies.",
+      "Eventual consistency allows for immediate consistency across the entire system; it ensures that all nodes are updated simultaneously after each operation.",
+      "Eventual consistency is a strict model that requires all nodes in a distributed system to be consistent at all times; implementing it involves synchronously updating all nodes before any operation is completed.",
+      "Eventual consistency is only applicable to SQL databases; it is not relevant in NoSQL or cloud architectures."
+    ],
+    "answer": "Eventual consistency means that all updates to a distributed system will propagate to all nodes eventually, but not necessarily immediately; to implement it, one might use asynchronous replication and conflict resolution strategies.",
+    "date": "2025-11-19T01:45:14.622Z",
+    "reason": "This question assesses the candidate's understanding of distributed system principles, particularly important in modern architectures, as well as their ability to think through the challenges and solutions in implementing these principles."
   }
 ]
