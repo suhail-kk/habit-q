@@ -562,5 +562,17 @@
     "answer": "Eventual consistency means that all updates to a distributed system will propagate to all nodes eventually, but not necessarily immediately; to implement it, one might use asynchronous replication and conflict resolution strategies.",
     "date": "2025-11-19T01:45:14.622Z",
     "reason": "This question assesses the candidate's understanding of distributed system principles, particularly important in modern architectures, as well as their ability to think through the challenges and solutions in implementing these principles."
+  },
+  {
+    "question": "Can you describe your approach to implementing a data archiving strategy in a cloud environment, particularly focusing on how you would balance cost, performance, and data retrieval requirements? What AWS services would you consider and why?",
+    "options": [
+      "1. Use only S3 for archiving data and ignore retrieval speed.",
+      "2. Implement a tiered storage solution using S3 Glacier for cost-effective long-term storage and evaluate the retrieval time needed based on business requirements.",
+      "3. Archive data in a relational database for better performance and lower costs.",
+      "4. Store all archived data in a NoSQL database to ensure scalability."
+    ],
+    "answer": "2. Implement a tiered storage solution using S3 Glacier for cost-effective long-term storage and evaluate the retrieval time needed based on business requirements.",
+    "date": "2025-11-20T01:43:51.731Z",
+    "reason": "This question assesses the candidate's understanding of data management in cloud environments, specifically around balancing cost and performance, which is critical for scalable and efficient systems."
   }
 ]
