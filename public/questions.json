@@ -574,5 +574,17 @@
     "answer": "2. Implement a tiered storage solution using S3 Glacier for cost-effective long-term storage and evaluate the retrieval time needed based on business requirements.",
     "date": "2025-11-20T01:43:51.731Z",
     "reason": "This question assesses the candidate's understanding of data management in cloud environments, specifically around balancing cost and performance, which is critical for scalable and efficient systems."
+  },
+  {
+    "question": "Can you describe the considerations and challenges you face when implementing a hybrid cloud architecture, particularly focusing on data synchronization, security, and compliance across both on-premises and cloud environments?",
+    "options": [
+      "Data synchronization complexity and ensuring security protocols are consistent across environments.",
+      "The need to use only cloud-native tools and services for all operations.",
+      "Limiting data access to only on-premises systems to avoid cloud-related risks.",
+      "Focusing solely on performance metrics without considering security implications."
+    ],
+    "answer": "Data synchronization complexity and ensuring security protocols are consistent across environments.",
+    "date": "2025-11-21T01:44:45.214Z",
+    "reason": "This question assesses the candidate's understanding of hybrid cloud architectures and their ability to navigate the complexities of data management, security, and compliance, which are crucial for modern enterprise systems."
   }
 ]
