@@ -586,5 +586,17 @@
     "answer": "Data synchronization complexity and ensuring security protocols are consistent across environments.",
     "date": "2025-11-21T01:44:45.214Z",
     "reason": "This question assesses the candidate's understanding of hybrid cloud architectures and their ability to navigate the complexities of data management, security, and compliance, which are crucial for modern enterprise systems."
+  },
+  {
+    "question": "Can you describe your experience with implementing containerization in your development workflow, particularly focusing on how you utilized tools like Docker and Kubernetes for application deployment and orchestration? What challenges did you encounter during this process, and how did you overcome them?",
+    "options": [
+      "I have never used containerization in my workflow.",
+      "I only use Docker without orchestration tools.",
+      "I used Docker and Kubernetes, facing challenges in networking and scaling, which I solved through thorough documentation and community support.",
+      "I only understand the concepts of containerization but haven't implemented them."
+    ],
+    "answer": "I used Docker and Kubernetes, facing challenges in networking and scaling, which I solved through thorough documentation and community support.",
+    "date": "2025-11-22T01:41:02.513Z",
+    "reason": "This question assesses a candidate's practical experience with containerization, which is crucial for modern application deployment and management. Understanding their challenges and solutions provides insight into their problem-solving skills and depth of knowledge in DevOps practices."
   }
 ]
