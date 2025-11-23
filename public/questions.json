@@ -598,5 +598,17 @@
     "answer": "I used Docker and Kubernetes, facing challenges in networking and scaling, which I solved through thorough documentation and community support.",
     "date": "2025-11-22T01:41:02.513Z",
     "reason": "This question assesses a candidate's practical experience with containerization, which is crucial for modern application deployment and management. Understanding their challenges and solutions provides insight into their problem-solving skills and depth of knowledge in DevOps practices."
+  },
+  {
+    "question": "Can you discuss how you would approach designing a data pipeline for processing large volumes of data in a cloud environment? What considerations would you take into account regarding data ingestion, transformation, storage, and access patterns?",
+    "options": [
+      "A) Focus primarily on data ingestion without considering transformation or storage.",
+      "B) Design a pipeline that uses a single database for all data types to simplify architecture.",
+      "C) Implement a scalable architecture that separates concerns for ingestion, transformation, and storage while considering the tools and services suited for each aspect.",
+      "D) Choose on-premises solutions to avoid cloud costs when building the data pipeline."
+    ],
+    "answer": "C",
+    "date": "2025-11-23T01:58:11.807Z",
+    "reason": "This question assesses the candidate's understanding of data architecture principles, their ability to design scalable solutions, and their familiarity with cloud tools and services, which are crucial for processing large volumes of data effectively."
   }
 ]
