@@ -622,5 +622,17 @@
     "answer": "Implementing distributed tracing, centralized logging, and performance monitoring tools.",
     "date": "2025-11-24T01:52:34.263Z",
     "reason": "This question assesses the candidate's understanding of observability in modern cloud-native architectures, which is critical for debugging and maintaining complex systems. It also evaluates knowledge of tools and methodologies that enhance application reliability and performance."
+  },
+  {
+    "question": "Can you explain how you would design a resilient and scalable data processing system that utilizes both AWS services and a microservices architecture? Discuss the choices you would make for data storage, communication between services, and how you would handle scaling during peak loads.",
+    "options": [
+      "1. Focus on using monolithic architecture to simplify scaling.",
+      "2. Implement a centralized database without considering scalability.",
+      "3. Use AWS services like Lambda for processing, S3 for storage, and implement inter-service communication via API Gateway while considering auto-scaling and load balancing.",
+      "4. Rely solely on synchronous communication to ensure data consistency."
+    ],
+    "answer": "3. Use AWS services like Lambda for processing, S3 for storage, and implement inter-service communication via API Gateway while considering auto-scaling and load balancing.",
+    "date": "2025-11-25T01:46:46.573Z",
+    "reason": "This question assesses the candidate's understanding of cloud architecture, microservices design, and their ability to create scalable systems, which are crucial skills for mid-level and senior developers."
   }
 ]
