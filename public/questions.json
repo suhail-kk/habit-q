@@ -634,5 +634,17 @@
     "answer": "3. Use AWS services like Lambda for processing, S3 for storage, and implement inter-service communication via API Gateway while considering auto-scaling and load balancing.",
     "date": "2025-11-25T01:46:46.573Z",
     "reason": "This question assesses the candidate's understanding of cloud architecture, microservices design, and their ability to create scalable systems, which are crucial skills for mid-level and senior developers."
+  },
+  {
+    "question": "Can you discuss your approach to designing a robust API that integrates with both SQL and NoSQL databases? What factors would you consider to ensure optimal performance and maintainability across different data storage solutions?",
+    "options": [
+      "1. Focus solely on SQL databases and avoid NoSQL integration.",
+      "2. Use a microservices architecture to separate database interactions and optimize performance for each database type.",
+      "3. Implement a unified data access layer that abstracts the database interactions while ensuring consistent error handling and logging.",
+      "4. Prioritize NoSQL databases for all applications due to their flexibility."
+    ],
+    "answer": "3. Implement a unified data access layer that abstracts the database interactions while ensuring consistent error handling and logging.",
+    "date": "2025-11-26T01:46:19.547Z",
+    "reason": "This question assesses the candidate's understanding of API design principles and their ability to navigate the complexities of integrating multiple database systems, which is crucial for modern application development."
   }
 ]
