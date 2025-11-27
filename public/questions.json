@@ -646,5 +646,17 @@
     "answer": "3. Implement a unified data access layer that abstracts the database interactions while ensuring consistent error handling and logging.",
     "date": "2025-11-26T01:46:19.547Z",
     "reason": "This question assesses the candidate's understanding of API design principles and their ability to navigate the complexities of integrating multiple database systems, which is crucial for modern application development."
+  },
+  {
+    "question": "Can you discuss how you would approach implementing a strategy for database migrations in a Node.js application, particularly when transitioning between different types of databases (e.g., SQL to NoSQL)? What considerations would you keep in mind to ensure data integrity and minimize downtime during the migration process?",
+    "options": [
+      "Implement a one-time data dump and restore process.",
+      "Use a blue-green deployment strategy to switch databases seamlessly.",
+      "Create a series of automated scripts to handle data transformations and migration.",
+      "Migrate all data at once during a scheduled downtime window."
+    ],
+    "answer": "Create a series of automated scripts to handle data transformations and migration.",
+    "date": "2025-11-27T01:44:26.691Z",
+    "reason": "This question evaluates the candidate's understanding of database migration strategies, their ability to ensure data integrity, and their knowledge of downtime minimization techniques, which are crucial for maintaining application availability."
   }
 ]
