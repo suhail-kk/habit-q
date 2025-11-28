@@ -658,5 +658,17 @@
     "answer": "Create a series of automated scripts to handle data transformations and migration.",
     "date": "2025-11-27T01:44:26.691Z",
     "reason": "This question evaluates the candidate's understanding of database migration strategies, their ability to ensure data integrity, and their knowledge of downtime minimization techniques, which are crucial for maintaining application availability."
+  },
+  {
+    "question": "Can you discuss your experience with implementing GraphQL in a Node.js application? What challenges did you face during implementation, and how did you manage aspects such as data fetching and schema design?",
+    "options": [
+      "I have not worked with GraphQL yet, but I understand the basics.",
+      "I have implemented GraphQL and faced challenges with data fetching and schema design.",
+      "I have experience with GraphQL and found it easy to implement without any challenges.",
+      "I have only read about GraphQL but have not used it in any projects."
+    ],
+    "answer": "I have implemented GraphQL and faced challenges with data fetching and schema design.",
+    "date": "2025-11-28T01:44:17.571Z",
+    "reason": "This question assesses the candidate's practical experience with GraphQL, a modern alternative to REST APIs, and evaluates their problem-solving skills in handling common challenges related to its implementation."
   }
 ]
