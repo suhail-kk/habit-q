@@ -670,5 +670,17 @@
     "answer": "I have implemented GraphQL and faced challenges with data fetching and schema design.",
     "date": "2025-11-28T01:44:17.571Z",
     "reason": "This question assesses the candidate's practical experience with GraphQL, a modern alternative to REST APIs, and evaluates their problem-solving skills in handling common challenges related to its implementation."
+  },
+  {
+    "question": "Can you describe your approach to implementing API versioning in a Node.js application, including the strategies you would consider for backward compatibility and handling deprecations?",
+    "options": [
+      "1. Use URL paths for versioning and maintain separate routes for each version.",
+      "2. Implement versioning only in the documentation without changing the API.",
+      "3. Ignore backward compatibility and force users to migrate to the latest version.",
+      "4. Use HTTP headers to specify the version and keep a single route for all versions."
+    ],
+    "answer": "1. Use URL paths for versioning and maintain separate routes for each version.",
+    "date": "2025-11-29T01:43:36.823Z",
+    "reason": "This question assesses the candidate's understanding of API design principles, their ability to manage changes without breaking existing clients, and their knowledge of best practices in versioning strategies."
   }
 ]
