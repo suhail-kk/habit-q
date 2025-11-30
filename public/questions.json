@@ -682,5 +682,17 @@
     "answer": "1. Use URL paths for versioning and maintain separate routes for each version.",
     "date": "2025-11-29T01:43:36.823Z",
     "reason": "This question assesses the candidate's understanding of API design principles, their ability to manage changes without breaking existing clients, and their knowledge of best practices in versioning strategies."
+  },
+  {
+    "question": "Can you describe how you would implement a strategy for handling API rate limiting in a Node.js application? What considerations would you make in terms of user experience, security, and system performance?",
+    "options": [
+      "Implement a fixed window algorithm to limit the number of requests per user.",
+      "Use a token bucket algorithm to allow bursts of traffic within a defined limit.",
+      "Set up a global rate limit for all users without differentiation.",
+      "Ignore rate limiting as it complicates the application."
+    ],
+    "answer": "Use a token bucket algorithm to allow bursts of traffic within a defined limit.",
+    "date": "2025-11-30T01:56:49.839Z",
+    "reason": "This question assesses the candidate's understanding of API design, user experience considerations, and the technical implementation of rate limiting strategies, which are crucial for maintaining performance and security in production applications."
   }
 ]
