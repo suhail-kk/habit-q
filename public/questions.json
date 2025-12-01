@@ -694,5 +694,17 @@
     "answer": "Use a token bucket algorithm to allow bursts of traffic within a defined limit.",
     "date": "2025-11-30T01:56:49.839Z",
     "reason": "This question assesses the candidate's understanding of API design, user experience considerations, and the technical implementation of rate limiting strategies, which are crucial for maintaining performance and security in production applications."
+  },
+  {
+    "question": "Can you describe your approach to designing and implementing a scalable and resilient data storage solution for a microservices architecture? What considerations would you take into account regarding data consistency, availability, and performance across different database technologies?",
+    "options": [
+      "1. Focus solely on using a single database technology for all services to simplify architecture.",
+      "2. Use a combination of SQL and NoSQL databases as needed, ensuring each service can choose the best fit for their data requirements.",
+      "3. Avoid any caching mechanisms to ensure real-time data retrieval from the databases.",
+      "4. Implement a monolithic database schema to manage all data within a single system."
+    ],
+    "answer": "2. Use a combination of SQL and NoSQL databases as needed, ensuring each service can choose the best fit for their data requirements.",
+    "date": "2025-12-01T02:04:36.199Z",
+    "reason": "This question assesses a candidate's understanding of data storage principles, including the ability to choose appropriate technologies based on use cases, and their awareness of the trade-offs involved in data consistency, availability, and performance in a microservices context."
   }
 ]
