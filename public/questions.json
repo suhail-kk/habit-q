@@ -706,5 +706,17 @@
     "answer": "2. Use a combination of SQL and NoSQL databases as needed, ensuring each service can choose the best fit for their data requirements.",
     "date": "2025-12-01T02:04:36.199Z",
     "reason": "This question assesses a candidate's understanding of data storage principles, including the ability to choose appropriate technologies based on use cases, and their awareness of the trade-offs involved in data consistency, availability, and performance in a microservices context."
+  },
+  {
+    "question": "How would you approach designing a cloud-native application architecture that optimizes for scalability and resilience, particularly focusing on the selection of AWS services and architectural patterns? Please discuss how you would handle service communication, data management, and monitoring.",
+    "options": [
+      "Discuss how to use monolithic architecture with a single database.",
+      "Describe using AWS Lambda functions exclusively for all processing tasks.",
+      "Explain the use of microservices architecture with AWS services like ECS, S3, and DynamoDB for asynchronous processing and data storage.",
+      "Outline a serverless approach with API Gateway and step functions only."
+    ],
+    "answer": "Explain the use of microservices architecture with AWS services like ECS, S3, and DynamoDB for asynchronous processing and data storage.",
+    "date": "2025-12-02T01:48:42.861Z",
+    "reason": "This question assesses the candidate's ability to design scalable and resilient systems, knowledge of AWS services, and understanding of architectural patterns, which are critical for modern application development."
   }
 ]
