@@ -718,5 +718,17 @@
     "answer": "Explain the use of microservices architecture with AWS services like ECS, S3, and DynamoDB for asynchronous processing and data storage.",
     "date": "2025-12-02T01:48:42.861Z",
     "reason": "This question assesses the candidate's ability to design scalable and resilient systems, knowledge of AWS services, and understanding of architectural patterns, which are critical for modern application development."
+  },
+  {
+    "question": "Can you discuss your approach to handling data consistency in a microservices architecture, particularly when using different types of databases such as SQL and NoSQL? What strategies would you implement to ensure that data remains consistent across services, and how would you handle challenges such as eventual consistency and distributed transactions?",
+    "options": [
+      "Utilize a single database technology across all services to simplify consistency management.",
+      "Implement distributed transactions with two-phase commit protocol to ensure strong consistency.",
+      "Leverage event sourcing and eventual consistency strategies while ensuring proper data validation and conflict resolution.",
+      "Ignore data consistency challenges and focus on individual service performance."
+    ],
+    "answer": "Leverage event sourcing and eventual consistency strategies while ensuring proper data validation and conflict resolution.",
+    "date": "2025-12-03T01:48:01.547Z",
+    "reason": "This question assesses the candidate's understanding of complex data consistency challenges in microservices, particularly when different databases are involved. It encourages them to think critically about strategies for managing data across services, which is crucial for building robust distributed systems."
   }
 ]
