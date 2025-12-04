@@ -730,5 +730,17 @@
     "answer": "Leverage event sourcing and eventual consistency strategies while ensuring proper data validation and conflict resolution.",
     "date": "2025-12-03T01:48:01.547Z",
     "reason": "This question assesses the candidate's understanding of complex data consistency challenges in microservices, particularly when different databases are involved. It encourages them to think critically about strategies for managing data across services, which is crucial for building robust distributed systems."
+  },
+  {
+    "question": "Can you describe your approach to implementing observability in a microservices architecture deployed on AWS? What tools and practices would you adopt to ensure effective monitoring, logging, and tracing across services?",
+    "options": [
+      "I would implement observability by using CloudWatch for logging and monitoring, and X-Ray for tracing service interactions.",
+      "I prefer not to implement observability in microservices as it adds unnecessary complexity.",
+      "Observability is not important in microservices; I focus on building features instead.",
+      "I would only use basic logging without integrating with any specialized tools."
+    ],
+    "answer": "I would implement observability by using CloudWatch for logging and monitoring, and X-Ray for tracing service interactions.",
+    "date": "2025-12-04T01:49:00.540Z",
+    "reason": "This question assesses the candidate's understanding of observability in a microservices context, which is crucial for maintaining and troubleshooting distributed systems effectively."
   }
 ]
