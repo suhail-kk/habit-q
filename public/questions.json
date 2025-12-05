@@ -742,5 +742,17 @@
     "answer": "I would implement observability by using CloudWatch for logging and monitoring, and X-Ray for tracing service interactions.",
     "date": "2025-12-04T01:49:00.540Z",
     "reason": "This question assesses the candidate's understanding of observability in a microservices context, which is crucial for maintaining and troubleshooting distributed systems effectively."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a comprehensive security strategy for a Node.js application deployed on AWS? What aspects would you prioritize, and how would you ensure ongoing compliance with security best practices?",
+    "options": [
+      "Prioritize logging user actions and implementing basic authentication.",
+      "Focus on implementing a robust CI/CD pipeline for automated deployments.",
+      "Implement security measures such as encryption, IAM roles, and regular security audits.",
+      "Only use AWS services that are compliant with industry standards."
+    ],
+    "answer": "Implement security measures such as encryption, IAM roles, and regular security audits.",
+    "date": "2025-12-05T01:49:30.781Z",
+    "reason": "This question evaluates the candidate's understanding of security principles and practices in a cloud environment, which is critical for protecting applications and sensitive data."
   }
 ]
