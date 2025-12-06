@@ -754,5 +754,17 @@
     "answer": "Implement security measures such as encryption, IAM roles, and regular security audits.",
     "date": "2025-12-05T01:49:30.781Z",
     "reason": "This question evaluates the candidate's understanding of security principles and practices in a cloud environment, which is critical for protecting applications and sensitive data."
+  },
+  {
+    "question": "Can you discuss your approach to implementing security best practices in a cloud-native application, particularly focusing on how you would handle authentication and authorization? What tools and processes would you use to safeguard against common vulnerabilities?",
+    "options": [
+      "Implement role-based access control and use OAuth for authentication.",
+      "Only rely on API keys for securing the application.",
+      "Use a single database user for all application access.",
+      "Ignore security concerns during development to speed up the process."
+    ],
+    "answer": "Implement role-based access control and use OAuth for authentication.",
+    "date": "2025-12-06T01:42:57.556Z",
+    "reason": "This question is valuable as it assesses the candidate's understanding of security practices essential for cloud-native applications, as well as their ability to identify vulnerabilities and implement effective safeguards."
   }
 ]
