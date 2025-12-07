@@ -766,5 +766,17 @@
     "answer": "Implement role-based access control and use OAuth for authentication.",
     "date": "2025-12-06T01:42:57.556Z",
     "reason": "This question is valuable as it assesses the candidate's understanding of security practices essential for cloud-native applications, as well as their ability to identify vulnerabilities and implement effective safeguards."
+  },
+  {
+    "question": "Can you explain how you would approach implementing a hybrid cloud architecture, particularly focusing on data synchronization, security, and compliance across both on-premises and cloud environments? What challenges do you foresee and how would you address them?",
+    "options": [
+      "Discuss potential latency issues and how to mitigate them through caching and data replication strategies.",
+      "Explain the differences between public and private cloud services and how they impact data management.",
+      "Describe the importance of setting up a VPN for secure communication between on-premises and cloud resources.",
+      "Talk about the use of container orchestration tools for managing microservices in a hybrid environment."
+    ],
+    "answer": "Discuss potential latency issues and how to mitigate them through caching and data replication strategies.",
+    "date": "2025-12-07T01:57:20.288Z",
+    "reason": "This question assesses the candidate's understanding of hybrid cloud architectures, including their ability to identify challenges and propose solutions related to data management, security, and compliance, which are crucial for modern applications."
   }
 ]
