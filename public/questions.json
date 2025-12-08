@@ -778,5 +778,17 @@
     "answer": "Discuss potential latency issues and how to mitigate them through caching and data replication strategies.",
     "date": "2025-12-07T01:57:20.288Z",
     "reason": "This question assesses the candidate's understanding of hybrid cloud architectures, including their ability to identify challenges and propose solutions related to data management, security, and compliance, which are crucial for modern applications."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive logging strategy in a Node.js application? What tools and practices would you use to ensure effective log management, and how would you handle the challenges of log data scalability and retention?",
+    "options": [
+      "1. Use console.log for all logging and avoid any external tools.",
+      "2. Implement a logging library like Winston or Bunyan, set log levels, and manage log rotation and storage.",
+      "3. Log only critical errors and rely on external monitoring tools to capture application metrics.",
+      "4. Use a custom-built logging solution without any standard libraries or frameworks."
+    ],
+    "answer": "2. Implement a logging library like Winston or Bunyan, set log levels, and manage log rotation and storage.",
+    "date": "2025-12-08T01:49:53.724Z",
+    "reason": "This question evaluates the candidate's understanding of logging best practices and tools, which are crucial for maintaining observability and diagnosing issues in production applications."
   }
 ]
