@@ -790,5 +790,17 @@
     "answer": "2. Implement a logging library like Winston or Bunyan, set log levels, and manage log rotation and storage.",
     "date": "2025-12-08T01:49:53.724Z",
     "reason": "This question evaluates the candidate's understanding of logging best practices and tools, which are crucial for maintaining observability and diagnosing issues in production applications."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a continuous integration/continuous deployment (CI/CD) pipeline for a Node.js application? What tools would you use, and how would you ensure that your deployments are both reliable and efficient?",
+    "options": [
+      "A) I would focus solely on automating testing without considering deployment strategies.",
+      "B) I would use a combination of tools like Jenkins, Docker, and AWS CodePipeline to automate the build, test, and deployment processes.",
+      "C) I would manually deploy the application every time to avoid potential issues with automation.",
+      "D) I would only set up a CI/CD pipeline for the production environment, without testing in staging."
+    ],
+    "answer": "B) I would use a combination of tools like Jenkins, Docker, and AWS CodePipeline to automate the build, test, and deployment processes.",
+    "date": "2025-12-09T01:49:12.943Z",
+    "reason": "This question assesses the candidate's understanding of modern DevOps practices and their ability to implement a CI/CD pipeline, which is critical for ensuring code quality and fostering collaboration in development teams."
   }
 ]
