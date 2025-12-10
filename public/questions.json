@@ -802,5 +802,17 @@
     "answer": "B) I would use a combination of tools like Jenkins, Docker, and AWS CodePipeline to automate the build, test, and deployment processes.",
     "date": "2025-12-09T01:49:12.943Z",
     "reason": "This question assesses the candidate's understanding of modern DevOps practices and their ability to implement a CI/CD pipeline, which is critical for ensuring code quality and fostering collaboration in development teams."
+  },
+  {
+    "question": "Can you discuss your approach to designing a resilient and scalable data processing system that utilizes both AWS services and a microservices architecture? What choices would you make regarding data storage, service communication, and scaling during peak loads?",
+    "options": [
+      "A. Focus solely on using AWS Lambda for all data processing tasks without considering data storage options.",
+      "B. Design the system using a single monolithic architecture to avoid the complexities of microservices.",
+      "C. Utilize a combination of AWS services like S3 for storage, DynamoDB for scalable data access, and use event-driven communication to ensure resilience.",
+      "D. Implement an on-premises data storage solution while running the application in the cloud for better control."
+    ],
+    "answer": "C. Utilize a combination of AWS services like S3 for storage, DynamoDB for scalable data access, and use event-driven communication to ensure resilience.",
+    "date": "2025-12-10T01:51:11.602Z",
+    "reason": "This question evaluates the candidate's understanding of designing scalable systems in the cloud, their familiarity with AWS services, and their ability to integrate microservices architecture effectively. It encourages them to think critically about data storage, communication patterns, and scalability concerns."
   }
 ]
