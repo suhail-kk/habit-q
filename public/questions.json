@@ -814,5 +814,17 @@
     "answer": "C. Utilize a combination of AWS services like S3 for storage, DynamoDB for scalable data access, and use event-driven communication to ensure resilience.",
     "date": "2025-12-10T01:51:11.602Z",
     "reason": "This question evaluates the candidate's understanding of designing scalable systems in the cloud, their familiarity with AWS services, and their ability to integrate microservices architecture effectively. It encourages them to think critically about data storage, communication patterns, and scalability concerns."
+  },
+  {
+    "question": "Can you describe how you would approach implementing a GraphQL API in a Node.js application, focusing on schema design, data fetching strategies, and error handling techniques? What challenges do you foresee during implementation?",
+    "options": [
+      "1. By defining a single query for all data and handling errors through middleware",
+      "2. By designing a modular schema with clear types and resolvers, and using batching to optimize data fetching",
+      "3. By using RESTful principles for the API design and ignoring error handling",
+      "4. By implementing GraphQL subscriptions for real-time data updates without considering performance"
+    ],
+    "answer": "2. By designing a modular schema with clear types and resolvers, and using batching to optimize data fetching",
+    "date": "2025-12-11T01:52:44.967Z",
+    "reason": "This question evaluates the candidate's understanding of GraphQL and their ability to implement it effectively in a Node.js application, addressing critical aspects such as schema design and data optimization techniques."
   }
 ]
