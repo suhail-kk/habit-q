@@ -826,5 +826,17 @@
     "answer": "2. By designing a modular schema with clear types and resolvers, and using batching to optimize data fetching",
     "date": "2025-12-11T01:52:44.967Z",
     "reason": "This question evaluates the candidate's understanding of GraphQL and their ability to implement it effectively in a Node.js application, addressing critical aspects such as schema design and data optimization techniques."
+  },
+  {
+    "question": "Can you discuss your approach to designing a fault-tolerant system in a cloud environment? What AWS services would you utilize, and how would you ensure high availability and data integrity in case of failures?",
+    "options": [
+      "Use AWS Lambda for all services to ensure serverless architecture and fault tolerance.",
+      "Implement a multi-region architecture with AWS services such as S3, RDS, and CloudFront for redundancy.",
+      "Design a monolithic architecture with a single database instance to minimize complexity.",
+      "Use only EC2 instances without any load balancers or failover mechanisms."
+    ],
+    "answer": "Implement a multi-region architecture with AWS services such as S3, RDS, and CloudFront for redundancy.",
+    "date": "2025-12-12T01:51:36.866Z",
+    "reason": "This question evaluates the candidate's understanding of fault tolerance in cloud environments, their knowledge of AWS services, and their ability to design systems that maintain high availability and data integrity."
   }
 ]
