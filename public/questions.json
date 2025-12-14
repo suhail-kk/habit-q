@@ -850,5 +850,17 @@
     "answer": "1. I used built-in profiling tools and optimized algorithms to reduce time complexity.",
     "date": "2025-12-13T01:45:47.437Z",
     "reason": "This question assesses the candidate's experience in performance optimization, understanding of profiling tools, and ability to implement effective solutions, which are critical skills for mid-level or senior developers."
+  },
+  {
+    "question": "Can you discuss how you would manage data migrations in a microservices architecture, particularly when dealing with different types of databases? What strategies would you implement to ensure data integrity and minimize downtime during the migration process?",
+    "options": [
+      "By using a single database migration tool across all services regardless of the database type.",
+      "By coordinating data migrations in a tightly coupled manner that requires all services to be offline during the process.",
+      "By implementing a versioning strategy for the database schemas and using asynchronous data synchronization between old and new databases.",
+      "By relying on manual updates to the databases without any planning or version control."
+    ],
+    "answer": "By implementing a versioning strategy for the database schemas and using asynchronous data synchronization between old and new databases.",
+    "date": "2025-12-14T01:57:59.111Z",
+    "reason": "This question assesses the candidate's understanding of data migration strategies and their ability to ensure data integrity and minimize downtime, which are critical aspects of maintaining a robust microservices architecture."
   }
 ]
