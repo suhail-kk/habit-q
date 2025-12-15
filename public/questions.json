@@ -862,5 +862,17 @@
     "answer": "By implementing a versioning strategy for the database schemas and using asynchronous data synchronization between old and new databases.",
     "date": "2025-12-14T01:57:59.111Z",
     "reason": "This question assesses the candidate's understanding of data migration strategies and their ability to ensure data integrity and minimize downtime, which are critical aspects of maintaining a robust microservices architecture."
+  },
+  {
+    "question": "Can you describe how you would implement a strategy for handling eventual consistency in a distributed system architecture, particularly when using microservices and cloud technologies like AWS? What challenges do you anticipate, and how would you address them?",
+    "options": [
+      "By using strong consistency models across all services to eliminate discrepancies.",
+      "By allowing services to operate independently and synchronize data through asynchronous messaging.",
+      "By implementing a centralized database to maintain consistent data across services.",
+      "By ignoring data consistency issues since they will resolve themselves over time."
+    ],
+    "answer": "By allowing services to operate independently and synchronize data through asynchronous messaging.",
+    "date": "2025-12-15T01:55:36.256Z",
+    "reason": "This question evaluates a candidate's understanding of distributed systems and their ability to handle data consistency challenges, which are critical in modern microservices architectures."
   }
 ]
