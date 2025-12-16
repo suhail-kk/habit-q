@@ -874,5 +874,17 @@
     "answer": "By allowing services to operate independently and synchronize data through asynchronous messaging.",
     "date": "2025-12-15T01:55:36.256Z",
     "reason": "This question evaluates a candidate's understanding of distributed systems and their ability to handle data consistency challenges, which are critical in modern microservices architectures."
+  },
+  {
+    "question": "Can you explain your approach to designing a data access layer in a Node.js application that interacts with both SQL and NoSQL databases? What factors do you consider to ensure optimal performance and maintainability?",
+    "options": [
+      "Focus solely on one database type to simplify the architecture.",
+      "Use an Object-Relational Mapping (ORM) tool for SQL and raw queries for NoSQL.",
+      "Design a unified interface for database interactions and implement caching mechanisms.",
+      "Avoid data validation to enhance performance."
+    ],
+    "answer": "Design a unified interface for database interactions and implement caching mechanisms.",
+    "date": "2025-12-16T01:52:28.053Z",
+    "reason": "This question assesses the candidate's understanding of data access patterns, their ability to integrate different database technologies, and their focus on performance and maintainability in software design."
   }
 ]
