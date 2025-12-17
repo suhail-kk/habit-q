@@ -886,5 +886,17 @@
     "answer": "Design a unified interface for database interactions and implement caching mechanisms.",
     "date": "2025-12-16T01:52:28.053Z",
     "reason": "This question assesses the candidate's understanding of data access patterns, their ability to integrate different database technologies, and their focus on performance and maintainability in software design."
+  },
+  {
+    "question": "Can you describe your approach to ensuring data security in a microservices architecture deployed on AWS, particularly focusing on how you would implement encryption, access controls, and monitoring practices to protect sensitive data?",
+    "options": [
+      "Implement encryption at rest and in transit, enforce strict IAM policies, and deploy monitoring tools like AWS CloudTrail to track access.",
+      "Only use HTTPS for communication and rely on built-in AWS security features without additional encryption.",
+      "Focus solely on network security groups for managing access without considering data-level security.",
+      "Regularly update the application and underlying services to patch vulnerabilities without implementing additional security measures."
+    ],
+    "answer": "Implement encryption at rest and in transit, enforce strict IAM policies, and deploy monitoring tools like AWS CloudTrail to track access.",
+    "date": "2025-12-17T01:47:50.208Z",
+    "reason": "This question assesses the candidate's understanding of security practices in a cloud-native environment, their knowledge of AWS services, and their ability to think holistically about data protection in a microservices architecture."
   }
 ]
