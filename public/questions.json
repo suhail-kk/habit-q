@@ -898,5 +898,17 @@
     "answer": "Implement encryption at rest and in transit, enforce strict IAM policies, and deploy monitoring tools like AWS CloudTrail to track access.",
     "date": "2025-12-17T01:47:50.208Z",
     "reason": "This question assesses the candidate's understanding of security practices in a cloud-native environment, their knowledge of AWS services, and their ability to think holistically about data protection in a microservices architecture."
+  },
+  {
+    "question": "Can you describe your experience with implementing a serverless architecture using AWS Lambda? What factors do you consider when deciding to use serverless functions over traditional server-based approaches, and how do you manage deployment and scaling challenges?",
+    "options": [
+      "I prefer traditional server-based approaches as they provide more control over the environment.",
+      "I focus solely on the cost savings of serverless without considering other factors.",
+      "I assess the application's scalability needs, event-driven architecture benefits, and deployment automation.",
+      "I rely on my team to handle the technical details of serverless architectures."
+    ],
+    "answer": "I assess the application's scalability needs, event-driven architecture benefits, and deployment automation.",
+    "date": "2025-12-18T01:48:16.592Z",
+    "reason": "This question assesses the candidate's understanding of serverless architecture, their ability to evaluate trade-offs, and their experience with AWS Lambda, which is crucial for modern cloud-based applications."
   }
 ]
