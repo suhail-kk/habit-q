@@ -910,5 +910,17 @@
     "answer": "I assess the application's scalability needs, event-driven architecture benefits, and deployment automation.",
     "date": "2025-12-18T01:48:16.592Z",
     "reason": "This question assesses the candidate's understanding of serverless architecture, their ability to evaluate trade-offs, and their experience with AWS Lambda, which is crucial for modern cloud-based applications."
+  },
+  {
+    "question": "Can you explain how you would approach designing a fault-tolerant system in a cloud environment, specifically focusing on the use of AWS services to ensure high availability and disaster recovery? What architectural patterns would you consider, and how would you test the system's resilience?",
+    "options": [
+      "A) Focus solely on load balancing to distribute traffic across instances.",
+      "B) Implement a microservices architecture without considering redundancy.",
+      "C) Utilize AWS services like EC2, S3, and RDS, while applying patterns such as auto-scaling and multi-region deployment for resilience.",
+      "D) Rely on a single instance with regular backups to handle failures."
+    ],
+    "answer": "C",
+    "date": "2025-12-19T01:51:25.818Z",
+    "reason": "This question assesses a candidate's understanding of cloud architecture design principles, their ability to leverage AWS services for fault tolerance, and their approach to ensuring high availability and disaster recovery in a distributed environment."
   }
 ]
