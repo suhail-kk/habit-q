@@ -922,5 +922,17 @@
     "answer": "C",
     "date": "2025-12-19T01:51:25.818Z",
     "reason": "This question assesses a candidate's understanding of cloud architecture design principles, their ability to leverage AWS services for fault tolerance, and their approach to ensuring high availability and disaster recovery in a distributed environment."
+  },
+  {
+    "question": "Can you describe your approach to implementing a distributed transaction management strategy in a microservices architecture? What challenges do you foresee, and how would you address them to ensure data consistency across services?",
+    "options": [
+      "1. Implementing the two-phase commit protocol to manage distributed transactions.",
+      "2. Using eventual consistency and compensating transactions to handle failures.",
+      "3. Relying on a central database to manage all transactions across services.",
+      "4. Ignoring transaction management as each service operates independently."
+    ],
+    "answer": "2. Using eventual consistency and compensating transactions to handle failures.",
+    "date": "2025-12-20T01:45:50.934Z",
+    "reason": "This question assesses the candidate's understanding of complex transaction handling in microservices, an essential aspect of maintaining data integrity and consistency in distributed systems. It encourages them to think critically about the challenges and solutions involved in such scenarios."
   }
 ]
