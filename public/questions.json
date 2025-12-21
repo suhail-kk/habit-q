@@ -934,5 +934,17 @@
     "answer": "2. Using eventual consistency and compensating transactions to handle failures.",
     "date": "2025-12-20T01:45:50.934Z",
     "reason": "This question assesses the candidate's understanding of complex transaction handling in microservices, an essential aspect of maintaining data integrity and consistency in distributed systems. It encourages them to think critically about the challenges and solutions involved in such scenarios."
+  },
+  {
+    "question": "Can you describe how you would implement a message queue in a Node.js application to handle asynchronous processing? What considerations would you take into account regarding reliability, scalability, and error handling?",
+    "options": [
+      "Use RabbitMQ for message queuing and focus on a simple retry mechanism for error handling.",
+      "Implement a basic HTTP request without any queuing mechanism and handle errors in the callback.",
+      "Use Redis as a queue and implement a detailed logging system for all message processing events.",
+      "Choose Amazon SQS for queuing, plan for message visibility timeouts, and ensure idempotency in processing."
+    ],
+    "answer": "Choose Amazon SQS for queuing, plan for message visibility timeouts, and ensure idempotency in processing.",
+    "date": "2025-12-21T01:57:56.957Z",
+    "reason": "This question assesses the candidate's knowledge of message queuing systems, their ability to design for reliability and scalability in Node.js applications, and their understanding of error handling in asynchronous processing."
   }
 ]
