@@ -946,5 +946,17 @@
     "answer": "Choose Amazon SQS for queuing, plan for message visibility timeouts, and ensure idempotency in processing.",
     "date": "2025-12-21T01:57:56.957Z",
     "reason": "This question assesses the candidate's knowledge of message queuing systems, their ability to design for reliability and scalability in Node.js applications, and their understanding of error handling in asynchronous processing."
+  },
+  {
+    "question": "Can you explain how you would approach designing a cloud-native application architecture that optimizes for scalability and resilience, particularly focusing on the selection of AWS services and architectural patterns? Please discuss how you would handle service communication, data management, and monitoring.",
+    "options": [
+      "By implementing a serverless architecture with AWS Lambda for scalability and using DynamoDB for data storage.",
+      "By using a monolithic architecture with a single database to simplify deployment and management.",
+      "By adopting a containerized approach with Docker and Kubernetes while relying solely on EC2 instances for scalability.",
+      "By employing a microservices architecture utilizing AWS ECS for container orchestration and S3 for data storage."
+    ],
+    "answer": "By employing a microservices architecture utilizing AWS ECS for container orchestration and S3 for data storage.",
+    "date": "2025-12-22T01:57:20.278Z",
+    "reason": "This question assesses the candidate's ability to design scalable and resilient cloud-native applications, an essential skill for mid-level to senior developers, as it involves understanding both architectural patterns and AWS services."
   }
 ]
