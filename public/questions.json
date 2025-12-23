@@ -958,5 +958,17 @@
     "answer": "By employing a microservices architecture utilizing AWS ECS for container orchestration and S3 for data storage.",
     "date": "2025-12-22T01:57:20.278Z",
     "reason": "This question assesses the candidate's ability to design scalable and resilient cloud-native applications, an essential skill for mid-level to senior developers, as it involves understanding both architectural patterns and AWS services."
+  },
+  {
+    "question": "Can you explain how you would approach implementing a service discovery mechanism in a microservices architecture? What considerations would you take into account regarding scalability, fault tolerance, and the choice of tools?",
+    "options": [
+      "By using a static configuration file for service addresses to avoid complexity.",
+      "By implementing a service registry and using client-side load balancing with tools like Consul or Eureka.",
+      "By relying on DNS for service discovery without any additional tools.",
+      "By manually configuring each service with the addresses of its dependencies."
+    ],
+    "answer": "By implementing a service registry and using client-side load balancing with tools like Consul or Eureka.",
+    "date": "2025-12-23T01:52:47.407Z",
+    "reason": "This question evaluates the candidate's understanding of service discovery, an essential component in microservices architectures that impacts scalability and reliability. It also assesses their familiarity with industry-standard tools and practices."
   }
 ]
