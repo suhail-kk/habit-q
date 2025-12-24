@@ -970,5 +970,17 @@
     "answer": "By implementing a service registry and using client-side load balancing with tools like Consul or Eureka.",
     "date": "2025-12-23T01:52:47.407Z",
     "reason": "This question evaluates the candidate's understanding of service discovery, an essential component in microservices architectures that impacts scalability and reliability. It also assesses their familiarity with industry-standard tools and practices."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a monitoring strategy for a cloud-native application, particularly focusing on how you would ensure observability across multiple microservices? What tools and practices would you employ to effectively trace requests and diagnose issues in a distributed environment?",
+    "options": [
+      "1. Implement logging with a centralized logging service and monitor metrics with a dashboard.",
+      "2. Use only manual debugging techniques to identify issues in the application.",
+      "3. Rely solely on alerts for monitoring without any logging or request tracing.",
+      "4. Focus on setting up firewalls and security measures without monitoring application performance."
+    ],
+    "answer": "1. Implement logging with a centralized logging service and monitor metrics with a dashboard.",
+    "date": "2025-12-24T01:50:46.709Z",
+    "reason": "This question assesses the candidate's understanding of observability in cloud-native architectures, which is crucial for maintaining system health and performance in a microservices environment."
   }
 ]
