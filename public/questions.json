@@ -982,5 +982,17 @@
     "answer": "1. Implement logging with a centralized logging service and monitor metrics with a dashboard.",
     "date": "2025-12-24T01:50:46.709Z",
     "reason": "This question assesses the candidate's understanding of observability in cloud-native architectures, which is crucial for maintaining system health and performance in a microservices environment."
+  },
+  {
+    "question": "Can you describe your approach to implementing API versioning in a Node.js application? What strategies would you consider for backward compatibility and handling deprecations?",
+    "options": [
+      "Using URL path versioning and maintaining separate routes for each version",
+      "Utilizing request headers to determine the API version and conditionally execute logic",
+      "Implementing a versioning strategy based on query parameters and documenting changes clearly",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "date": "2025-12-25T01:53:03.498Z",
+    "reason": "This question assesses a candidate's understanding of API versioning strategies, their ability to maintain backward compatibility, and their awareness of best practices for managing deprecations, which are essential skills in software development."
   }
 ]
