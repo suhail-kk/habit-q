@@ -994,5 +994,17 @@
     "answer": "All of the above",
     "date": "2025-12-25T01:53:03.498Z",
     "reason": "This question assesses a candidate's understanding of API versioning strategies, their ability to maintain backward compatibility, and their awareness of best practices for managing deprecations, which are essential skills in software development."
+  },
+  {
+    "question": "Can you explain how you would design a scalable data processing system that integrates AWS services such as Lambda, S3, and DynamoDB? What considerations would you make regarding data ingestion, processing, and storage, and how would you ensure resilience and fault tolerance?",
+    "options": [
+      "A. Focus primarily on data storage and ignore processing speed.",
+      "B. Use a monolithic architecture to simplify deployment.",
+      "C. Consider using AWS services appropriately for each layer of processing and implement a retry mechanism for failed events.",
+      "D. Avoid using any third-party services to ensure control over the environment."
+    ],
+    "answer": "C. Consider using AWS services appropriately for each layer of processing and implement a retry mechanism for failed events.",
+    "date": "2025-12-26T01:52:14.465Z",
+    "reason": "This question assesses a candidate's ability to design a cloud-based system that is both scalable and resilient, highlighting their understanding of AWS services and best practices for data processing."
   }
 ]
