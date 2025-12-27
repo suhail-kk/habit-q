@@ -1006,5 +1006,17 @@
     "answer": "C. Consider using AWS services appropriately for each layer of processing and implement a retry mechanism for failed events.",
     "date": "2025-12-26T01:52:14.465Z",
     "reason": "This question assesses a candidate's ability to design a cloud-based system that is both scalable and resilient, highlighting their understanding of AWS services and best practices for data processing."
+  },
+  {
+    "question": "Can you describe your approach to implementing security best practices in a microservices architecture, particularly focusing on how you would handle authentication and authorization across services? What tools and strategies would you employ to safeguard against common vulnerabilities?",
+    "options": [
+      "Utilize OAuth 2.0 for authentication and JWT for authorization, with API gateways for centralized security management.",
+      "Implement basic authentication for all services and rely on firewall rules for security.",
+      "Use a single database user for all services to simplify access management.",
+      "Focus solely on network security, ignoring application-level vulnerabilities."
+    ],
+    "answer": "Utilize OAuth 2.0 for authentication and JWT for authorization, with API gateways for centralized security management.",
+    "date": "2025-12-27T01:49:48.360Z",
+    "reason": "This question assesses the candidate's understanding of security in microservices, their knowledge of modern authentication and authorization mechanisms, and their ability to implement robust security strategies that protect against vulnerabilities."
   }
 ]
