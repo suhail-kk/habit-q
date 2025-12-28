@@ -1018,5 +1018,17 @@
     "answer": "Utilize OAuth 2.0 for authentication and JWT for authorization, with API gateways for centralized security management.",
     "date": "2025-12-27T01:49:48.360Z",
     "reason": "This question assesses the candidate's understanding of security in microservices, their knowledge of modern authentication and authorization mechanisms, and their ability to implement robust security strategies that protect against vulnerabilities."
+  },
+  {
+    "question": "Can you describe your approach to designing a resilient and scalable event-driven architecture using AWS services? What key components would you select, how would you handle event sourcing, and what challenges do you anticipate?",
+    "options": [
+      "1. Focus solely on AWS Lambda and S3 without considering other services.",
+      "2. Use a combination of AWS services like SNS, SQS, and DynamoDB for event handling and storage.",
+      "3. Rely only on traditional monolithic architectures to manage events.",
+      "4. Implement event sourcing only at the database level without considering service interactions."
+    ],
+    "answer": "2. Use a combination of AWS services like SNS, SQS, and DynamoDB for event handling and storage.",
+    "date": "2025-12-28T02:03:22.508Z",
+    "reason": "This question assesses the candidate's understanding of event-driven architecture, AWS services, and their ability to design systems that are both resilient and scalable, which are crucial for modern applications."
   }
 ]
