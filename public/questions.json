@@ -1030,5 +1030,17 @@
     "answer": "2. Use a combination of AWS services like SNS, SQS, and DynamoDB for event handling and storage.",
     "date": "2025-12-28T02:03:22.508Z",
     "reason": "This question assesses the candidate's understanding of event-driven architecture, AWS services, and their ability to design systems that are both resilient and scalable, which are crucial for modern applications."
+  },
+  {
+    "question": "Can you explain your approach to designing a data pipeline for processing large volumes of data in a cloud environment? What considerations would you take into account regarding data ingestion, transformation, storage, and access patterns?",
+    "options": [
+      "A) Focus solely on data storage solutions and neglect the ingestion process.",
+      "B) Prioritize data transformation over storage to ensure quick access times.",
+      "C) Consider the entire pipeline, including ingestion, transformation, storage, and access patterns to optimize performance and cost.",
+      "D) Use a single database technology for all stages of the pipeline to simplify management."
+    ],
+    "answer": "C",
+    "date": "2025-12-29T02:01:50.205Z",
+    "reason": "This question assesses the candidate's understanding of the complexities involved in designing a data pipeline in cloud environments, including considerations for scalability, data integrity, and performance, which are crucial for handling large volumes of data effectively."
   }
 ]
