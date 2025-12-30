@@ -1042,5 +1042,17 @@
     "answer": "C",
     "date": "2025-12-29T02:01:50.205Z",
     "reason": "This question assesses the candidate's understanding of the complexities involved in designing a data pipeline in cloud environments, including considerations for scalability, data integrity, and performance, which are crucial for handling large volumes of data effectively."
+  },
+  {
+    "question": "Can you describe how you would implement a strategy for managing API requests in a Node.js application to optimize for both performance and security? What techniques would you use for rate limiting, authentication, and data validation?",
+    "options": [
+      "Implementing JWT for authentication and using middleware for rate limiting and validation.",
+      "Using a monolithic approach without any rate limiting or security measures.",
+      "Only focusing on performance by caching all requests without validation.",
+      "Using a third-party service for all API management without any custom implementation."
+    ],
+    "answer": "Implementing JWT for authentication and using middleware for rate limiting and validation.",
+    "date": "2025-12-30T01:53:38.000Z",
+    "reason": "This question assesses the candidate's understanding of crucial API management techniques in a Node.js environment, focusing on performance optimization and security measures, which are vital for building robust applications."
   }
 ]
