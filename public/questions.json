@@ -1054,5 +1054,17 @@
     "answer": "Implementing JWT for authentication and using middleware for rate limiting and validation.",
     "date": "2025-12-30T01:53:38.000Z",
     "reason": "This question assesses the candidate's understanding of crucial API management techniques in a Node.js environment, focusing on performance optimization and security measures, which are vital for building robust applications."
+  },
+  {
+    "question": "Can you discuss your approach to designing a resilient and scalable event-driven architecture using AWS services? What key components would you select, how would you handle event sourcing, and what challenges do you anticipate?",
+    "options": [
+      "1. Focus solely on using SQS for managing events with minimal scaling considerations.",
+      "2. Choose a combination of AWS Lambda, SNS, and SQS while discussing how to implement event sourcing and potential challenges.",
+      "3. Use only EC2 instances to manage events without considering serverless options.",
+      "4. Implement an event-driven architecture without considering AWS services."
+    ],
+    "answer": "2",
+    "date": "2025-12-31T01:54:02.974Z",
+    "reason": "This question evaluates the candidate's understanding of event-driven architectures, AWS services, and their ability to foresee challenges in implementation, which is crucial for designing scalable and maintainable systems."
   }
 ]
