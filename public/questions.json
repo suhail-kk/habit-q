@@ -1066,5 +1066,17 @@
     "answer": "2",
     "date": "2025-12-31T01:54:02.974Z",
     "reason": "This question evaluates the candidate's understanding of event-driven architectures, AWS services, and their ability to foresee challenges in implementation, which is crucial for designing scalable and maintainable systems."
+  },
+  {
+    "question": "Can you describe your approach to handling data consistency and integrity in a microservices architecture, particularly when using different types of databases such as SQL and NoSQL? What strategies would you implement to ensure that data remains consistent across services, and how would you handle challenges such as eventual consistency and distributed transactions?",
+    "options": [
+      "Implement distributed transactions with two-phase commit protocol across all services.",
+      "Use event sourcing and CQRS patterns to manage data state and eventual consistency.",
+      "Ensure each microservice manages its own database and never share data between services.",
+      "Adopt a monolithic architecture to avoid complications with data consistency."
+    ],
+    "answer": "Use event sourcing and CQRS patterns to manage data state and eventual consistency.",
+    "date": "2026-01-01T02:04:11.471Z",
+    "reason": "This question assesses the candidate's understanding of complex concepts related to microservices, data management, and consistency challenges. Their answer will demonstrate their experience and strategic thinking in designing scalable and resilient systems."
   }
 ]
