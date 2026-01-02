@@ -1078,5 +1078,17 @@
     "answer": "Use event sourcing and CQRS patterns to manage data state and eventual consistency.",
     "date": "2026-01-01T02:04:11.471Z",
     "reason": "This question assesses the candidate's understanding of complex concepts related to microservices, data management, and consistency challenges. Their answer will demonstrate their experience and strategic thinking in designing scalable and resilient systems."
+  },
+  {
+    "question": "Can you explain how you would approach designing an API that supports both REST and GraphQL for a Node.js application? What are the benefits and challenges of each approach, and how would you manage data fetching and handling requests effectively?",
+    "options": [
+      "1. REST is simpler and requires less setup, while GraphQL offers more flexibility in data retrieval.",
+      "2. Both can be designed using the same framework, with GraphQL requiring more consideration for caching and optimization.",
+      "3. REST is better for performance, while GraphQL simplifies client-side data management but can lead to over-fetching issues.",
+      "4. You can choose either based on client requirements, but managing both will require a thorough understanding of request routing and data resolution."
+    ],
+    "answer": "4. You can choose either based on client requirements, but managing both will require a thorough understanding of request routing and data resolution.",
+    "date": "2026-01-02T01:55:18.338Z",
+    "reason": "This question assesses the candidate's understanding of API design principles, specifically the trade-offs between REST and GraphQL, and their ability to effectively manage data requests in a Node.js environment."
   }
 ]
