@@ -1090,5 +1090,17 @@
     "answer": "4. You can choose either based on client requirements, but managing both will require a thorough understanding of request routing and data resolution.",
     "date": "2026-01-02T01:55:18.338Z",
     "reason": "This question assesses the candidate's understanding of API design principles, specifically the trade-offs between REST and GraphQL, and their ability to effectively manage data requests in a Node.js environment."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a service discovery mechanism in a microservices architecture? What considerations would you take into account regarding scalability, fault tolerance, and the choice of tools?",
+    "options": [
+      "A. Focus solely on using static IP addresses for service instances.",
+      "B. Use a centralized service registry and consider load balancing mechanisms.",
+      "C. Implement a monolithic architecture to avoid service discovery challenges.",
+      "D. Rely on manual updates to service instances for management."
+    ],
+    "answer": "B. Use a centralized service registry and consider load balancing mechanisms.",
+    "date": "2026-01-03T01:49:06.918Z",
+    "reason": "This question assesses the candidate's understanding of microservices architecture and their ability to implement effective service discovery solutions, which are critical for scalability and reliability in distributed systems."
   }
 ]
