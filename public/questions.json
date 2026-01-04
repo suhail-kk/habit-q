@@ -1102,5 +1102,17 @@
     "answer": "B. Use a centralized service registry and consider load balancing mechanisms.",
     "date": "2026-01-03T01:49:06.918Z",
     "reason": "This question assesses the candidate's understanding of microservices architecture and their ability to implement effective service discovery solutions, which are critical for scalability and reliability in distributed systems."
+  },
+  {
+    "question": "Can you discuss the trade-offs you considered when implementing a database solution for a high-traffic application using both SQL and NoSQL databases? How did you determine which type of database to use for specific use cases within the application?",
+    "options": [
+      "Focusing solely on SQL for all use cases to maintain consistency.",
+      "Using NoSQL for all data storage to avoid complex queries.",
+      "Evaluating the strengths and weaknesses of both types of databases for specific use cases.",
+      "Choosing a database based on personal preference rather than application needs."
+    ],
+    "answer": "Evaluating the strengths and weaknesses of both types of databases for specific use cases.",
+    "date": "2026-01-04T02:05:01.813Z",
+    "reason": "This question assesses the candidate's understanding of database technologies and their ability to make informed architectural decisions based on application requirements, performance, and scalability considerations."
   }
 ]
