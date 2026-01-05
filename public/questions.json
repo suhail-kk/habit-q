@@ -1114,5 +1114,17 @@
     "answer": "Evaluating the strengths and weaknesses of both types of databases for specific use cases.",
     "date": "2026-01-04T02:05:01.813Z",
     "reason": "This question assesses the candidate's understanding of database technologies and their ability to make informed architectural decisions based on application requirements, performance, and scalability considerations."
+  },
+  {
+    "question": "Can you describe your approach to designing a data processing pipeline that integrates both batch and real-time data processing in a cloud environment? What architectural patterns and AWS services would you consider, and how would you ensure data consistency and reliability across different processing methods?",
+    "options": [
+      "1. Implement only batch processing using AWS Glue and S3.",
+      "2. Use AWS Lambda for real-time processing and AWS Batch for batch jobs, ensuring data is synchronized using AWS Kinesis.",
+      "3. Rely solely on relational databases for both batch and real-time processing.",
+      "4. Create a monolithic application that handles both processing types without using any cloud services."
+    ],
+    "answer": "2. Use AWS Lambda for real-time processing and AWS Batch for batch jobs, ensuring data is synchronized using AWS Kinesis.",
+    "date": "2026-01-05T02:05:02.918Z",
+    "reason": "This question assesses a candidate's understanding of data processing architectures, their ability to integrate different processing types, and their familiarity with cloud services, which are essential in modern software development."
   }
 ]
