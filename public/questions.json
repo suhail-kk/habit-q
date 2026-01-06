@@ -1126,5 +1126,17 @@
     "answer": "2. Use AWS Lambda for real-time processing and AWS Batch for batch jobs, ensuring data is synchronized using AWS Kinesis.",
     "date": "2026-01-05T02:05:02.918Z",
     "reason": "This question assesses a candidate's understanding of data processing architectures, their ability to integrate different processing types, and their familiarity with cloud services, which are essential in modern software development."
+  },
+  {
+    "question": "Can you explain how you would implement a data versioning strategy in a microservices architecture, particularly focusing on how to handle schema changes in both SQL and NoSQL databases? What challenges do you foresee, and how would you address them?",
+    "options": [
+      "A) By creating separate databases for each version of the schema.",
+      "B) By using a versioning library that handles migrations automatically.",
+      "C) By implementing backward-compatible changes and using feature flags to manage different versions.",
+      "D) By ignoring versioning and relying on application code to adapt to schema changes."
+    ],
+    "answer": "C",
+    "date": "2026-01-06T01:55:09.292Z",
+    "reason": "This question assesses the candidate's understanding of data versioning in a microservices context, including their ability to manage schema changes effectively while minimizing disruptions to the application. It also gauges their foresight in anticipating challenges and considering solutions."
   }
 ]
