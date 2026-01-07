@@ -1138,5 +1138,17 @@
     "answer": "C",
     "date": "2026-01-06T01:55:09.292Z",
     "reason": "This question assesses the candidate's understanding of data versioning in a microservices context, including their ability to manage schema changes effectively while minimizing disruptions to the application. It also gauges their foresight in anticipating challenges and considering solutions."
+  },
+  {
+    "question": "Can you describe your experience with implementing distributed tracing in microservices architecture? What tools have you used, and how did you ensure visibility across services for performance monitoring and issue diagnosis?",
+    "options": [
+      "a) I have not used distributed tracing in my projects.",
+      "b) I have experience with distributed tracing, primarily using tools like Jaeger and OpenTelemetry.",
+      "c) My experience is mostly with traditional logging methods, and I haven't explored distributed tracing yet.",
+      "d) I prefer to rely on manual debugging instead of using automated tracing tools."
+    ],
+    "answer": "b) I have experience with distributed tracing, primarily using tools like Jaeger and OpenTelemetry.",
+    "date": "2026-01-07T01:55:02.629Z",
+    "reason": "This question assesses the candidate's understanding and practical experience with monitoring and performance optimization in microservices, which is crucial in modern cloud-native applications."
   }
 ]
