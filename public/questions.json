@@ -1150,5 +1150,17 @@
     "answer": "b) I have experience with distributed tracing, primarily using tools like Jaeger and OpenTelemetry.",
     "date": "2026-01-07T01:55:02.629Z",
     "reason": "This question assesses the candidate's understanding and practical experience with monitoring and performance optimization in microservices, which is crucial in modern cloud-native applications."
+  },
+  {
+    "question": "Can you describe a situation where you had to design a testing strategy for a complex application deployed on a cloud environment? What types of tests did you implement, what tools did you choose, and how did you ensure that the testing strategy contributed to the overall reliability and performance of the application?",
+    "options": [
+      "A) Focused only on unit testing without considering integration or end-to-end tests.",
+      "B) Implemented a mix of unit, integration, and end-to-end tests using tools like Jest and Cypress, ensuring coverage across the application.",
+      "C) Only used manual testing to validate application features before deployment.",
+      "D) Focused solely on performance testing without considering functionality."
+    ],
+    "answer": "B",
+    "date": "2026-01-08T01:55:27.324Z",
+    "reason": "This question assesses the candidate's understanding of testing strategies in a cloud environment, including the importance of various testing types and the tools used to ensure application reliability and performance."
   }
 ]
