@@ -1174,5 +1174,17 @@
     "answer": "C. Implement automated testing, version control, and monitoring while utilizing tools like Jenkins, Docker, and Kubernetes.",
     "date": "2026-01-09T01:56:22.956Z",
     "reason": "This question assesses the candidate's understanding of modern CI/CD practices and tools, which are crucial for maintaining efficient workflow and ensuring reliability in microservices deployments."
+  },
+  {
+    "question": "Can you describe your approach to implementing a multi-tenant architecture in a cloud application, particularly focusing on how you would manage data isolation, security, and performance across different tenants?",
+    "options": [
+      "Implement separate databases for each tenant to ensure complete data isolation.",
+      "Use a single database with tenant IDs to segregate data, applying strict access controls.",
+      "Utilize a hybrid model where some tenants share resources while others have dedicated instances.",
+      "All of the above are valid approaches depending on the specific requirements."
+    ],
+    "answer": "All of the above are valid approaches depending on the specific requirements.",
+    "date": "2026-01-10T01:52:19.146Z",
+    "reason": "This question assesses the candidate's understanding of multi-tenant architecture, data security, and scalability considerations, which are critical in cloud applications."
   }
 ]
