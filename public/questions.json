@@ -1186,5 +1186,17 @@
     "answer": "All of the above are valid approaches depending on the specific requirements.",
     "date": "2026-01-10T01:52:19.146Z",
     "reason": "This question assesses the candidate's understanding of multi-tenant architecture, data security, and scalability considerations, which are critical in cloud applications."
+  },
+  {
+    "question": "Can you discuss your experience with designing and implementing a scalable and resilient data processing pipeline in a cloud environment? What architectural patterns and technologies did you choose, and how did you ensure data integrity, performance, and fault tolerance throughout the process?",
+    "options": [
+      "A. I primarily use waterfall methodology to design data pipelines, focusing on detailed planning.",
+      "B. I have experience only with traditional on-premises data processing, not in the cloud.",
+      "C. I have implemented data processing pipelines using Lambda and S3, ensuring fault tolerance with retries and versioning.",
+      "D. My focus has been on front-end development, so I have limited experience with data pipelines."
+    ],
+    "answer": "C. I have implemented data processing pipelines using Lambda and S3, ensuring fault tolerance with retries and versioning.",
+    "date": "2026-01-11T02:04:41.613Z",
+    "reason": "This question assesses the candidate's hands-on experience with cloud technologies and their understanding of architectural patterns, performance optimization, and data integrity in modern data processing solutions."
   }
 ]
