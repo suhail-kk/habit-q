@@ -1198,5 +1198,17 @@
     "answer": "C. I have implemented data processing pipelines using Lambda and S3, ensuring fault tolerance with retries and versioning.",
     "date": "2026-01-11T02:04:41.613Z",
     "reason": "This question assesses the candidate's hands-on experience with cloud technologies and their understanding of architectural patterns, performance optimization, and data integrity in modern data processing solutions."
+  },
+  {
+    "question": "Can you describe your approach to implementing security best practices in a microservices architecture? What strategies would you employ for authentication and authorization across services, and how would you safeguard against common vulnerabilities?",
+    "options": [
+      "Implement a single sign-on (SSO) solution for user authentication across all services.",
+      "Use API keys for service authentication and rely on network security groups for access control.",
+      "Adopt OAuth 2.0 for delegated authorization and implement JWT for secure token handling.",
+      "Secure each service independently without a centralized security approach."
+    ],
+    "answer": "Adopt OAuth 2.0 for delegated authorization and implement JWT for secure token handling.",
+    "date": "2026-01-12T02:01:24.662Z",
+    "reason": "This question evaluates the candidate's understanding of security in microservices and their familiarity with modern authentication and authorization protocols, which are crucial for protecting against vulnerabilities in distributed systems."
   }
 ]
