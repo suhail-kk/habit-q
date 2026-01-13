@@ -1210,5 +1210,17 @@
     "answer": "Adopt OAuth 2.0 for delegated authorization and implement JWT for secure token handling.",
     "date": "2026-01-12T02:01:24.662Z",
     "reason": "This question evaluates the candidate's understanding of security in microservices and their familiarity with modern authentication and authorization protocols, which are crucial for protecting against vulnerabilities in distributed systems."
+  },
+  {
+    "question": "Can you describe a situation where you had to design a system that handles real-time data streaming and processing using Node.js and AWS services? What architectural choices did you make to ensure scalability and fault tolerance, and how did you address potential challenges such as data loss and message ordering?",
+    "options": [
+      "A. By using a monolithic application approach and focusing on local processing only.",
+      "B. By implementing a serverless architecture with AWS Lambda, Kinesis for streaming, and S3 for storage.",
+      "C. By choosing to use only SQL databases for data storage without considering NoSQL options.",
+      "D. By ignoring error handling and focusing solely on high throughput."
+    ],
+    "answer": "B",
+    "date": "2026-01-13T01:52:56.250Z",
+    "reason": "This question assesses the candidate's ability to design scalable and reliable systems for real-time data processing, which is crucial in modern application development, especially when using cloud technologies."
   }
 ]
