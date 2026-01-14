@@ -1222,5 +1222,17 @@
     "answer": "B",
     "date": "2026-01-13T01:52:56.250Z",
     "reason": "This question assesses the candidate's ability to design scalable and reliable systems for real-time data processing, which is crucial in modern application development, especially when using cloud technologies."
+  },
+  {
+    "question": "Can you describe your approach to implementing a data versioning strategy in a microservices architecture, particularly focusing on how to handle schema changes in both SQL and NoSQL databases? What challenges do you foresee, and how would you address them?",
+    "options": [
+      "Implement a strict versioning system for all databases and require all services to update simultaneously.",
+      "Use a backward-compatible schema design and implement feature flags to manage versions in live environments.",
+      "Avoid changes to database schemas and rely on application-side logic to handle differences.",
+      "Regularly snapshot the entire database and create separate instances for each version of the service."
+    ],
+    "answer": "Use a backward-compatible schema design and implement feature flags to manage versions in live environments.",
+    "date": "2026-01-14T01:59:58.227Z",
+    "reason": "This question assesses the candidate's understanding of data management practices in microservices, particularly how to handle schema evolution in a way that minimizes disruption and maintains data integrity across services."
   }
 ]
