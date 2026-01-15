@@ -1234,5 +1234,17 @@
     "answer": "Use a backward-compatible schema design and implement feature flags to manage versions in live environments.",
     "date": "2026-01-14T01:59:58.227Z",
     "reason": "This question assesses the candidate's understanding of data management practices in microservices, particularly how to handle schema evolution in a way that minimizes disruption and maintains data integrity across services."
+  },
+  {
+    "question": "Can you describe a scenario where you had to design a flexible caching strategy for a web application using Node.js? Discuss the factors you considered in selecting the caching mechanism, how you handled cache invalidation, and the impact on application performance.",
+    "options": [
+      "Using a simple in-memory cache with no expiration policy.",
+      "Implementing a distributed caching system with a precise cache eviction strategy.",
+      "Relying solely on the database for data retrieval and not using any caching.",
+      "Using local storage in the browser for caching API responses."
+    ],
+    "answer": "Implementing a distributed caching system with a precise cache eviction strategy.",
+    "date": "2026-01-15T01:55:08.583Z",
+    "reason": "This question assesses a candidate's understanding of caching strategies, their impact on performance, and the complexities involved in cache management, which are critical for building scalable web applications."
   }
 ]
