@@ -1246,5 +1246,17 @@
     "answer": "Implementing a distributed caching system with a precise cache eviction strategy.",
     "date": "2026-01-15T01:55:08.583Z",
     "reason": "This question assesses a candidate's understanding of caching strategies, their impact on performance, and the complexities involved in cache management, which are critical for building scalable web applications."
+  },
+  {
+    "question": "Can you describe a complex application you developed that required a careful consideration of both performance and scalability? What specific strategies did you implement to address these challenges, and how did you measure the effectiveness of your solutions?",
+    "options": [
+      "A single-page application with a focus on client-side rendering and caching.",
+      "A data processing pipeline that leveraged cloud services for storage and computation.",
+      "A real-time chat application that utilized websockets for communication.",
+      "An e-commerce platform that integrated multiple payment gateways and inventory management systems."
+    ],
+    "answer": "A data processing pipeline that leveraged cloud services for storage and computation.",
+    "date": "2026-01-16T01:56:52.466Z",
+    "reason": "This question assesses a candidate's ability to think critically about real-world performance and scalability issues, their experience with complex systems, and their approach to measuring the success of their strategies."
   }
 ]
