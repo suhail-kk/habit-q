@@ -1258,5 +1258,17 @@
     "answer": "A data processing pipeline that leveraged cloud services for storage and computation.",
     "date": "2026-01-16T01:56:52.466Z",
     "reason": "This question assesses a candidate's ability to think critically about real-world performance and scalability issues, their experience with complex systems, and their approach to measuring the success of their strategies."
+  },
+  {
+    "question": "Can you describe how you would implement a strategy for managing state in a large-scale React application? What patterns or libraries would you consider using, and how would you ensure that state updates are efficient and maintainable across multiple components?",
+    "options": [
+      "Using Redux for global state management and Context API for component-level state",
+      "Relying solely on local component state without any state management libraries",
+      "Using MobX for state management and directly mutating the state in components",
+      "Implementing custom hooks for each component to manage its own state independently"
+    ],
+    "answer": "Using Redux for global state management and Context API for component-level state",
+    "date": "2026-01-17T01:51:02.948Z",
+    "reason": "This question assesses the candidate's understanding of state management in React applications, which is crucial for ensuring scalability and maintainability. It gauges their familiarity with modern patterns and libraries, as well as their ability to design efficient state management strategies."
   }
 ]
