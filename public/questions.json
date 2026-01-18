@@ -1270,5 +1270,17 @@
     "answer": "Using Redux for global state management and Context API for component-level state",
     "date": "2026-01-17T01:51:02.948Z",
     "reason": "This question assesses the candidate's understanding of state management in React applications, which is crucial for ensuring scalability and maintainability. It gauges their familiarity with modern patterns and libraries, as well as their ability to design efficient state management strategies."
+  },
+  {
+    "question": "Can you describe your approach to designing an API that supports both synchronous and asynchronous operations in a Node.js application? What considerations would you take into account regarding user experience, error handling, and overall architecture?",
+    "options": [
+      "Implement separate endpoints for synchronous and asynchronous operations.",
+      "Use a single endpoint that automatically determines the operation type based on request parameters.",
+      "Provide a unified response structure for both operation types to enhance consistency.",
+      "Focus solely on asynchronous operations to improve performance."
+    ],
+    "answer": "Provide a unified response structure for both operation types to enhance consistency.",
+    "date": "2026-01-18T02:03:43.955Z",
+    "reason": "This question assesses the candidate's understanding of API design principles, including synchronous vs asynchronous operations, user experience considerations, and error handling, which are critical for building robust and user-friendly applications."
   }
 ]
