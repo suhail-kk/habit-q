@@ -1282,5 +1282,17 @@
     "answer": "Provide a unified response structure for both operation types to enhance consistency.",
     "date": "2026-01-18T02:03:43.955Z",
     "reason": "This question assesses the candidate's understanding of API design principles, including synchronous vs asynchronous operations, user experience considerations, and error handling, which are critical for building robust and user-friendly applications."
+  },
+  {
+    "question": "Can you describe your approach to designing a fault-tolerant system in a cloud environment? What AWS services would you utilize, and how would you ensure high availability and data integrity in case of failures?",
+    "options": [
+      "1. By primarily using a single instance of EC2 and relying on manual backups.",
+      "2. Utilizing AWS services like Elastic Load Balancing, Auto Scaling, and RDS with Multi-AZ deployments to distribute traffic and ensure redundancy.",
+      "3. Focusing solely on cost reduction by using the least expensive services available.",
+      "4. Implementing a system without consideration for monitoring and alerting."
+    ],
+    "answer": "2",
+    "date": "2026-01-19T02:01:40.908Z",
+    "reason": "This question assesses the candidate's understanding of cloud architecture principles, especially regarding fault tolerance, high availability, and the appropriate use of AWS services. It also encourages the candidate to think critically about design decisions that impact system reliability."
   }
 ]
