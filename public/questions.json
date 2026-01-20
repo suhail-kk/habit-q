@@ -1294,5 +1294,17 @@
     "answer": "2",
     "date": "2026-01-19T02:01:40.908Z",
     "reason": "This question assesses the candidate's understanding of cloud architecture principles, especially regarding fault tolerance, high availability, and the appropriate use of AWS services. It also encourages the candidate to think critically about design decisions that impact system reliability."
+  },
+  {
+    "question": "Can you discuss how you would implement a monitoring and observability strategy for a microservices architecture deployed on AWS? What tools would you use, and how would you ensure that you can effectively trace requests, monitor performance, and diagnose issues across services?",
+    "options": [
+      "Use AWS CloudWatch for all metrics and logs, without integrating third-party tools.",
+      "Implement a centralized logging solution using AWS services only, without considering external tools.",
+      "Utilize a combination of AWS services (like CloudWatch and X-Ray) along with open-source tools (like Prometheus and Grafana) to provide comprehensive monitoring.",
+      "Rely solely on manual monitoring and logging to identify performance issues in production."
+    ],
+    "answer": "Utilize a combination of AWS services (like CloudWatch and X-Ray) along with open-source tools (like Prometheus and Grafana) to provide comprehensive monitoring.",
+    "date": "2026-01-20T01:56:38.287Z",
+    "reason": "This question assesses the candidate's understanding of monitoring and observability in a complex microservices architecture, including their knowledge of appropriate tools and strategies for effective systems management."
   }
 ]
