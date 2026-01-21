@@ -1306,5 +1306,17 @@
     "answer": "Utilize a combination of AWS services (like CloudWatch and X-Ray) along with open-source tools (like Prometheus and Grafana) to provide comprehensive monitoring.",
     "date": "2026-01-20T01:56:38.287Z",
     "reason": "This question assesses the candidate's understanding of monitoring and observability in a complex microservices architecture, including their knowledge of appropriate tools and strategies for effective systems management."
+  },
+  {
+    "question": "Can you discuss your approach to designing a data processing pipeline that integrates both batch and real-time data processing in a cloud environment? What architectural patterns and AWS services would you consider, and how would you ensure data consistency and reliability across different processing methods?",
+    "options": [
+      "A) Use AWS Glue for batch processing and AWS Kinesis for real-time streaming, ensuring data is stored in S3 for consistency.",
+      "B) Rely solely on AWS Lambda for all processing tasks, without considering data reliability.",
+      "C) Implement a monolithic architecture that does not separate batch and real-time processing.",
+      "D) Use an on-premises solution for batch processing and avoid cloud services for real-time data."
+    ],
+    "answer": "A",
+    "date": "2026-01-21T01:59:32.742Z",
+    "reason": "This question assesses the candidate's understanding of data processing architectures, their familiarity with AWS services, and their ability to design for both batch and real-time data consistency, which is crucial for modern cloud applications."
   }
 ]
