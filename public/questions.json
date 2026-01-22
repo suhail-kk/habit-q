@@ -1318,5 +1318,17 @@
     "answer": "A",
     "date": "2026-01-21T01:59:32.742Z",
     "reason": "This question assesses the candidate's understanding of data processing architectures, their familiarity with AWS services, and their ability to design for both batch and real-time data consistency, which is crucial for modern cloud applications."
+  },
+  {
+    "question": "Can you explain the considerations and challenges of implementing a strategy for managing distributed transactions in a microservices architecture? What approaches would you use to ensure data consistency and integrity across services?",
+    "options": [
+      "Use a two-phase commit protocol to synchronize transactions across services.",
+      "Implement eventual consistency with compensating transactions and versioning.",
+      "Rely on strong consistency guarantees provided by the database.",
+      "Utilize a centralized transaction manager to control all service interactions."
+    ],
+    "answer": "Implement eventual consistency with compensating transactions and versioning.",
+    "date": "2026-01-22T02:00:15.022Z",
+    "reason": "This question assesses the candidate's understanding of the complexities involved in managing distributed transactions, while also evaluating their knowledge of strategies for ensuring data consistency and integrity, which are crucial in microservices architectures."
   }
 ]
