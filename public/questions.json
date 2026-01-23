@@ -1330,5 +1330,17 @@
     "answer": "Implement eventual consistency with compensating transactions and versioning.",
     "date": "2026-01-22T02:00:15.022Z",
     "reason": "This question assesses the candidate's understanding of the complexities involved in managing distributed transactions, while also evaluating their knowledge of strategies for ensuring data consistency and integrity, which are crucial in microservices architectures."
+  },
+  {
+    "question": "Can you explain your approach to implementing a distributed tracing strategy in a microservices architecture? What tools and practices would you adopt to ensure effective visibility and performance monitoring across different services?",
+    "options": [
+      "Use centralized logging without tracing to monitor services.",
+      "Implement tracing only for critical services and ignore others.",
+      "Integrate a dedicated tracing tool like Jaeger or Zipkin for end-to-end visibility.",
+      "Rely solely on application performance metrics without tracing."
+    ],
+    "answer": "Integrate a dedicated tracing tool like Jaeger or Zipkin for end-to-end visibility.",
+    "date": "2026-01-23T01:56:23.986Z",
+    "reason": "This question assesses the candidate's understanding of observability in microservices, which is crucial for diagnosing performance issues and ensuring system reliability."
   }
 ]
