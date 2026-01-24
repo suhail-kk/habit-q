@@ -1342,5 +1342,17 @@
     "answer": "Integrate a dedicated tracing tool like Jaeger or Zipkin for end-to-end visibility.",
     "date": "2026-01-23T01:56:23.986Z",
     "reason": "This question assesses the candidate's understanding of observability in microservices, which is crucial for diagnosing performance issues and ensuring system reliability."
+  },
+  {
+    "question": "Can you describe your approach to implementing a service discovery mechanism in a microservices architecture? What considerations would you take into account regarding scalability, fault tolerance, and the choice of tools?",
+    "options": [
+      "I would rely solely on static IP addresses and hostnames for communication between services.",
+      "I would use a dedicated service discovery tool like Consul or Eureka, considering how they handle service registration, health checks, and scalability.",
+      "I would avoid using service discovery entirely and implement direct communication between microservices.",
+      "I would implement service discovery only if the application traffic exceeded a certain threshold."
+    ],
+    "answer": "I would use a dedicated service discovery tool like Consul or Eureka, considering how they handle service registration, health checks, and scalability.",
+    "date": "2026-01-24T01:52:55.578Z",
+    "reason": "This question assesses the candidate's understanding of microservices architecture, specifically their knowledge of service discovery mechanisms, which are crucial for managing communication and scalability in distributed systems."
   }
 ]
