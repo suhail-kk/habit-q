@@ -1354,5 +1354,17 @@
     "answer": "I would use a dedicated service discovery tool like Consul or Eureka, considering how they handle service registration, health checks, and scalability.",
     "date": "2026-01-24T01:52:55.578Z",
     "reason": "This question assesses the candidate's understanding of microservices architecture, specifically their knowledge of service discovery mechanisms, which are crucial for managing communication and scalability in distributed systems."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a data versioning strategy in a microservices architecture, particularly focusing on how to handle schema changes in both SQL and NoSQL databases? What challenges do you foresee, and how would you address them?",
+    "options": [
+      "1. Implement versioning through database triggers and stored procedures.",
+      "2. Use a single database for all microservices to avoid versioning issues.",
+      "3. Adopt a schema migration tool and establish a clear versioning policy for APIs.",
+      "4. Ignore schema changes and let the application break on updates."
+    ],
+    "answer": "3. Adopt a schema migration tool and establish a clear versioning policy for APIs.",
+    "date": "2026-01-25T02:07:02.710Z",
+    "reason": "This question assesses the candidate's understanding of managing data schema changes in a microservices environment, which is critical for maintaining system stability and ensuring smooth deployments while allowing for iterative development."
   }
 ]
