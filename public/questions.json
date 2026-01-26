@@ -1366,5 +1366,17 @@
     "answer": "3. Adopt a schema migration tool and establish a clear versioning policy for APIs.",
     "date": "2026-01-25T02:07:02.710Z",
     "reason": "This question assesses the candidate's understanding of managing data schema changes in a microservices environment, which is critical for maintaining system stability and ensuring smooth deployments while allowing for iterative development."
+  },
+  {
+    "question": "Can you describe your approach to implementing a strategy for managing distributed transactions in a microservices architecture? What approaches would you use to ensure data consistency and integrity across services?",
+    "options": [
+      "Utilizing the Saga pattern to manage transaction coordination across services",
+      "Implementing two-phase commit protocol for strict consistency",
+      "Relying solely on eventual consistency without any transaction management",
+      "Using a centralized database to manage all transactions"
+    ],
+    "answer": "Utilizing the Saga pattern to manage transaction coordination across services",
+    "date": "2026-01-26T02:06:19.510Z",
+    "reason": "This question assesses the candidate's understanding of transaction management in distributed systems, which is crucial for maintaining data integrity and consistency in microservices architectures, especially when dealing with complex workflows."
   }
 ]
