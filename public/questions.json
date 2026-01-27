@@ -1378,5 +1378,17 @@
     "answer": "Utilizing the Saga pattern to manage transaction coordination across services",
     "date": "2026-01-26T02:06:19.510Z",
     "reason": "This question assesses the candidate's understanding of transaction management in distributed systems, which is crucial for maintaining data integrity and consistency in microservices architectures, especially when dealing with complex workflows."
+  },
+  {
+    "question": "Can you discuss the strategies you would employ to ensure data consistency and integrity in a microservices architecture, particularly when using different types of databases such as SQL and NoSQL? Please include handling eventual consistency and distributed transactions.",
+    "options": [
+      "Implementing two-phase commits across services to ensure strong consistency.",
+      "Using event sourcing to capture state changes and providing a strong consistency model.",
+      "Adopting eventual consistency with compensating transactions and sagas to manage data integrity.",
+      "Relying solely on database-level constraints to maintain consistency."
+    ],
+    "answer": "Adopting eventual consistency with compensating transactions and sagas to manage data integrity.",
+    "date": "2026-01-27T02:02:57.172Z",
+    "reason": "This question assesses the candidate's understanding of complex data management in microservices, including strategies for ensuring consistency and handling challenges like distributed transactions, which are critical for maintaining system integrity in a distributed environment."
   }
 ]
