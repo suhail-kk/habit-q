@@ -1390,5 +1390,17 @@
     "answer": "Adopting eventual consistency with compensating transactions and sagas to manage data integrity.",
     "date": "2026-01-27T02:02:57.172Z",
     "reason": "This question assesses the candidate's understanding of complex data management in microservices, including strategies for ensuring consistency and handling challenges like distributed transactions, which are critical for maintaining system integrity in a distributed environment."
+  },
+  {
+    "question": "Can you discuss how you would approach implementing an event-driven architecture in a Node.js application? What key components would you include, and how would you handle challenges such as message ordering and system scalability?",
+    "options": [
+      "By using a centralized database for all events and processing them synchronously.",
+      "By integrating a message broker for decoupling services, utilizing event sourcing, and ensuring scalability through load balancing.",
+      "By relying solely on HTTP endpoints for communication between services.",
+      "By implementing a monolithic architecture with tightly coupled services."
+    ],
+    "answer": "By integrating a message broker for decoupling services, utilizing event sourcing, and ensuring scalability through load balancing.",
+    "date": "2026-01-28T01:58:58.380Z",
+    "reason": "This question assesses the candidate's understanding of event-driven architecture, their ability to design scalable systems, and their experience with potential challenges in implementing such architectures."
   }
 ]
