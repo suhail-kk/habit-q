@@ -1402,5 +1402,17 @@
     "answer": "By integrating a message broker for decoupling services, utilizing event sourcing, and ensuring scalability through load balancing.",
     "date": "2026-01-28T01:58:58.380Z",
     "reason": "This question assesses the candidate's understanding of event-driven architecture, their ability to design scalable systems, and their experience with potential challenges in implementing such architectures."
+  },
+  {
+    "question": "Can you describe a time when you had to implement a complex data access layer in a Node.js application interacting with both SQL and NoSQL databases? What design considerations did you prioritize to ensure performance, maintainability, and data consistency?",
+    "options": [
+      "A) Focused solely on SQL to streamline the development process.",
+      "B) Used ORM for SQL and a simple query builder for NoSQL without considering scalability.",
+      "C) Designed an abstraction layer to manage interactions with both databases, ensuring data consistency and optimizing query performance.",
+      "D) Implemented a direct connection to both databases without any form of abstraction."
+    ],
+    "answer": "C",
+    "date": "2026-01-29T02:13:14.431Z",
+    "reason": "This question assesses the candidate's experience with data architecture in a mixed-database environment, which is critical for designing scalable and maintainable applications. It also evaluates their understanding of performance optimization and data consistency challenges."
   }
 ]
