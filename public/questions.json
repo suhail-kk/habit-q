@@ -1414,5 +1414,17 @@
     "answer": "C",
     "date": "2026-01-29T02:13:14.431Z",
     "reason": "This question assesses the candidate's experience with data architecture in a mixed-database environment, which is critical for designing scalable and maintainable applications. It also evaluates their understanding of performance optimization and data consistency challenges."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive security strategy for a Node.js application deployed on AWS? What specific areas would you focus on to ensure data protection and compliance with security best practices?",
+    "options": [
+      "A. I would primarily focus on user authentication and ignore network security.",
+      "B. I would implement encryption for data at rest and in transit, configure IAM roles and policies, and regularly update dependencies to mitigate vulnerabilities.",
+      "C. I would rely solely on AWS's built-in security features without customizing them.",
+      "D. I would not consider compliance unless specifically required by the client."
+    ],
+    "answer": "B. I would implement encryption for data at rest and in transit, configure IAM roles and policies, and regularly update dependencies to mitigate vulnerabilities.",
+    "date": "2026-01-30T02:20:40.732Z",
+    "reason": "This question helps evaluate a candidate's understanding of security best practices in both application development and cloud deployment, as well as their ability to integrate security measures into a broader architecture."
   }
 ]
