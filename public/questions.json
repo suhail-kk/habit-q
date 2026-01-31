@@ -1426,5 +1426,17 @@
     "answer": "B. I would implement encryption for data at rest and in transit, configure IAM roles and policies, and regularly update dependencies to mitigate vulnerabilities.",
     "date": "2026-01-30T02:20:40.732Z",
     "reason": "This question helps evaluate a candidate's understanding of security best practices in both application development and cloud deployment, as well as their ability to integrate security measures into a broader architecture."
+  },
+  {
+    "question": "Can you discuss how you would implement a comprehensive security strategy for a microservices architecture deployed on AWS? What specific areas would you focus on to ensure data protection and compliance with security best practices?",
+    "options": [
+      "1. Implementing API keys and using IAM roles for access control.",
+      "2. Focusing solely on encryption mechanisms without considering network security.",
+      "3. Relying on default AWS security settings without further configurations.",
+      "4. Ensuring that only internal communications are secured while ignoring external threats."
+    ],
+    "answer": "1. Implementing API keys and using IAM roles for access control.",
+    "date": "2026-01-31T02:09:32.908Z",
+    "reason": "This question assesses the candidate's understanding of security best practices in a microservices architecture, including the importance of access control, encryption, and compliance, which are critical in protecting sensitive data and maintaining system integrity."
   }
 ]
