@@ -1438,5 +1438,17 @@
     "answer": "1. Implementing API keys and using IAM roles for access control.",
     "date": "2026-01-31T02:09:32.908Z",
     "reason": "This question assesses the candidate's understanding of security best practices in a microservices architecture, including the importance of access control, encryption, and compliance, which are critical in protecting sensitive data and maintaining system integrity."
+  },
+  {
+    "question": "Can you describe your approach to designing a scalable event-driven architecture using AWS services? What key components would you include, how would you handle event sourcing, and what challenges do you anticipate?",
+    "options": [
+      "Focusing solely on AWS Lambda functions for processing events.",
+      "Implementing a synchronous architecture to simplify data flow.",
+      "Leveraging services like AWS SQS, SNS, and DynamoDB for event handling, while considering eventual consistency and system scalability.",
+      "Using a monolithic design to manage all events in a single service."
+    ],
+    "answer": "Leveraging services like AWS SQS, SNS, and DynamoDB for event handling, while considering eventual consistency and system scalability.",
+    "date": "2026-02-01T02:39:04.778Z",
+    "reason": "This question assesses the candidate's understanding of event-driven architecture principles, their familiarity with AWS services, and their ability to anticipate and solve potential challenges in scalability and consistency."
   }
 ]
