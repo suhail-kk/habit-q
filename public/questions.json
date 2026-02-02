@@ -1450,5 +1450,17 @@
     "answer": "Leveraging services like AWS SQS, SNS, and DynamoDB for event handling, while considering eventual consistency and system scalability.",
     "date": "2026-02-01T02:39:04.778Z",
     "reason": "This question assesses the candidate's understanding of event-driven architecture principles, their familiarity with AWS services, and their ability to anticipate and solve potential challenges in scalability and consistency."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a caching strategy in a Node.js application that interacts with both SQL and NoSQL databases? How do you decide what to cache, and what methods do you employ to ensure cache consistency and performance?",
+    "options": [
+      "1. I focus on caching database results only and use in-memory storage for caching.",
+      "2. I prioritize caching static files and avoid database caching altogether.",
+      "3. I analyze data access patterns, cache frequently accessed data, and implement strategies for cache invalidation and expiration.",
+      "4. I cache all queries indiscriminately to improve performance without analyzing their usage."
+    ],
+    "answer": "3. I analyze data access patterns, cache frequently accessed data, and implement strategies for cache invalidation and expiration.",
+    "date": "2026-02-02T02:29:26.884Z",
+    "reason": "This question assesses the candidate's understanding of caching principles, their ability to analyze application needs, and their strategies for maintaining cache integrity, which are crucial for optimizing performance in applications that leverage both SQL and NoSQL databases."
   }
 ]
