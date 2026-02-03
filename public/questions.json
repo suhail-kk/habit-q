@@ -1462,5 +1462,17 @@
     "answer": "3. I analyze data access patterns, cache frequently accessed data, and implement strategies for cache invalidation and expiration.",
     "date": "2026-02-02T02:29:26.884Z",
     "reason": "This question assesses the candidate's understanding of caching principles, their ability to analyze application needs, and their strategies for maintaining cache integrity, which are crucial for optimizing performance in applications that leverage both SQL and NoSQL databases."
+  },
+  {
+    "question": "Can you describe your approach to designing a resilient microservices architecture on AWS? What specific AWS services would you leverage, and how would you ensure that the system can handle failures while maintaining data consistency?",
+    "options": [
+      "I would focus on using EC2 and RDS with a monolithic design.",
+      "I would use Lambda functions and S3 for storage without considering fault tolerance.",
+      "I would employ API Gateway, Lambda, and DynamoDB, implementing redundancy and monitoring for resilience.",
+      "I would avoid using microservices and stick to a monolithic architecture for simplicity."
+    ],
+    "answer": "I would employ API Gateway, Lambda, and DynamoDB, implementing redundancy and monitoring for resilience.",
+    "date": "2026-02-03T02:27:12.412Z",
+    "reason": "This question assesses the candidate's understanding of cloud architecture, their ability to design resilient systems using AWS services, and their knowledge of maintaining data consistency in a microservices environment."
   }
 ]
