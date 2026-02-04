@@ -1474,5 +1474,17 @@
     "answer": "I would employ API Gateway, Lambda, and DynamoDB, implementing redundancy and monitoring for resilience.",
     "date": "2026-02-03T02:27:12.412Z",
     "reason": "This question assesses the candidate's understanding of cloud architecture, their ability to design resilient systems using AWS services, and their knowledge of maintaining data consistency in a microservices environment."
+  },
+  {
+    "question": "Can you describe your approach to managing state in a large-scale React application? What patterns or libraries would you consider using, and how would you ensure that state updates are efficient and maintainable across multiple components?",
+    "options": [
+      "Using local component state for all data and managing updates through props",
+      "Utilizing a global state management library like Redux or Context API while implementing memoization to optimize renders",
+      "Storing all application state in the URL and relying on React Router for updates",
+      "Only using class components to maintain state for better performance"
+    ],
+    "answer": "Utilizing a global state management library like Redux or Context API while implementing memoization to optimize renders",
+    "date": "2026-02-04T02:21:56.565Z",
+    "reason": "This question assesses the candidate's understanding of state management in React, which is crucial for building scalable applications. It also evaluates their knowledge of performance optimization techniques, ensuring they can maintain efficient and maintainable code as the application grows."
   }
 ]
