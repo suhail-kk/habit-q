@@ -1486,5 +1486,17 @@
     "answer": "Utilizing a global state management library like Redux or Context API while implementing memoization to optimize renders",
     "date": "2026-02-04T02:21:56.565Z",
     "reason": "This question assesses the candidate's understanding of state management in React, which is crucial for building scalable applications. It also evaluates their knowledge of performance optimization techniques, ensuring they can maintain efficient and maintainable code as the application grows."
+  },
+  {
+    "question": "Can you explain how you would approach designing a scalable data processing system that utilizes both AWS services and a microservices architecture? Discuss the choices you would make for data storage, communication between services, and how you would handle scaling during peak loads.",
+    "options": [
+      "Focusing solely on a single relational database for all data storage to simplify management.",
+      "Using a combination of SQL and NoSQL databases based on the specific use cases of the microservices.",
+      "Implementing a monolithic architecture to reduce the complexity of integration between services.",
+      "Choosing to ignore scalability and focus on immediate functionality."
+    ],
+    "answer": "Using a combination of SQL and NoSQL databases based on the specific use cases of the microservices.",
+    "date": "2026-02-05T02:23:13.340Z",
+    "reason": "This question assesses the candidate's understanding of distributed systems, data storage strategies, and their ability to design scalable architectures, which are crucial for modern cloud-based applications."
   }
 ]
