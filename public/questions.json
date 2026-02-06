@@ -1498,5 +1498,17 @@
     "answer": "Using a combination of SQL and NoSQL databases based on the specific use cases of the microservices.",
     "date": "2026-02-05T02:23:13.340Z",
     "reason": "This question assesses the candidate's understanding of distributed systems, data storage strategies, and their ability to design scalable architectures, which are crucial for modern cloud-based applications."
+  },
+  {
+    "question": "Can you describe your approach to implementing an event-driven architecture in a Node.js application? What key components would you include, and how would you handle challenges such as message ordering and system scalability?",
+    "options": [
+      "1. Use a message broker like RabbitMQ or Kafka, and focus on ensuring each service can process messages independently without dependencies.",
+      "2. Implement a monolithic architecture to simplify message handling and ensure all components are tightly integrated.",
+      "3. Favor synchronous communication between services to maintain message order and reduce complexity.",
+      "4. Rely exclusively on HTTP requests for communication to avoid the overhead of event-driven systems."
+    ],
+    "answer": "1. Use a message broker like RabbitMQ or Kafka, and focus on ensuring each service can process messages independently without dependencies.",
+    "date": "2026-02-06T02:23:37.753Z",
+    "reason": "This question assesses the candidate's understanding of event-driven architectures and their ability to design scalable systems using Node.js. It also gauges their knowledge of key components and challenges associated with such architectures."
   }
 ]
