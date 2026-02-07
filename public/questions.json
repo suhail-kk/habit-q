@@ -1510,5 +1510,17 @@
     "answer": "1. Use a message broker like RabbitMQ or Kafka, and focus on ensuring each service can process messages independently without dependencies.",
     "date": "2026-02-06T02:23:37.753Z",
     "reason": "This question assesses the candidate's understanding of event-driven architectures and their ability to design scalable systems using Node.js. It also gauges their knowledge of key components and challenges associated with such architectures."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a comprehensive security strategy for a microservices architecture deployed on AWS? What specific areas would you focus on to ensure data protection and compliance with security best practices?",
+    "options": [
+      "1. Prioritize network security and ignore data encryption.",
+      "2. Focus only on application-level security without considering infrastructure security.",
+      "3. Implement security measures across various layers, including network, application, and data, ensuring compliance with best practices.",
+      "4. Rely solely on AWS's built-in security features without additional configurations."
+    ],
+    "answer": "3. Implement security measures across various layers, including network, application, and data, ensuring compliance with best practices.",
+    "date": "2026-02-07T02:11:58.785Z",
+    "reason": "This question is valuable because it assesses the candidate's understanding of comprehensive security strategies in a microservices environment, their familiarity with AWS security features, and their ability to think critically about data protection and compliance."
   }
 ]
