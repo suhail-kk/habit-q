@@ -1522,5 +1522,17 @@
     "answer": "3. Implement security measures across various layers, including network, application, and data, ensuring compliance with best practices.",
     "date": "2026-02-07T02:11:58.785Z",
     "reason": "This question is valuable because it assesses the candidate's understanding of comprehensive security strategies in a microservices environment, their familiarity with AWS security features, and their ability to think critically about data protection and compliance."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a logging and monitoring strategy for a microservices architecture deployed on AWS? What tools and practices would you employ to ensure effective observability across services?",
+    "options": [
+      "Use centralized logging with AWS CloudWatch and set up alerts for anomalies.",
+      "Implement logging at the application level only, without centralized tools.",
+      "Use only manual logging techniques to avoid complexity.",
+      "Focus solely on performance metrics, ignoring error logging."
+    ],
+    "answer": "Use centralized logging with AWS CloudWatch and set up alerts for anomalies.",
+    "date": "2026-02-08T02:45:30.814Z",
+    "reason": "This question assesses the candidate's understanding of observability in a microservices environment, their familiarity with AWS tools, and their ability to ensure system reliability and performance."
   }
 ]
