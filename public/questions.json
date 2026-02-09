@@ -1534,5 +1534,17 @@
     "answer": "Use centralized logging with AWS CloudWatch and set up alerts for anomalies.",
     "date": "2026-02-08T02:45:30.814Z",
     "reason": "This question assesses the candidate's understanding of observability in a microservices environment, their familiarity with AWS tools, and their ability to ensure system reliability and performance."
+  },
+  {
+    "question": "Can you discuss how you would design a logging and monitoring strategy for a microservices architecture deployed on AWS? What tools and practices would you employ to ensure effective observability across services?",
+    "options": [
+      "Focusing solely on logging without monitoring",
+      "Using a combination of AWS CloudWatch, ELK stack, and custom metrics",
+      "Implementing monitoring without any logging mechanism",
+      "Only relying on third-party tools for logging and monitoring"
+    ],
+    "answer": "Using a combination of AWS CloudWatch, ELK stack, and custom metrics",
+    "date": "2026-02-09T02:30:43.293Z",
+    "reason": "This question assesses a candidate's understanding of observability in a microservices architecture, which is crucial for identifying issues and maintaining system health in a cloud environment."
   }
 ]
