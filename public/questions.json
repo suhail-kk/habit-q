@@ -1546,5 +1546,17 @@
     "answer": "Using a combination of AWS CloudWatch, ELK stack, and custom metrics",
     "date": "2026-02-09T02:30:43.293Z",
     "reason": "This question assesses a candidate's understanding of observability in a microservices architecture, which is crucial for identifying issues and maintaining system health in a cloud environment."
+  },
+  {
+    "question": "Can you describe a situation where you had to implement a system that required real-time data processing in a Node.js application? What architectural choices did you make, and how did you address challenges such as scalability, data loss, and message ordering?",
+    "options": [
+      "A. I used a monolithic architecture with a single database to ensure data consistency.",
+      "B. I implemented a microservices architecture with message queues and event sourcing to handle real-time data streams.",
+      "C. I chose to process data in batches every few minutes instead of in real-time to simplify the application design.",
+      "D. I created a serverless architecture using only AWS Lambda functions without any data storage."
+    ],
+    "answer": "B. I implemented a microservices architecture with message queues and event sourcing to handle real-time data streams.",
+    "date": "2026-02-10T02:38:48.846Z",
+    "reason": "This question assesses the candidate's experience with real-time data processing, architectural decision-making, and ability to address common challenges associated with scalability and data integrity, which are crucial for modern applications."
   }
 ]
