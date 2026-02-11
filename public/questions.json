@@ -1558,5 +1558,17 @@
     "answer": "B. I implemented a microservices architecture with message queues and event sourcing to handle real-time data streams.",
     "date": "2026-02-10T02:38:48.846Z",
     "reason": "This question assesses the candidate's experience with real-time data processing, architectural decision-making, and ability to address common challenges associated with scalability and data integrity, which are crucial for modern applications."
+  },
+  {
+    "question": "Can you explain the concept of service mesh in a microservices architecture, including its benefits for communication, security, and observability? How would you decide whether to implement a service mesh in a particular system?",
+    "options": [
+      "Service mesh is a dedicated infrastructure layer that provides communication between microservices. It simplifies microservices management and enhances security, observability, and traffic control.",
+      "Service mesh is a type of database that specializes in managing microservices. Its primary benefit is the ability to store and retrieve data quickly.",
+      "Service mesh is a design pattern for implementing monolithic applications. It helps in organizing code better and managing dependencies.",
+      "Service mesh refers to a caching strategy used in microservices to optimize database queries and reduce latency."
+    ],
+    "answer": "Service mesh is a dedicated infrastructure layer that provides communication between microservices. It simplifies microservices management and enhances security, observability, and traffic control.",
+    "date": "2026-02-11T02:36:09.338Z",
+    "reason": "This question assesses a candidate's understanding of modern architectural patterns and their ability to implement solutions that improve microservices communication and management, crucial for scalability and maintainability."
   }
 ]
