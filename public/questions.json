@@ -1570,5 +1570,17 @@
     "answer": "Service mesh is a dedicated infrastructure layer that provides communication between microservices. It simplifies microservices management and enhances security, observability, and traffic control.",
     "date": "2026-02-11T02:36:09.338Z",
     "reason": "This question assesses a candidate's understanding of modern architectural patterns and their ability to implement solutions that improve microservices communication and management, crucial for scalability and maintainability."
+  },
+  {
+    "question": "Can you discuss your approach to designing a resilient microservices architecture on AWS? What specific AWS services would you leverage, and how would you ensure that the system can handle failures while maintaining data consistency?",
+    "options": [
+      "Focus solely on EC2 instances for all microservices without considering scalability options.",
+      "Implement a monolithic architecture to simplify deployment and management of services.",
+      "Utilize AWS services such as ECS for container orchestration, RDS for relational databases, and CloudWatch for monitoring, while incorporating strategies like circuit breakers and retries.",
+      "Choose a single database technology for all services, regardless of their specific requirements."
+    ],
+    "answer": "Utilize AWS services such as ECS for container orchestration, RDS for relational databases, and CloudWatch for monitoring, while incorporating strategies like circuit breakers and retries.",
+    "date": "2026-02-12T02:31:18.179Z",
+    "reason": "This question assesses the candidate's understanding of designing a cloud-native architecture, their familiarity with AWS services, and their ability to think critically about resilience and data consistency in a distributed system."
   }
 ]
