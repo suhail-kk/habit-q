@@ -1582,5 +1582,17 @@
     "answer": "Utilize AWS services such as ECS for container orchestration, RDS for relational databases, and CloudWatch for monitoring, while incorporating strategies like circuit breakers and retries.",
     "date": "2026-02-12T02:31:18.179Z",
     "reason": "This question assesses the candidate's understanding of designing a cloud-native architecture, their familiarity with AWS services, and their ability to think critically about resilience and data consistency in a distributed system."
+  },
+  {
+    "question": "Can you describe your approach to implementing a message queue in a Node.js application to handle asynchronous processing? What considerations would you take into account regarding reliability, scalability, and error handling?",
+    "options": [
+      "Using a simple in-memory queue to manage tasks, ensuring low latency but sacrificing persistence.",
+      "Implementing a robust message queue service like RabbitMQ or AWS SQS, focusing on ensuring message durability and retry logic.",
+      "Choosing to handle all asynchronous processing using only callbacks without any queuing mechanism.",
+      "Using a database table to track messages and their statuses, avoiding any external queuing service."
+    ],
+    "answer": "Implementing a robust message queue service like RabbitMQ or AWS SQS, focusing on ensuring message durability and retry logic.",
+    "date": "2026-02-13T02:32:44.891Z",
+    "reason": "This question assesses the candidate's understanding of asynchronous processing in Node.js, their ability to evaluate different message queue solutions, and their knowledge of reliability and scalability in system design."
   }
 ]
