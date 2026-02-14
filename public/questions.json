@@ -1594,5 +1594,17 @@
     "answer": "Implementing a robust message queue service like RabbitMQ or AWS SQS, focusing on ensuring message durability and retry logic.",
     "date": "2026-02-13T02:32:44.891Z",
     "reason": "This question assesses the candidate's understanding of asynchronous processing in Node.js, their ability to evaluate different message queue solutions, and their knowledge of reliability and scalability in system design."
+  },
+  {
+    "question": "Can you discuss your approach to designing a fault-tolerant system in a cloud environment? What specific AWS services would you leverage, and how would you ensure high availability and data integrity in case of failures?",
+    "options": [
+      "1) Utilize AWS Lambda for all services and rely solely on its built-in fault tolerance.",
+      "2) Implement a combination of AWS services including EC2, RDS with Multi-AZ, and S3 for backups, while using Auto Scaling groups to handle traffic spikes.",
+      "3) Use only on-premises solutions and avoid cloud services to maintain control over the environment.",
+      "4) Design the system to be tightly coupled so that all components are dependent on each other for a unified failure response."
+    ],
+    "answer": "2) Implement a combination of AWS services including EC2, RDS with Multi-AZ, and S3 for backups, while using Auto Scaling groups to handle traffic spikes.",
+    "date": "2026-02-14T02:21:15.364Z",
+    "reason": "This question assesses the candidate's understanding of cloud architecture, specifically AWS services, and their ability to design for reliability and scalability in the face of potential failures."
   }
 ]
