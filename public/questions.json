@@ -1606,5 +1606,17 @@
     "answer": "2) Implement a combination of AWS services including EC2, RDS with Multi-AZ, and S3 for backups, while using Auto Scaling groups to handle traffic spikes.",
     "date": "2026-02-14T02:21:15.364Z",
     "reason": "This question assesses the candidate's understanding of cloud architecture, specifically AWS services, and their ability to design for reliability and scalability in the face of potential failures."
+  },
+  {
+    "question": "Can you describe your approach to designing a fault-tolerant system using AWS services? What architectural patterns would you implement to ensure high availability, scalability, and disaster recovery?",
+    "options": [
+      "A) Using a monolithic architecture with a single database for all operations.",
+      "B) Implementing multi-region deployments with auto-scaling groups and load balancers.",
+      "C) Relying solely on manual backups for disaster recovery.",
+      "D) Deploying all services in a single availability zone."
+    ],
+    "answer": "B) Implementing multi-region deployments with auto-scaling groups and load balancers.",
+    "date": "2026-02-15T02:32:47.815Z",
+    "reason": "This question evaluates the candidate's understanding of cloud architecture principles and their ability to design systems that prioritize reliability and performance, which are crucial in modern application development."
   }
 ]
