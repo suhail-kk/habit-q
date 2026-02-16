@@ -1618,5 +1618,17 @@
     "answer": "B) Implementing multi-region deployments with auto-scaling groups and load balancers.",
     "date": "2026-02-15T02:32:47.815Z",
     "reason": "This question evaluates the candidate's understanding of cloud architecture principles and their ability to design systems that prioritize reliability and performance, which are crucial in modern application development."
+  },
+  {
+    "question": "Can you describe your experience with designing and implementing a data backup and recovery strategy in a cloud environment, specifically using AWS services? What considerations do you take into account to ensure data integrity and availability during failures?",
+    "options": [
+      "A: Focus only on regular backups without considering recovery time objectives.",
+      "B: Ensure backups are stored in the same region as the primary data to optimize speed.",
+      "C: Implement automated backups, test recovery processes regularly, and consider cross-region replication for data availability.",
+      "D: Rely solely on third-party services for backup management and ignore compliance requirements."
+    ],
+    "answer": "C: Implement automated backups, test recovery processes regularly, and consider cross-region replication for data availability.",
+    "date": "2026-02-16T02:28:22.126Z",
+    "reason": "This question assesses the candidate's understanding of cloud data management, specifically in AWS, and their ability to implement effective backup and recovery strategies—a critical aspect for maintaining business continuity."
   }
 ]
