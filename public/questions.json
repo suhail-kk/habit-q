@@ -1630,5 +1630,17 @@
     "answer": "C: Implement automated backups, test recovery processes regularly, and consider cross-region replication for data availability.",
     "date": "2026-02-16T02:28:22.126Z",
     "reason": "This question assesses the candidate's understanding of cloud data management, specifically in AWS, and their ability to implement effective backup and recovery strategies—a critical aspect for maintaining business continuity."
+  },
+  {
+    "question": "Can you explain how you would implement a strategy for managing distributed transactions in a microservices architecture? What approaches would you use to ensure data consistency and integrity across services?",
+    "options": [
+      "Utilize a two-phase commit protocol to ensure all services agree on the transaction outcome.",
+      "Implement eventual consistency and compensating transactions to handle failures gracefully.",
+      "Leverage message queues for asynchronous processing and rely on retries for transaction success.",
+      "Use a monolithic approach instead to simplify the transaction management."
+    ],
+    "answer": "Implement eventual consistency and compensating transactions to handle failures gracefully.",
+    "date": "2026-02-17T02:25:52.894Z",
+    "reason": "This question assesses the candidate's understanding of complex transaction management in distributed systems, which is crucial for ensuring data integrity and reliability in microservices architectures."
   }
 ]
