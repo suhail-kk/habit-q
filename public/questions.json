@@ -1642,5 +1642,17 @@
     "answer": "Implement eventual consistency and compensating transactions to handle failures gracefully.",
     "date": "2026-02-17T02:25:52.894Z",
     "reason": "This question assesses the candidate's understanding of complex transaction management in distributed systems, which is crucial for ensuring data integrity and reliability in microservices architectures."
+  },
+  {
+    "question": "Can you describe a challenging situation where you had to balance performance optimization and preserving code maintainability in a large-scale application? What strategies did you employ to achieve both goals, and how did you measure the impact of your changes?",
+    "options": [
+      "Focusing solely on code readability without performance metrics.",
+      "Implementing caching solutions without considering code structure.",
+      "Adopting design patterns to enhance maintainability while profiling for bottlenecks.",
+      "Prioritizing quick fixes over long-term solutions for immediate performance gains."
+    ],
+    "answer": "Adopting design patterns to enhance maintainability while profiling for bottlenecks.",
+    "date": "2026-02-18T02:29:09.726Z",
+    "reason": "This question assesses a candidate's ability to balance technical performance with code quality, which is crucial for sustainable development in complex systems."
   }
 ]
