@@ -1654,5 +1654,17 @@
     "answer": "Adopting design patterns to enhance maintainability while profiling for bottlenecks.",
     "date": "2026-02-18T02:29:09.726Z",
     "reason": "This question assesses a candidate's ability to balance technical performance with code quality, which is crucial for sustainable development in complex systems."
+  },
+  {
+    "question": "Can you describe your approach to designing a robust API that integrates with both SQL and NoSQL databases? What factors would you consider to ensure optimal performance and maintainability across different data storage solutions?",
+    "options": [
+      "A. Focus solely on one type of database to simplify the architecture.",
+      "B. Ensure that the API provides clear documentation and well-defined endpoints.",
+      "C. Use an ORM for SQL and a separate data access layer for NoSQL without any unification.",
+      "D. Consider data access patterns, consistency requirements, and performance trade-offs for each database type."
+    ],
+    "answer": "D. Consider data access patterns, consistency requirements, and performance trade-offs for each database type.",
+    "date": "2026-02-19T02:28:28.799Z",
+    "reason": "This question evaluates the candidate's understanding of database integration, their ability to think critically about design choices, and their knowledge of different database characteristics, which are essential for creating efficient and maintainable APIs in complex applications."
   }
 ]
