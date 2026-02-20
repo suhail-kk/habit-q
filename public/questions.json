@@ -1666,5 +1666,17 @@
     "answer": "D. Consider data access patterns, consistency requirements, and performance trade-offs for each database type.",
     "date": "2026-02-19T02:28:28.799Z",
     "reason": "This question evaluates the candidate's understanding of database integration, their ability to think critically about design choices, and their knowledge of different database characteristics, which are essential for creating efficient and maintainable APIs in complex applications."
+  },
+  {
+    "question": "Can you explain how you would approach designing a robust data access layer in a Node.js application that interacts with both SQL and NoSQL databases? What considerations do you keep in mind regarding performance, consistency, and maintainability?",
+    "options": [
+      "1. Focus solely on SQL databases for performance and use NoSQL as a backup.",
+      "2. Implement a single database access method for all data sources without differentiation.",
+      "3. Use ORM for SQL and a lightweight driver for NoSQL, ensuring proper abstraction and error handling for each.",
+      "4. Rely on in-memory caching for all data interactions to enhance performance."
+    ],
+    "answer": "3. Use ORM for SQL and a lightweight driver for NoSQL, ensuring proper abstraction and error handling for each.",
+    "date": "2026-02-20T02:24:17.473Z",
+    "reason": "This question assesses the candidate's understanding of hybrid database architectures and their ability to design a flexible and efficient data access layer, balancing the strengths and weaknesses of different database types."
   }
 ]
