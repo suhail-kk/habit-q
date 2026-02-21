@@ -1678,5 +1678,17 @@
     "answer": "3. Use ORM for SQL and a lightweight driver for NoSQL, ensuring proper abstraction and error handling for each.",
     "date": "2026-02-20T02:24:17.473Z",
     "reason": "This question assesses the candidate's understanding of hybrid database architectures and their ability to design a flexible and efficient data access layer, balancing the strengths and weaknesses of different database types."
+  },
+  {
+    "question": "Can you discuss your approach to implementing observability in a microservices architecture deployed on AWS? What tools and practices would you adopt to ensure effective monitoring, logging, and tracing across services?",
+    "options": [
+      "A) Focus solely on logging the errors for each service to simplify monitoring.",
+      "B) Use a single logging framework for all services without integrating monitoring tools.",
+      "C) Implement a combination of centralized logging, distributed tracing, and real-time monitoring tools like AWS CloudWatch and OpenTelemetry.",
+      "D) Rely on manual log checks without automated alerts or dashboards."
+    ],
+    "answer": "C) Implement a combination of centralized logging, distributed tracing, and real-time monitoring tools like AWS CloudWatch and OpenTelemetry.",
+    "date": "2026-02-21T02:11:25.891Z",
+    "reason": "This question is valuable as it assesses the candidate's understanding of observability in cloud-native systems, ensuring they can effectively diagnose issues in a complex microservices environment."
   }
 ]
