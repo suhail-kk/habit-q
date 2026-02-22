@@ -1690,5 +1690,17 @@
     "answer": "C) Implement a combination of centralized logging, distributed tracing, and real-time monitoring tools like AWS CloudWatch and OpenTelemetry.",
     "date": "2026-02-21T02:11:25.891Z",
     "reason": "This question is valuable as it assesses the candidate's understanding of observability in cloud-native systems, ensuring they can effectively diagnose issues in a complex microservices environment."
+  },
+  {
+    "question": "Can you describe your experience with designing and implementing a data processing pipeline that integrates both batch and real-time data processing in a cloud environment? What architectural patterns and AWS services would you consider, and how would you ensure data consistency and reliability across different processing methods?",
+    "options": [
+      "Discuss the use of AWS Lambda for real-time processing and AWS Batch for batch jobs, emphasizing the importance of data consistency across both methods.",
+      "Explain the differences between batch and real-time processing and provide examples of tools to use for each without integration considerations.",
+      "Focus solely on the database technologies used in batch processing without mentioning real-time data processing.",
+      "Outline the steps for creating a data warehouse without discussing the integration of real-time data processing."
+    ],
+    "answer": "Discuss the use of AWS Lambda for real-time processing and AWS Batch for batch jobs, emphasizing the importance of data consistency across both methods.",
+    "date": "2026-02-22T02:28:41.574Z",
+    "reason": "This question assesses the candidate's ability to integrate different data processing methods in a cloud environment, highlighting their understanding of architectural patterns and AWS services while ensuring data consistency and reliability."
   }
 ]
