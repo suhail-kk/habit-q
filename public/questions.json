@@ -1702,5 +1702,17 @@
     "answer": "Discuss the use of AWS Lambda for real-time processing and AWS Batch for batch jobs, emphasizing the importance of data consistency across both methods.",
     "date": "2026-02-22T02:28:41.574Z",
     "reason": "This question assesses the candidate's ability to integrate different data processing methods in a cloud environment, highlighting their understanding of architectural patterns and AWS services while ensuring data consistency and reliability."
+  },
+  {
+    "question": "Can you describe your experience with designing and implementing a fault-tolerant system in a cloud environment, particularly focusing on AWS services? What architectural patterns did you utilize, and how did you ensure high availability and data integrity in case of failures?",
+    "options": [
+      "1. Discuss specific AWS services used without mentioning architectural patterns.",
+      "2. Focus solely on cost management strategies for cloud resources.",
+      "3. Explain fault tolerance in isolation from real-world applications.",
+      "4. Share specific architectural patterns and AWS services used to ensure high availability and data integrity."
+    ],
+    "answer": "4. Share specific architectural patterns and AWS services used to ensure high availability and data integrity.",
+    "date": "2026-02-23T02:29:44.711Z",
+    "reason": "This question assesses the candidate's practical experience with designing resilient cloud systems, their understanding of fault-tolerance principles, and their ability to apply AWS services effectively in real-world scenarios."
   }
 ]
