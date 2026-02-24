@@ -1714,5 +1714,17 @@
     "answer": "4. Share specific architectural patterns and AWS services used to ensure high availability and data integrity.",
     "date": "2026-02-23T02:29:44.711Z",
     "reason": "This question assesses the candidate's practical experience with designing resilient cloud systems, their understanding of fault-tolerance principles, and their ability to apply AWS services effectively in real-world scenarios."
+  },
+  {
+    "question": "Can you describe your approach to designing an event-driven architecture in a Node.js application? What key components would you include, and how would you handle challenges such as message ordering and system scalability?",
+    "options": [
+      "1. Focus solely on message queues and ignore event storage.",
+      "2. Include components like message brokers, event stores, and processing consumers while ensuring idempotency and using timestamps for ordering.",
+      "3. Use only HTTP requests for communication to simplify the architecture.",
+      "4. Avoid using any external services and implement everything within the application."
+    ],
+    "answer": "2. Include components like message brokers, event stores, and processing consumers while ensuring idempotency and using timestamps for ordering.",
+    "date": "2026-02-24T02:26:21.854Z",
+    "reason": "This question assesses the candidate's understanding of event-driven architecture principles and their ability to design systems that can handle message ordering and scalability challenges, which are critical in modern application development."
   }
 ]
