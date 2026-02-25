@@ -1726,5 +1726,17 @@
     "answer": "2. Include components like message brokers, event stores, and processing consumers while ensuring idempotency and using timestamps for ordering.",
     "date": "2026-02-24T02:26:21.854Z",
     "reason": "This question assesses the candidate's understanding of event-driven architecture principles and their ability to design systems that can handle message ordering and scalability challenges, which are critical in modern application development."
+  },
+  {
+    "question": "Can you describe a situation where you had to ensure the security of an API deployed on AWS? What AWS services did you use, and what security best practices did you implement to protect against vulnerabilities?",
+    "options": [
+      "A. Discussed API security but did not implement any specific measures.",
+      "B. Used AWS services like API Gateway and IAM, and applied encryption and rate limiting.",
+      "C. Focused solely on authentication without considering authorization strategies.",
+      "D. Ignored security measures as the application was in a low-risk environment."
+    ],
+    "answer": "B. Used AWS services like API Gateway and IAM, and applied encryption and rate limiting.",
+    "date": "2026-02-25T02:27:05.664Z",
+    "reason": "This question assesses the candidate's practical experience with securing APIs in a cloud environment, their knowledge of AWS services, and their understanding of best practices for application security, which are crucial for protecting sensitive data."
   }
 ]
