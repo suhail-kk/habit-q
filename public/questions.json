@@ -1738,5 +1738,17 @@
     "answer": "B. Used AWS services like API Gateway and IAM, and applied encryption and rate limiting.",
     "date": "2026-02-25T02:27:05.664Z",
     "reason": "This question assesses the candidate's practical experience with securing APIs in a cloud environment, their knowledge of AWS services, and their understanding of best practices for application security, which are crucial for protecting sensitive data."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a strategy for managing distributed transactions in a microservices architecture? What approaches would you use to ensure data consistency and integrity across services?",
+    "options": [
+      "Using a two-phase commit protocol for all transactions",
+      "Implementing eventual consistency with compensating transactions",
+      "Using distributed locks to manage state across services",
+      "Relying solely on the database's built-in transaction capabilities"
+    ],
+    "answer": "Implementing eventual consistency with compensating transactions",
+    "date": "2026-02-26T02:22:59.754Z",
+    "reason": "This question assesses the candidate's understanding of distributed systems, specifically how to handle the complexities of transactions across microservices, which is crucial for maintaining data integrity and reliability in modern architectures."
   }
 ]
