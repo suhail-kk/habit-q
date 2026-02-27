@@ -1750,5 +1750,17 @@
     "answer": "Implementing eventual consistency with compensating transactions",
     "date": "2026-02-26T02:22:59.754Z",
     "reason": "This question assesses the candidate's understanding of distributed systems, specifically how to handle the complexities of transactions across microservices, which is crucial for maintaining data integrity and reliability in modern architectures."
+  },
+  {
+    "question": "Can you describe how you would design a scalable data processing pipeline that handles both batch and real-time data processing in a cloud environment? What architectural patterns and technologies would you employ, and how would you ensure data consistency and reliability across different processing methods?",
+    "options": [
+      "Implement a single monolithic system that handles all data processing tasks in one go.",
+      "Use cloud services like AWS Lambda for real-time processing and AWS Batch for batch processing, ensuring data consistency with message queues.",
+      "Only focus on real-time processing using stream processing frameworks like Apache Kafka without any batch processing.",
+      "Design separate systems for batch and real-time processing with no integration between them."
+    ],
+    "answer": "Use cloud services like AWS Lambda for real-time processing and AWS Batch for batch processing, ensuring data consistency with message queues.",
+    "date": "2026-02-27T02:22:01.406Z",
+    "reason": "This question assesses the candidate's understanding of data processing architectures and their ability to design systems that integrate both batch and real-time processing, which is crucial for building scalable and efficient cloud applications."
   }
 ]
