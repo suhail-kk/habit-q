@@ -1762,5 +1762,17 @@
     "answer": "Use cloud services like AWS Lambda for real-time processing and AWS Batch for batch processing, ensuring data consistency with message queues.",
     "date": "2026-02-27T02:22:01.406Z",
     "reason": "This question assesses the candidate's understanding of data processing architectures and their ability to design systems that integrate both batch and real-time processing, which is crucial for building scalable and efficient cloud applications."
+  },
+  {
+    "question": "Can you describe your experience with implementing a distributed tracing strategy in a microservices architecture? What tools did you use, and how did you ensure visibility across services for performance monitoring and issue diagnosis?",
+    "options": [
+      "I primarily used open-source tools like Jaeger and Zipkin, ensuring traceability by propagating context across services.",
+      "I relied solely on logging without any specific tracing tools, focusing on individual service logs to diagnose issues.",
+      "I used a combination of manual tracing methods and basic logging to monitor performance across services.",
+      "I implemented tracing only in critical services, avoiding overhead on less important components."
+    ],
+    "answer": "I primarily used open-source tools like Jaeger and Zipkin, ensuring traceability by propagating context across services.",
+    "date": "2026-02-28T02:05:04.948Z",
+    "reason": "This question assesses the candidate's understanding of distributed tracing in microservices, which is crucial for performance monitoring and troubleshooting in complex systems."
   }
 ]
