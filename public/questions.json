@@ -1774,5 +1774,17 @@
     "answer": "I primarily used open-source tools like Jaeger and Zipkin, ensuring traceability by propagating context across services.",
     "date": "2026-02-28T02:05:04.948Z",
     "reason": "This question assesses the candidate's understanding of distributed tracing in microservices, which is crucial for performance monitoring and troubleshooting in complex systems."
+  },
+  {
+    "question": "Can you describe a time when you faced challenges implementing a caching strategy in your application? What specific considerations did you have regarding cache invalidation, consistency, and performance, and how did you measure the success of your caching solution?",
+    "options": [
+      "Discussed the challenges without providing specific metrics.",
+      "Focused solely on the caching tools used without mentioning the context.",
+      "Outlined considerations for cache invalidation and consistency with examples.",
+      "Mentioned only performance measures without discussing caching challenges."
+    ],
+    "answer": "Outlined considerations for cache invalidation and consistency with examples.",
+    "date": "2026-03-01T02:34:44.238Z",
+    "reason": "This question gauges the candidate's experience with practical challenges related to caching strategies, a critical aspect of performance optimization in applications, and their ability to think critically about how to balance various trade-offs."
   }
 ]
