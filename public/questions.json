@@ -1786,5 +1786,17 @@
     "answer": "Outlined considerations for cache invalidation and consistency with examples.",
     "date": "2026-03-01T02:34:44.238Z",
     "reason": "This question gauges the candidate's experience with practical challenges related to caching strategies, a critical aspect of performance optimization in applications, and their ability to think critically about how to balance various trade-offs."
+  },
+  {
+    "question": "Can you describe a challenging situation where you had to optimize the performance of a data processing pipeline in a cloud environment? What specific strategies did you implement, and how did you measure the effectiveness of your optimizations?",
+    "options": [
+      "A. By implementing caching mechanisms and analyzing query performance metrics to reduce latency.",
+      "B. By increasing the number of concurrent processes without monitoring their impact.",
+      "C. By switching to a different cloud provider without considering the existing architecture.",
+      "D. By ignoring the existing bottlenecks and focusing only on new features."
+    ],
+    "answer": "A",
+    "date": "2026-03-02T02:24:59.491Z",
+    "reason": "This question assesses the candidate's ability to critically analyze and improve data processing pipelines in a cloud context, demonstrating their understanding of performance optimization strategies and metrics for success."
   }
 ]
