@@ -1798,5 +1798,17 @@
     "answer": "A",
     "date": "2026-03-02T02:24:59.491Z",
     "reason": "This question assesses the candidate's ability to critically analyze and improve data processing pipelines in a cloud context, demonstrating their understanding of performance optimization strategies and metrics for success."
+  },
+  {
+    "question": "Can you describe your experience with designing and implementing a microservices architecture for a large-scale application? What were the key challenges you faced, and how did you address them in terms of service communication, data management, and overall system scalability?",
+    "options": [
+      "Discuss the implementation of microservices using a single database for all services.",
+      "Explain how you would handle inter-service communication using REST APIs.",
+      "Detail the use of message queues for asynchronous processing.",
+      "Outline strategies for ensuring data consistency across services."
+    ],
+    "answer": "Outline strategies for ensuring data consistency across services.",
+    "date": "2026-03-03T02:27:01.166Z",
+    "reason": "This question evaluates the candidate's real-world experience with microservices, focusing on the complexities of data management and communication, which are critical for building scalable and resilient systems."
   }
 ]
