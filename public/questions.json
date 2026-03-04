@@ -1810,5 +1810,17 @@
     "answer": "Outline strategies for ensuring data consistency across services.",
     "date": "2026-03-03T02:27:01.166Z",
     "reason": "This question evaluates the candidate's real-world experience with microservices, focusing on the complexities of data management and communication, which are critical for building scalable and resilient systems."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive monitoring and observability strategy for a microservices architecture deployed on AWS? What tools and practices would you employ to ensure effective tracing, logging, and performance monitoring across multiple services?",
+    "options": [
+      "1. Focusing solely on application logs and ignoring metrics",
+      "2. Utilizing AWS CloudWatch for basic monitoring and avoiding distributed tracing tools",
+      "3. Implementing a combination of centralized logging, distributed tracing, and performance metrics monitoring using tools like AWS CloudWatch, OpenTelemetry, and ELK Stack",
+      "4. Relying on manual checks without using any monitoring tools"
+    ],
+    "answer": "3. Implementing a combination of centralized logging, distributed tracing, and performance metrics monitoring using tools like AWS CloudWatch, OpenTelemetry, and ELK Stack",
+    "date": "2026-03-04T02:13:51.035Z",
+    "reason": "This question assesses the candidate's understanding of modern monitoring techniques and their ability to integrate various tools in a microservices environment, which is crucial for maintaining system health and performance."
   }
 ]
