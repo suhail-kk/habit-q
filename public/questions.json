@@ -1822,5 +1822,17 @@
     "answer": "3. Implementing a combination of centralized logging, distributed tracing, and performance metrics monitoring using tools like AWS CloudWatch, OpenTelemetry, and ELK Stack",
     "date": "2026-03-04T02:13:51.035Z",
     "reason": "This question assesses the candidate's understanding of modern monitoring techniques and their ability to integrate various tools in a microservices environment, which is crucial for maintaining system health and performance."
+  },
+  {
+    "question": "Can you discuss your experience with implementing event sourcing in a microservices architecture? What advantages does this pattern provide for maintaining state and handling data changes, and what challenges might arise during implementation?",
+    "options": [
+      "Event sourcing allows for complete reconstruction of application state and facilitates auditing while presenting challenges in managing event schema evolution.",
+      "Event sourcing simplifies data retrieval and improves performance while making it difficult to implement complex business rules.",
+      "Event sourcing is primarily used to optimize read operations and reduce storage costs, with minimal impact on system complexity.",
+      "Event sourcing limits the ability to handle concurrent updates and reduces the flexibility of data access patterns."
+    ],
+    "answer": "Event sourcing allows for complete reconstruction of application state and facilitates auditing while presenting challenges in managing event schema evolution.",
+    "date": "2026-03-05T02:24:03.155Z",
+    "reason": "This question assesses the candidate's understanding of event sourcing, a key architectural pattern in microservices that affects state management and data integrity. It also provides insight into their practical experience and ability to navigate the complexities associated with this approach."
   }
 ]
