@@ -1834,5 +1834,17 @@
     "answer": "Event sourcing allows for complete reconstruction of application state and facilitates auditing while presenting challenges in managing event schema evolution.",
     "date": "2026-03-05T02:24:03.155Z",
     "reason": "This question assesses the candidate's understanding of event sourcing, a key architectural pattern in microservices that affects state management and data integrity. It also provides insight into their practical experience and ability to navigate the complexities associated with this approach."
+  },
+  {
+    "question": "Can you describe your approach to implementing security best practices in a microservices architecture deployed on AWS? What strategies would you employ for authentication and authorization across services, and how would you safeguard against common vulnerabilities?",
+    "options": [
+      "Implement API Gateway with IAM roles for authentication and authorization, and use AWS WAF to protect against common vulnerabilities.",
+      "Use a single database for all services and handle authentication at the database level to simplify security.",
+      "Rely solely on network security groups to control access between services without implementing additional authentication mechanisms.",
+      "Avoid using encryption for data in transit to enhance performance."
+    ],
+    "answer": "Implement API Gateway with IAM roles for authentication and authorization, and use AWS WAF to protect against common vulnerabilities.",
+    "date": "2026-03-06T02:22:08.043Z",
+    "reason": "This question assesses the candidate's understanding of security in a microservices context, specifically how they would implement authentication and protect against vulnerabilities in a cloud environment."
   }
 ]
