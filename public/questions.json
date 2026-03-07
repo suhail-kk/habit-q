@@ -1846,5 +1846,17 @@
     "answer": "Implement API Gateway with IAM roles for authentication and authorization, and use AWS WAF to protect against common vulnerabilities.",
     "date": "2026-03-06T02:22:08.043Z",
     "reason": "This question assesses the candidate's understanding of security in a microservices context, specifically how they would implement authentication and protect against vulnerabilities in a cloud environment."
+  },
+  {
+    "question": "Can you discuss how you would implement a strategy for managing distributed transactions in a microservices architecture? What approaches would you use to ensure data consistency and integrity across services?",
+    "options": [
+      "Implement a two-phase commit protocol across services.",
+      "Use eventual consistency with compensation transactions.",
+      "Rely on a centralized transaction manager for all services.",
+      "Avoid distributed transactions and design services to be independently transactional."
+    ],
+    "answer": "Use eventual consistency with compensation transactions.",
+    "date": "2026-03-07T02:08:17.485Z",
+    "reason": "This question is valuable because managing distributed transactions is a critical challenge in microservices architectures. Understanding various strategies showcases the candidate's depth in designing resilient systems while ensuring data integrity."
   }
 ]
