@@ -1858,5 +1858,17 @@
     "answer": "Use eventual consistency with compensation transactions.",
     "date": "2026-03-07T02:08:17.485Z",
     "reason": "This question is valuable because managing distributed transactions is a critical challenge in microservices architectures. Understanding various strategies showcases the candidate's depth in designing resilient systems while ensuring data integrity."
+  },
+  {
+    "question": "Can you describe a time when you had to design a monitoring strategy for a microservices architecture deployed on AWS? What tools did you choose, how did you ensure effective observability across services, and what specific metrics did you track?",
+    "options": [
+      "A. I implemented a centralized logging tool and focused only on error rates.",
+      "B. I used various AWS services and third-party tools to monitor performance, track key metrics, and ensure alerting across all services.",
+      "C. I did not focus on observability as it was not a priority for the team.",
+      "D. I only logged the requests and responses without tracking performance metrics."
+    ],
+    "answer": "B. I used various AWS services and third-party tools to monitor performance, track key metrics, and ensure alerting across all services.",
+    "date": "2026-03-08T02:26:04.765Z",
+    "reason": "This question assesses the candidate's practical experience with monitoring in a microservices environment, their understanding of observability principles, and their ability to select and apply appropriate tools and metrics for effective system management."
   }
 ]
