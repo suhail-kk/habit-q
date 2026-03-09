@@ -1870,5 +1870,17 @@
     "answer": "B. I used various AWS services and third-party tools to monitor performance, track key metrics, and ensure alerting across all services.",
     "date": "2026-03-08T02:26:04.765Z",
     "reason": "This question assesses the candidate's practical experience with monitoring in a microservices environment, their understanding of observability principles, and their ability to select and apply appropriate tools and metrics for effective system management."
+  },
+  {
+    "question": "Can you describe your approach to designing a resilient event-driven architecture using AWS services? What key components would you include, and how would you address challenges such as event ordering and system scalability?",
+    "options": [
+      "Focusing solely on using Amazon SQS for message queuing and ignoring other services",
+      "Implementing a single Lambda function for all events to keep things simple",
+      "Utilizing AWS Step Functions and SNS along with SQS for orchestrating complex workflows and handling retries",
+      "Avoiding the use of any event-driven components to prevent complexity"
+    ],
+    "answer": "Utilizing AWS Step Functions and SNS along with SQS for orchestrating complex workflows and handling retries",
+    "date": "2026-03-09T02:27:08.788Z",
+    "reason": "This question assesses the candidate's understanding of designing scalable and resilient architectures using AWS, evaluating their ability to manage event-driven systems and handle associated challenges."
   }
 ]
