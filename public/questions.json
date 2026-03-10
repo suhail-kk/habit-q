@@ -1882,5 +1882,17 @@
     "answer": "Utilizing AWS Step Functions and SNS along with SQS for orchestrating complex workflows and handling retries",
     "date": "2026-03-09T02:27:08.788Z",
     "reason": "This question assesses the candidate's understanding of designing scalable and resilient architectures using AWS, evaluating their ability to manage event-driven systems and handle associated challenges."
+  },
+  {
+    "question": "Can you discuss your experience with implementing an event-driven architecture in a Node.js application? What patterns did you use, and how did you handle challenges such as message ordering and system scalability?",
+    "options": [
+      "I primarily used a message queue pattern with RabbitMQ and focused on scalability by implementing load balancers.",
+      "I designed a direct service call approach without event-driven patterns, which simplified the architecture.",
+      "I implemented a pub/sub model using AWS SNS, which allowed for easy scaling but had challenges in message ordering.",
+      "I utilized WebSockets for real-time communication and faced issues with system scalability as the user base grew."
+    ],
+    "answer": "I implemented a pub/sub model using AWS SNS, which allowed for easy scaling but had challenges in message ordering.",
+    "date": "2026-03-10T02:12:45.856Z",
+    "reason": "This question assesses the candidate's understanding and practical experience with event-driven architectures, which are crucial for building scalable and responsive applications. It also probes into their problem-solving skills related to common challenges in such systems."
   }
 ]
