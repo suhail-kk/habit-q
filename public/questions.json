@@ -1894,5 +1894,17 @@
     "answer": "I implemented a pub/sub model using AWS SNS, which allowed for easy scaling but had challenges in message ordering.",
     "date": "2026-03-10T02:12:45.856Z",
     "reason": "This question assesses the candidate's understanding and practical experience with event-driven architectures, which are crucial for building scalable and responsive applications. It also probes into their problem-solving skills related to common challenges in such systems."
+  },
+  {
+    "question": "Can you describe your approach to designing a data processing pipeline that integrates both batch and real-time data processing in a cloud environment? What architectural patterns and technologies would you consider, and how would you ensure data consistency and reliability across different processing methods?",
+    "options": [
+      "Focusing solely on real-time processing to enhance user experience and ignoring batch processing.",
+      "Implementing a microservices architecture where each service is responsible for either batch or real-time processing without consideration for data consistency.",
+      "Utilizing a combination of AWS services like Lambda for real-time processing and S3 for batch processing, ensuring data integrity through event sourcing and monitoring.",
+      "Designing a single monolithic application that handles both batch and real-time processing without separating concerns or utilizing cloud services."
+    ],
+    "answer": "Utilizing a combination of AWS services like Lambda for real-time processing and S3 for batch processing, ensuring data integrity through event sourcing and monitoring.",
+    "date": "2026-03-11T02:11:44.374Z",
+    "reason": "This question assesses a candidate's understanding of designing complex data processing systems, their familiarity with cloud technologies, and their ability to ensure data consistency across different processing methods."
   }
 ]
