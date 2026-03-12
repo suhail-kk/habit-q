@@ -1906,5 +1906,17 @@
     "answer": "Utilizing a combination of AWS services like Lambda for real-time processing and S3 for batch processing, ensuring data integrity through event sourcing and monitoring.",
     "date": "2026-03-11T02:11:44.374Z",
     "reason": "This question assesses a candidate's understanding of designing complex data processing systems, their familiarity with cloud technologies, and their ability to ensure data consistency across different processing methods."
+  },
+  {
+    "question": "Can you describe your approach to designing a robust API that integrates both SQL and NoSQL databases? What factors would you consider to ensure optimal performance and maintainability across different data storage solutions?",
+    "options": [
+      "1. Prioritize using only SQL for all data storage to simplify the architecture.",
+      "2. Evaluate the specific use cases for each database type and design the API to leverage their strengths.",
+      "3. Use a single ORM for both SQL and NoSQL to reduce complexity.",
+      "4. Focus solely on scalability and ignore data consistency."
+    ],
+    "answer": "2. Evaluate the specific use cases for each database type and design the API to leverage their strengths.",
+    "date": "2026-03-12T02:24:56.334Z",
+    "reason": "This question assesses the candidate's understanding of the differences between SQL and NoSQL databases and their ability to design an API that optimally utilizes both, which is crucial for building scalable and maintainable applications."
   }
 ]
