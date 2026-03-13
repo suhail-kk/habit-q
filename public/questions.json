@@ -1918,5 +1918,17 @@
     "answer": "2. Evaluate the specific use cases for each database type and design the API to leverage their strengths.",
     "date": "2026-03-12T02:24:56.334Z",
     "reason": "This question assesses the candidate's understanding of the differences between SQL and NoSQL databases and their ability to design an API that optimally utilizes both, which is crucial for building scalable and maintainable applications."
+  },
+  {
+    "question": "Can you describe a situation where you had to implement asynchronous programming in a Node.js application to improve performance? What patterns did you use, and how did you ensure that the application remained maintainable and scalable?",
+    "options": [
+      "A) I used callbacks exclusively without any libraries.",
+      "B) I implemented async/await and followed a modular architecture to maintain scalability.",
+      "C) I avoided asynchronous programming altogether.",
+      "D) I used synchronous functions for simplicity."
+    ],
+    "answer": "B) I implemented async/await and followed a modular architecture to maintain scalability.",
+    "date": "2026-03-13T02:23:06.589Z",
+    "reason": "This question assesses the candidate's understanding of asynchronous programming in Node.js, the use of modern syntax like async/await, and their approach to maintainability and scalability in application design."
   }
 ]
