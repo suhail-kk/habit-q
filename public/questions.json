@@ -1930,5 +1930,17 @@
     "answer": "B) I implemented async/await and followed a modular architecture to maintain scalability.",
     "date": "2026-03-13T02:23:06.589Z",
     "reason": "This question assesses the candidate's understanding of asynchronous programming in Node.js, the use of modern syntax like async/await, and their approach to maintainability and scalability in application design."
+  },
+  {
+    "question": "Can you discuss your experience with implementing observability in a microservices architecture? What tools and practices did you find most effective for ensuring visibility across services, and how did you address challenges related to tracing and monitoring performance?",
+    "options": [
+      "I primarily used logging and metrics collection tools like ELK stack and Prometheus, focusing on structured logging.",
+      "I focused on using traditional log files without additional tools to monitor performance.",
+      "I did not implement observability in my microservices architecture as it was not prioritized.",
+      "I only used manual monitoring techniques without implementing automated tools."
+    ],
+    "answer": "I primarily used logging and metrics collection tools like ELK stack and Prometheus, focusing on structured logging.",
+    "date": "2026-03-14T02:20:56.813Z",
+    "reason": "This question assesses the candidate's understanding of observability in microservices, their experience with relevant tools, and their ability to address common challenges, which are crucial for maintaining performance and reliability in complex distributed systems."
   }
 ]
