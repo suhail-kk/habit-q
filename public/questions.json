@@ -1942,5 +1942,17 @@
     "answer": "I primarily used logging and metrics collection tools like ELK stack and Prometheus, focusing on structured logging.",
     "date": "2026-03-14T02:20:56.813Z",
     "reason": "This question assesses the candidate's understanding of observability in microservices, their experience with relevant tools, and their ability to address common challenges, which are crucial for maintaining performance and reliability in complex distributed systems."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a comprehensive logging and monitoring strategy for a microservices architecture deployed on AWS? What tools and practices would you employ to ensure effective observability across services?",
+    "options": [
+      "1. Use logging frameworks like Winston and monitoring tools like New Relic without considering distributed tracing.",
+      "2. Implement centralized logging with Amazon CloudWatch and use AWS X-Ray for distributed tracing, while setting up alerts and dashboards for metrics monitoring.",
+      "3. Rely solely on application logs and manual monitoring to track performance issues.",
+      "4. Use local logging on each service and avoid centralized solutions to maintain simplicity."
+    ],
+    "answer": "2. Implement centralized logging with Amazon CloudWatch and use AWS X-Ray for distributed tracing, while setting up alerts and dashboards for metrics monitoring.",
+    "date": "2026-03-15T02:39:21.439Z",
+    "reason": "This question evaluates a candidate's understanding of observability in microservices architecture, which is crucial for diagnosing issues and ensuring application reliability in a cloud environment."
   }
 ]
