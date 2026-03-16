@@ -1954,5 +1954,17 @@
     "answer": "2. Implement centralized logging with Amazon CloudWatch and use AWS X-Ray for distributed tracing, while setting up alerts and dashboards for metrics monitoring.",
     "date": "2026-03-15T02:39:21.439Z",
     "reason": "This question evaluates a candidate's understanding of observability in microservices architecture, which is crucial for diagnosing issues and ensuring application reliability in a cloud environment."
+  },
+  {
+    "question": "Can you discuss your approach to handling data consistency and integrity in a microservices architecture, particularly when using different types of databases such as SQL and NoSQL? What strategies would you implement to ensure that data remains consistent across services, and how would you handle challenges such as eventual consistency and distributed transactions?",
+    "options": [
+      "Implement a single database type for all services to avoid inconsistency.",
+      "Use transaction management techniques like two-phase commit across services.",
+      "Leverage asynchronous messaging patterns and eventual consistency models.",
+      "Ensure each service manages its own data independently without coordination."
+    ],
+    "answer": "Leverage asynchronous messaging patterns and eventual consistency models.",
+    "date": "2026-03-16T02:40:12.020Z",
+    "reason": "This question assesses the candidate's understanding of data management in complex architectures and their ability to apply appropriate strategies for maintaining consistency and integrity across microservices."
   }
 ]
