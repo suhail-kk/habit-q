@@ -1966,5 +1966,17 @@
     "answer": "Leverage asynchronous messaging patterns and eventual consistency models.",
     "date": "2026-03-16T02:40:12.020Z",
     "reason": "This question assesses the candidate's understanding of data management in complex architectures and their ability to apply appropriate strategies for maintaining consistency and integrity across microservices."
+  },
+  {
+    "question": "Can you explain the CAP theorem in the context of distributed systems and how it influences your decisions when designing microservices architectures, especially regarding consistency, availability, and partition tolerance?",
+    "options": [
+      "A. It states that a distributed system can provide only two out of three guarantees: consistency, availability, and partition tolerance.",
+      "B. It describes the trade-offs between speed, security, and ease of use in web applications.",
+      "C. It is a principle that allows for unlimited data replication in distributed systems.",
+      "D. It outlines the benefits of using relational databases over NoSQL databases."
+    ],
+    "answer": "A. It states that a distributed system can provide only two out of three guarantees: consistency, availability, and partition tolerance.",
+    "date": "2026-03-17T02:26:01.871Z",
+    "reason": "This question assesses the candidate's understanding of fundamental distributed system concepts and their ability to apply theoretical knowledge to practical architecture design, which is crucial for building resilient microservices."
   }
 ]
