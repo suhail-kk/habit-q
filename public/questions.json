@@ -1978,5 +1978,17 @@
     "answer": "A. It states that a distributed system can provide only two out of three guarantees: consistency, availability, and partition tolerance.",
     "date": "2026-03-17T02:26:01.871Z",
     "reason": "This question assesses the candidate's understanding of fundamental distributed system concepts and their ability to apply theoretical knowledge to practical architecture design, which is crucial for building resilient microservices."
+  },
+  {
+    "question": "Can you describe how you would approach designing a scalable data processing architecture that integrates both batch and real-time processing, particularly using AWS services? What considerations would you take into account regarding data consistency, fault tolerance, and performance?",
+    "options": [
+      "Focusing exclusively on batch processing to simplify architecture.",
+      "Using Lambda for real-time processing and S3 for batch processing without considering data consistency.",
+      "Integrating AWS Glue for batch processing and Kinesis for real-time processing, ensuring data consistency and fault tolerance.",
+      "Implementing a monolithic approach to handle both batch and real-time processing."
+    ],
+    "answer": "Integrating AWS Glue for batch processing and Kinesis for real-time processing, ensuring data consistency and fault tolerance.",
+    "date": "2026-03-18T02:30:29.548Z",
+    "reason": "This question assesses the candidate's ability to design scalable architectures that meet the demands of both batch and real-time processing, which is critical in modern data-driven applications. It also evaluates their understanding of AWS services, data consistency, and fault tolerance, essential for ensuring system reliability and performance."
   }
 ]
