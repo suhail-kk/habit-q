@@ -1990,5 +1990,17 @@
     "answer": "Integrating AWS Glue for batch processing and Kinesis for real-time processing, ensuring data consistency and fault tolerance.",
     "date": "2026-03-18T02:30:29.548Z",
     "reason": "This question assesses the candidate's ability to design scalable architectures that meet the demands of both batch and real-time processing, which is critical in modern data-driven applications. It also evaluates their understanding of AWS services, data consistency, and fault tolerance, essential for ensuring system reliability and performance."
+  },
+  {
+    "question": "Can you describe your approach to designing a robust data processing pipeline that integrates both batch and real-time data processing in a cloud environment? What architectural patterns and technologies would you consider, and how would you ensure data consistency and reliability across different processing methods?",
+    "options": [
+      "Focus solely on real-time processing to ensure immediate data availability and ignore batch processing.",
+      "Use a single technology for both batch and real-time processing to simplify the architecture and reduce complexity.",
+      "Design a hybrid pipeline using technologies like AWS Kinesis for real-time processing and AWS Glue for batch processing, ensuring data consistency with transactional mechanisms.",
+      "Only implement batch processing and handle real-time requirements manually through scheduled jobs."
+    ],
+    "answer": "Design a hybrid pipeline using technologies like AWS Kinesis for real-time processing and AWS Glue for batch processing, ensuring data consistency with transactional mechanisms.",
+    "date": "2026-03-20T02:24:04.609Z",
+    "reason": "This question assesses the candidate's understanding of architectural patterns for data processing, their ability to integrate different technologies, and their strategies for ensuring data consistency and reliability, which are critical in modern data-driven applications."
   }
 ]
