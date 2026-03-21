@@ -2002,5 +2002,17 @@
     "answer": "Design a hybrid pipeline using technologies like AWS Kinesis for real-time processing and AWS Glue for batch processing, ensuring data consistency with transactional mechanisms.",
     "date": "2026-03-20T02:24:04.609Z",
     "reason": "This question assesses the candidate's understanding of architectural patterns for data processing, their ability to integrate different technologies, and their strategies for ensuring data consistency and reliability, which are critical in modern data-driven applications."
+  },
+  {
+    "question": "Can you explain how you would implement a comprehensive logging and monitoring strategy for a microservices architecture deployed on AWS? What tools and practices would you employ to ensure effective observability across services?",
+    "options": [
+      "Use only built-in AWS CloudWatch tools for logging and monitoring.",
+      "Implement a centralized logging system using tools like ELK stack and integrate CloudWatch for monitoring.",
+      "Rely on third-party services for monitoring without any logging.",
+      "Focus on manual logging in each service without a centralized approach."
+    ],
+    "answer": "Implement a centralized logging system using tools like ELK stack and integrate CloudWatch for monitoring.",
+    "date": "2026-03-21T02:11:09.996Z",
+    "reason": "This question is valuable because it assesses the candidate's understanding of logging and monitoring strategies in a distributed environment, which is crucial for maintaining performance, diagnosing issues, and ensuring system reliability in microservices architectures."
   }
 ]
