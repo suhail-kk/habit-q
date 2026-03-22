@@ -2014,5 +2014,17 @@
     "answer": "Implement a centralized logging system using tools like ELK stack and integrate CloudWatch for monitoring.",
     "date": "2026-03-21T02:11:09.996Z",
     "reason": "This question is valuable because it assesses the candidate's understanding of logging and monitoring strategies in a distributed environment, which is crucial for maintaining performance, diagnosing issues, and ensuring system reliability in microservices architectures."
+  },
+  {
+    "question": "Can you discuss your approach to managing dependencies in a Node.js project? What tools and practices do you utilize to ensure that your dependencies are secure, up-to-date, and compatible with your application?",
+    "options": [
+      "I rely only on npm for managing dependencies without considering security.",
+      "I regularly audit dependencies using tools like npm audit and keep them updated using npm outdated.",
+      "I prefer to manually check each dependency for new versions and security issues without using any automated tools.",
+      "I do not focus on dependency management as long as the application runs."
+    ],
+    "answer": "I regularly audit dependencies using tools like npm audit and keep them updated using npm outdated.",
+    "date": "2026-03-22T02:31:57.177Z",
+    "reason": "This question evaluates the candidate's understanding of dependency management best practices, security considerations, and the importance of keeping dependencies updated, which are crucial aspects for maintaining a healthy and secure codebase."
   }
 ]
