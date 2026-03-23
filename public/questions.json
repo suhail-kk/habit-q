@@ -2026,5 +2026,17 @@
     "answer": "I regularly audit dependencies using tools like npm audit and keep them updated using npm outdated.",
     "date": "2026-03-22T02:31:57.177Z",
     "reason": "This question evaluates the candidate's understanding of dependency management best practices, security considerations, and the importance of keeping dependencies updated, which are crucial aspects for maintaining a healthy and secure codebase."
+  },
+  {
+    "question": "Can you discuss your approach to implementing security best practices in a microservices architecture, particularly focusing on how you would handle authentication and authorization across services? What tools and strategies would you employ to safeguard against common vulnerabilities?",
+    "options": [
+      "Utilize OAuth 2.0 for authentication and implement API gateways for centralized authorization.",
+      "Implement basic authentication for all services and rely on server firewalls for security.",
+      "Use JWT tokens for authentication and ensure all services communicate over a private network.",
+      "Set up role-based access control (RBAC) with static keys embedded in service code."
+    ],
+    "answer": "Utilize OAuth 2.0 for authentication and implement API gateways for centralized authorization.",
+    "date": "2026-03-23T02:32:24.159Z",
+    "reason": "This question assesses the candidate's understanding of security best practices in a microservices context, particularly regarding authentication and authorization, which are critical for protecting services against vulnerabilities."
   }
 ]
