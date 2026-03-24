@@ -2038,5 +2038,17 @@
     "answer": "Utilize OAuth 2.0 for authentication and implement API gateways for centralized authorization.",
     "date": "2026-03-23T02:32:24.159Z",
     "reason": "This question assesses the candidate's understanding of security best practices in a microservices context, particularly regarding authentication and authorization, which are critical for protecting services against vulnerabilities."
+  },
+  {
+    "question": "Can you describe your experience with implementing asynchronous programming in Python? What approaches did you use for managing concurrency, and how did you ensure error handling and performance optimization in your applications?",
+    "options": [
+      "I used threading and multiprocessing to manage concurrency and focused on exception handling.",
+      "I primarily relied on synchronous programming and avoided asynchronous patterns.",
+      "I implemented asynchronous programming using asyncio and ensured proper error handling with try/except blocks.",
+      "I used callback functions to manage asynchronous tasks and didn't focus much on error handling."
+    ],
+    "answer": "I implemented asynchronous programming using asyncio and ensured proper error handling with try/except blocks.",
+    "date": "2026-03-24T02:24:45.494Z",
+    "reason": "This question assesses the candidate's practical experience with asynchronous programming in Python, a crucial skill for developing efficient applications. It also tests their understanding of concurrency management and error handling, which are essential for robust software development."
   }
 ]
