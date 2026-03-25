@@ -2050,5 +2050,17 @@
     "answer": "I implemented asynchronous programming using asyncio and ensured proper error handling with try/except blocks.",
     "date": "2026-03-24T02:24:45.494Z",
     "reason": "This question assesses the candidate's practical experience with asynchronous programming in Python, a crucial skill for developing efficient applications. It also tests their understanding of concurrency management and error handling, which are essential for robust software development."
+  },
+  {
+    "question": "Can you describe a situation in which you had to optimize a Python application's performance? What specific tools did you use for profiling, and what optimizations did you implement to enhance its efficiency?",
+    "options": [
+      "A) I utilized memory profiling tools like memory_profiler and implemented lazy loading to optimize performance.",
+      "B) I relied solely on code reviews without using any profiling tools to identify bottlenecks.",
+      "C) I used a debugger to step through the code but did not implement any changes based on my findings.",
+      "D) I created a more complex data structure without measuring its impact on performance."
+    ],
+    "answer": "A",
+    "date": "2026-03-25T02:29:17.403Z",
+    "reason": "This question assesses the candidate's ability to identify performance issues in Python applications, their familiarity with profiling tools, and their experience with practical optimization techniques. It also encourages them to share real-world examples, showcasing their problem-solving skills."
   }
 ]
