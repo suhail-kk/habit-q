@@ -2062,5 +2062,17 @@
     "answer": "A",
     "date": "2026-03-25T02:29:17.403Z",
     "reason": "This question assesses the candidate's ability to identify performance issues in Python applications, their familiarity with profiling tools, and their experience with practical optimization techniques. It also encourages them to share real-world examples, showcasing their problem-solving skills."
+  },
+  {
+    "question": "Can you discuss your approach to designing a scalable data processing architecture that integrates both batch and real-time processing, particularly using AWS services? What considerations would you take into account regarding data consistency, fault tolerance, and performance?",
+    "options": [
+      "1. Focus only on batch processing to simplify the architecture.",
+      "2. Use AWS Lambda for real-time processing and AWS Batch for batch processing while ensuring proper data flow between them.",
+      "3. Avoid using cloud services and rely solely on on-premises solutions.",
+      "4. Implement a single processing method to handle all data types."
+    ],
+    "answer": "2. Use AWS Lambda for real-time processing and AWS Batch for batch processing while ensuring proper data flow between them.",
+    "date": "2026-03-26T02:36:21.906Z",
+    "reason": "This question evaluates a candidate's ability to design a complex data processing architecture that balances between batch and real-time requirements while leveraging cloud technologies, which is crucial for modern data-driven applications."
   }
 ]
