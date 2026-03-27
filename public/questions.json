@@ -2074,5 +2074,17 @@
     "answer": "2. Use AWS Lambda for real-time processing and AWS Batch for batch processing while ensuring proper data flow between them.",
     "date": "2026-03-26T02:36:21.906Z",
     "reason": "This question evaluates a candidate's ability to design a complex data processing architecture that balances between batch and real-time requirements while leveraging cloud technologies, which is crucial for modern data-driven applications."
+  },
+  {
+    "question": "Can you discuss how you would implement a comprehensive logging and monitoring strategy for a microservices architecture deployed on AWS? What tools and practices would you employ to ensure effective observability across services?",
+    "options": [
+      "Utilize CloudWatch for logging and monitoring, implement structured logging, and use OpenTelemetry for tracing.",
+      "Rely solely on application-level logging and ignore monitoring services.",
+      "Use only third-party monitoring tools without integrating with AWS services.",
+      "Implement a single logging mechanism that does not differentiate between microservices."
+    ],
+    "answer": "Utilize CloudWatch for logging and monitoring, implement structured logging, and use OpenTelemetry for tracing.",
+    "date": "2026-03-27T02:38:18.848Z",
+    "reason": "This question evaluates a candidate's understanding of observability in microservices, their knowledge of AWS tools, and their ability to architect a logging strategy that supports complex distributed systems."
   }
 ]
