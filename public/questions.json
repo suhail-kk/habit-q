@@ -2086,5 +2086,17 @@
     "answer": "Utilize CloudWatch for logging and monitoring, implement structured logging, and use OpenTelemetry for tracing.",
     "date": "2026-03-27T02:38:18.848Z",
     "reason": "This question evaluates a candidate's understanding of observability in microservices, their knowledge of AWS tools, and their ability to architect a logging strategy that supports complex distributed systems."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive logging and monitoring strategy for a microservices architecture deployed on AWS? What tools and practices would you employ to ensure effective observability across services?",
+    "options": [
+      "A. Use AWS CloudWatch for logging and monitoring, focusing on metrics and alerts without considering application-level logs.",
+      "B. Implement a centralized logging solution using tools like ELK Stack or Splunk, while ensuring that each microservice sends logs to this centralized system.",
+      "C. Rely solely on the monitoring tools provided by AWS, without integrating additional observability practices.",
+      "D. Focus only on application-level monitoring, ignoring infrastructure and network performance metrics."
+    ],
+    "answer": "B",
+    "date": "2026-03-28T02:28:29.734Z",
+    "reason": "This question is valuable because it assesses the candidate's understanding of observability in a microservices architecture, including the importance of centralized logging and using appropriate tools to ensure comprehensive monitoring across different services."
   }
 ]
