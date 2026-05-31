@@ -2098,5 +2098,29 @@
     "answer": "B",
     "date": "2026-03-28T02:28:29.734Z",
     "reason": "This question is valuable because it assesses the candidate's understanding of observability in a microservices architecture, including the importance of centralized logging and using appropriate tools to ensure comprehensive monitoring across different services."
+  },
+  {
+    "question": "Can you explain your approach to implementing a caching strategy in a Node.js application? What factors would you consider regarding cache invalidation, consistency, and performance, and how would you measure the success of your caching solution?",
+    "options": [
+      "1. Focus solely on the caching technology used without considering other factors.",
+      "2. Implement cache without any invalidation strategy and monitor performance periodically.",
+      "3. Use a well-defined invalidation strategy, consider data consistency, and measure performance impact using metrics.",
+      "4. Rely on default caching settings provided by the caching library."
+    ],
+    "answer": "3. Use a well-defined invalidation strategy, consider data consistency, and measure performance impact using metrics.",
+    "date": "2026-05-31T13:25:39.879Z",
+    "reason": "This question assesses the candidate's understanding of caching principles, their ability to implement a robust caching strategy, and how they consider performance and data integrity in their decisions."
+  },
+  {
+    "question": "Can you describe your approach to implementing effective unit and integration testing in a Node.js application using Jest? What strategies do you employ to ensure comprehensive test coverage and maintainability of the test suite?",
+    "options": [
+      "A. I focus solely on unit tests and skip integration tests for faster feedback.",
+      "B. I use Jest for both unit and integration testing, ensuring that each function is tested in isolation first, followed by integration tests to validate interactions between components.",
+      "C. I write tests only when issues arise in production to save time during development.",
+      "D. I rely on manual testing to identify issues and do not prioritize automated tests."
+    ],
+    "answer": "B. I use Jest for both unit and integration testing, ensuring that each function is tested in isolation first, followed by integration tests to validate interactions between components.",
+    "date": "2026-05-31T13:35:54.308Z",
+    "reason": "This question evaluates the candidate's understanding of testing methodologies and their ability to implement effective testing strategies using Jest in Node.js, which is crucial for maintaining code quality and preventing regressions."
   }
 ]

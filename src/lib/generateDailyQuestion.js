@@ -26,6 +26,8 @@ export async function generateDailyQuestion() {
             model: "gpt-4o-mini",
             messages: [{ role: "user", content: prompt }],
             temperature: 0.3,
+            // Avoid OpenRouter defaulting to a very large max_tokens value.
+            max_tokens: 800,
         }),
     });
 
