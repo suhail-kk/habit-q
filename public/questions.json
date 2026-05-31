@@ -2122,5 +2122,17 @@
     "answer": "B. I use Jest for both unit and integration testing, ensuring that each function is tested in isolation first, followed by integration tests to validate interactions between components.",
     "date": "2026-05-31T13:35:54.308Z",
     "reason": "This question evaluates the candidate's understanding of testing methodologies and their ability to implement effective testing strategies using Jest in Node.js, which is crucial for maintaining code quality and preventing regressions."
+  },
+  {
+    "question": "Can you describe your approach to designing a scalable and maintainable architecture for a data-driven application that utilizes both SQL and NoSQL databases? What considerations would you take into account regarding data consistency, performance, and integration across different storage solutions?",
+    "options": [
+      "Focus solely on using SQL databases for all data storage to simplify architecture.",
+      "Use NoSQL databases exclusively for performance gains and ignore data consistency.",
+      "Implement a hybrid approach that leverages both SQL and NoSQL, considering data consistency and integration patterns.",
+      "Choose the database technology based on the development team's familiarity rather than the application's requirements."
+    ],
+    "answer": "Implement a hybrid approach that leverages both SQL and NoSQL, considering data consistency and integration patterns.",
+    "date": "2026-05-31T14:18:15.734Z",
+    "reason": "This question assesses a candidate's understanding of database technologies and their ability to design a system that balances the strengths and weaknesses of both SQL and NoSQL, which is crucial for building scalable and maintainable applications."
   }
 ]
