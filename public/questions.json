@@ -2134,5 +2134,17 @@
     "answer": "Implement a hybrid approach that leverages both SQL and NoSQL, considering data consistency and integration patterns.",
     "date": "2026-05-31T14:18:15.734Z",
     "reason": "This question assesses a candidate's understanding of database technologies and their ability to design a system that balances the strengths and weaknesses of both SQL and NoSQL, which is crucial for building scalable and maintainable applications."
+  },
+  {
+    "question": "Can you describe your approach to implementing a strategy for API versioning in a microservices architecture? What considerations would you keep in mind to ensure backwards compatibility and a smooth transition for clients using different API versions?",
+    "options": [
+      "Utilizing URL path versioning while ensuring proper redirects are in place.",
+      "Implementing header-based versioning and documenting it thoroughly for clients.",
+      "Creating separate services for each version and managing them independently.",
+      "Using semantic versioning for API endpoints and providing detailed change logs."
+    ],
+    "answer": "Utilizing URL path versioning while ensuring proper redirects are in place.",
+    "date": "2026-06-01T02:12:52.540Z",
+    "reason": "This question assesses the candidate's understanding of API design principles, particularly in managing versioning in microservices, which is critical for maintaining compatibility and improving user experience over time."
   }
 ]
