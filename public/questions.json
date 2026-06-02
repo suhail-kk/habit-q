@@ -2146,5 +2146,17 @@
     "answer": "Utilizing URL path versioning while ensuring proper redirects are in place.",
     "date": "2026-06-01T02:12:52.540Z",
     "reason": "This question assesses the candidate's understanding of API design principles, particularly in managing versioning in microservices, which is critical for maintaining compatibility and improving user experience over time."
+  },
+  {
+    "question": "Can you discuss your experience with implementing concurrency in a Node.js application? What patterns or strategies did you use to manage asynchronous operations, and how did you handle potential issues like race conditions and deadlocks?",
+    "options": [
+      "Utilized Promises and async/await patterns to manage asynchronous operations.",
+      "Implemented callback functions for managing concurrency.",
+      "Used Web Workers to handle concurrency in Node.js applications.",
+      "Avoided concurrency due to complexity."
+    ],
+    "answer": "Utilized Promises and async/await patterns to manage asynchronous operations.",
+    "date": "2026-06-02T02:13:47.212Z",
+    "reason": "This question assesses the candidate's understanding of concurrency in Node.js, which is crucial for building efficient applications. It also provides insight into their problem-solving skills and ability to handle common challenges associated with asynchronous programming."
   }
 ]
