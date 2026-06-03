@@ -2158,5 +2158,17 @@
     "answer": "Utilized Promises and async/await patterns to manage asynchronous operations.",
     "date": "2026-06-02T02:13:47.212Z",
     "reason": "This question assesses the candidate's understanding of concurrency in Node.js, which is crucial for building efficient applications. It also provides insight into their problem-solving skills and ability to handle common challenges associated with asynchronous programming."
+  },
+  {
+    "question": "Can you describe your approach to implementing a strategy for managing API rate limiting in a microservices architecture? What factors would you consider to ensure fair use across clients while maintaining system performance and reliability?",
+    "options": [
+      "Utilizing a centralized rate limiting service that tracks requests per client and applies limits accordingly.",
+      "Implementing rate limiting on each microservice independently based on their specific load and usage patterns.",
+      "Using a combination of both centralized and independent rate limiting to balance performance and fairness.",
+      "Ignoring rate limiting and relying on backend services to manage load without any restrictions."
+    ],
+    "answer": "Utilizing a centralized rate limiting service that tracks requests per client and applies limits accordingly.",
+    "date": "2026-06-03T02:31:25.439Z",
+    "reason": "This question assesses the candidate's understanding of API management, system performance, and fairness in multi-client environments, which are crucial for maintaining reliable and efficient microservices."
   }
 ]
