@@ -2170,5 +2170,17 @@
     "answer": "Utilizing a centralized rate limiting service that tracks requests per client and applies limits accordingly.",
     "date": "2026-06-03T02:31:25.439Z",
     "reason": "This question assesses the candidate's understanding of API management, system performance, and fairness in multi-client environments, which are crucial for maintaining reliable and efficient microservices."
+  },
+  {
+    "question": "Can you discuss your approach to implementing data validation and error handling in a microservices architecture? What strategies would you employ to ensure that data consistency is maintained across services, and how would you manage errors effectively?",
+    "options": [
+      "Implement centralized validation and error handling middleware for all services.",
+      "Use client-side validation exclusively to reduce server load.",
+      "Rely on database constraints to ensure data integrity.",
+      "Discard invalid data silently to improve performance."
+    ],
+    "answer": "Implement centralized validation and error handling middleware for all services.",
+    "date": "2026-06-04T02:28:18.491Z",
+    "reason": "This question is valuable as it allows the candidate to demonstrate their understanding of data integrity and error management in a distributed system, which are critical for maintaining robust and reliable microservices."
   }
 ]
