@@ -2182,5 +2182,17 @@
     "answer": "Implement centralized validation and error handling middleware for all services.",
     "date": "2026-06-04T02:28:18.491Z",
     "reason": "This question is valuable as it allows the candidate to demonstrate their understanding of data integrity and error management in a distributed system, which are critical for maintaining robust and reliable microservices."
+  },
+  {
+    "question": "Can you describe how you would approach building a multi-tenant architecture for a SaaS application using Node.js and a relational database? What design patterns and strategies would you implement to ensure data isolation, security, and scalability?",
+    "options": [
+      "Implement a single database with row-level security for data isolation.",
+      "Use separate databases for each tenant with a dedicated API for each.",
+      "Utilize a hybrid approach with shared database tables and tenant-specific schemas.",
+      "Design a microservices architecture where each service handles a specific tenant."
+    ],
+    "answer": "Utilize a hybrid approach with shared database tables and tenant-specific schemas.",
+    "date": "2026-06-05T02:02:52.568Z",
+    "reason": "This question assesses a candidate's understanding of multi-tenant architectures, data isolation, and scalability considerations in a SaaS context, which are critical for modern web applications."
   }
 ]
