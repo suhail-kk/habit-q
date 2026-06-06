@@ -2194,5 +2194,17 @@
     "answer": "Utilize a hybrid approach with shared database tables and tenant-specific schemas.",
     "date": "2026-06-05T02:02:52.568Z",
     "reason": "This question assesses a candidate's understanding of multi-tenant architectures, data isolation, and scalability considerations in a SaaS context, which are critical for modern web applications."
+  },
+  {
+    "question": "Can you explain the concept of closures in JavaScript and provide an example of how they can be used to manage private state within a function?",
+    "options": [
+      "Closures are functions that have access to variables from another function's scope even after that function has finished executing.",
+      "Closures are a way to create a new object in JavaScript.",
+      "Closures are a method of creating promises in JavaScript.",
+      "Closures are used exclusively in functional programming and have no relevance in JavaScript."
+    ],
+    "answer": "Closures are functions that have access to variables from another function's scope even after that function has finished executing.",
+    "date": "2026-06-06T01:54:25.634Z",
+    "reason": "Understanding closures is crucial for advanced JavaScript development, as they enable developers to create private variables and functions, enhancing encapsulation and state management in applications."
   }
 ]
