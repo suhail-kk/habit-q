@@ -2218,5 +2218,17 @@
     "answer": "Adopt a hybrid approach, leveraging both patterns based on use cases while implementing appropriate data consistency and service discovery mechanisms.",
     "date": "2026-06-07T02:09:13.012Z",
     "reason": "This question evaluates the candidate's understanding of microservices architecture and their ability to think critically about design patterns, as well as their knowledge about balancing performance, data consistency, and service interactions."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive strategy for managing API security in a cloud-based microservices architecture? What specific practices and tools would you use to protect against common vulnerabilities and ensure secure communication between services?",
+    "options": [
+      "Implement OAuth2 for authentication and API Gateway for request routing.",
+      "Use API keys for all services and limit network access to internal IP ranges.",
+      "Rely solely on HTTPS for secure communication between services.",
+      "Utilize a firewall and monitor network traffic for suspicious activity."
+    ],
+    "answer": "Implement OAuth2 for authentication and API Gateway for request routing.",
+    "date": "2026-06-08T02:14:12.607Z",
+    "reason": "This question assesses the candidate's understanding of API security best practices in cloud environments, which are critical for protecting sensitive data and ensuring robust communication between microservices."
   }
 ]
