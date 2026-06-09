@@ -2230,5 +2230,17 @@
     "answer": "Implement OAuth2 for authentication and API Gateway for request routing.",
     "date": "2026-06-08T02:14:12.607Z",
     "reason": "This question assesses the candidate's understanding of API security best practices in cloud environments, which are critical for protecting sensitive data and ensuring robust communication between microservices."
+  },
+  {
+    "question": "Can you describe your approach to implementing rate limiting in a Node.js API? What strategies would you use to ensure fair use among clients while also maintaining overall system performance?",
+    "options": [
+      "Using an in-memory store to keep track of request counts per client.",
+      "Implementing a token bucket algorithm for all API endpoints.",
+      "Using a distributed cache to manage rate limits across multiple instances.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "date": "2026-06-09T01:51:30.536Z",
+    "reason": "This question assesses the candidate's understanding of rate limiting strategies in API development, which is crucial for maintaining performance and fairness in a production environment."
   }
 ]
