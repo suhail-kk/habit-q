@@ -2242,5 +2242,17 @@
     "answer": "All of the above.",
     "date": "2026-06-09T01:51:30.536Z",
     "reason": "This question assesses the candidate's understanding of rate limiting strategies in API development, which is crucial for maintaining performance and fairness in a production environment."
+  },
+  {
+    "question": "Can you explain how you would design a resilient and scalable cloud-based application on AWS that leverages both serverless and containerized services? What factors would you consider regarding load balancing, service communication, and failure recovery?",
+    "options": [
+      "A. Focus solely on using AWS Lambda for all services without considering containerization.",
+      "B. Use a combination of AWS Lambda and Amazon ECS, ensuring proper service communication and load balancing while implementing auto-scaling and fault tolerance.",
+      "C. Opt for only traditional EC2 instances without any serverless components for better control.",
+      "D. Prioritize database management over application architecture when designing the solution."
+    ],
+    "answer": "B. Use a combination of AWS Lambda and Amazon ECS, ensuring proper service communication and load balancing while implementing auto-scaling and fault tolerance.",
+    "date": "2026-06-10T02:02:30.886Z",
+    "reason": "This question assesses the candidate's understanding of modern cloud architecture practices, including the hybrid use of serverless and containerized services, which is essential for building scalable and resilient applications in a cloud environment."
   }
 ]
