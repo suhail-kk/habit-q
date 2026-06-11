@@ -2254,5 +2254,17 @@
     "answer": "B. Use a combination of AWS Lambda and Amazon ECS, ensuring proper service communication and load balancing while implementing auto-scaling and fault tolerance.",
     "date": "2026-06-10T02:02:30.886Z",
     "reason": "This question assesses the candidate's understanding of modern cloud architecture practices, including the hybrid use of serverless and containerized services, which is essential for building scalable and resilient applications in a cloud environment."
+  },
+  {
+    "question": "Can you discuss your approach to ensuring data consistency and integrity when developing a microservices architecture that utilizes both SQL and NoSQL databases? What strategies would you employ to manage eventual consistency and handle distributed transactions effectively?",
+    "options": [
+      "Prioritize immediate consistency across all services at the expense of performance",
+      "Use a centralized database to manage all transactions in the architecture",
+      "Implement eventual consistency with strategies such as event sourcing or CQRS and use distributed transaction management techniques",
+      "Avoid using multiple databases to eliminate complexity and consistency issues"
+    ],
+    "answer": "Implement eventual consistency with strategies such as event sourcing or CQRS and use distributed transaction management techniques",
+    "date": "2026-06-11T02:13:39.486Z",
+    "reason": "This question is valuable as it assesses the candidate's understanding of complex data management challenges in microservices architectures that involve multiple database types, highlighting their experience with consistency models and transaction management strategies."
   }
 ]
