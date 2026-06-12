@@ -2266,5 +2266,17 @@
     "answer": "Implement eventual consistency with strategies such as event sourcing or CQRS and use distributed transaction management techniques",
     "date": "2026-06-11T02:13:39.486Z",
     "reason": "This question is valuable as it assesses the candidate's understanding of complex data management challenges in microservices architectures that involve multiple database types, highlighting their experience with consistency models and transaction management strategies."
+  },
+  {
+    "question": "Can you describe your approach to implementing an automated testing strategy for a Node.js application, focusing on both unit and integration testing? What tools and practices do you consider essential for ensuring reliability and maintainability in your test suite?",
+    "options": [
+      "1. Focus only on unit tests using Jest and ignore integration tests.",
+      "2. Use a combination of Jest for unit testing and Supertest for integration testing, while following best practices for test organization and coverage.",
+      "3. Rely solely on manual testing to ensure application functionality.",
+      "4. Implement tests only after deploying the application to production."
+    ],
+    "answer": "2. Use a combination of Jest for unit testing and Supertest for integration testing, while following best practices for test organization and coverage.",
+    "date": "2026-06-12T02:09:44.257Z",
+    "reason": "This question evaluates the candidate's understanding of testing strategies, tools, and best practices, which are crucial for maintaining high code quality and reliability in software development."
   }
 ]
