@@ -2278,5 +2278,17 @@
     "answer": "2. Use a combination of Jest for unit testing and Supertest for integration testing, while following best practices for test organization and coverage.",
     "date": "2026-06-12T02:09:44.257Z",
     "reason": "This question evaluates the candidate's understanding of testing strategies, tools, and best practices, which are crucial for maintaining high code quality and reliability in software development."
+  },
+  {
+    "question": "Can you explain how you would design a system that ensures data consistency across multiple microservices that utilize different database technologies, such as SQL and NoSQL? What strategies would you implement to handle eventual consistency and maintain data integrity in your architecture?",
+    "options": [
+      "1. Utilize a centralized database for all microservices to ensure consistency.",
+      "2. Implement a two-phase commit protocol for all database transactions.",
+      "3. Use event sourcing and a message broker to propagate changes across services.",
+      "4. Rely on application-level checks to manage data consistency."
+    ],
+    "answer": "3. Use event sourcing and a message broker to propagate changes across services.",
+    "date": "2026-06-13T02:02:41.196Z",
+    "reason": "This question assesses a candidate's understanding of complex data management challenges in microservices architectures, particularly how to maintain data integrity and consistency across diverse database technologies. It also evaluates their knowledge of patterns like event sourcing, which are crucial for scalable and reliable systems."
   }
 ]
