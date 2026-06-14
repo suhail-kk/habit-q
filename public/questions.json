@@ -2290,5 +2290,17 @@
     "answer": "3. Use event sourcing and a message broker to propagate changes across services.",
     "date": "2026-06-13T02:02:41.196Z",
     "reason": "This question assesses a candidate's understanding of complex data management challenges in microservices architectures, particularly how to maintain data integrity and consistency across diverse database technologies. It also evaluates their knowledge of patterns like event sourcing, which are crucial for scalable and reliable systems."
+  },
+  {
+    "question": "Can you discuss your approach to optimizing the performance of a Node.js application under high load? What techniques would you implement to ensure efficiency and responsiveness, and how would you measure the impact of your optimizations?",
+    "options": [
+      "By using clustering and load balancing to distribute requests across multiple instances and measuring response times with APM tools.",
+      "By relying solely on expanding server resources without implementing any code optimizations.",
+      "By avoiding any changes to the code and waiting for hardware upgrades to handle increased load.",
+      "By minimizing logging and increasing timeout settings to reduce overhead."
+    ],
+    "answer": "By using clustering and load balancing to distribute requests across multiple instances and measuring response times with APM tools.",
+    "date": "2026-06-14T02:12:42.683Z",
+    "reason": "This question assesses a candidate's ability to implement performance optimizations in Node.js applications, which is crucial for maintaining responsiveness under high traffic. It also evaluates their understanding of tools and techniques for measuring performance impact."
   }
 ]
