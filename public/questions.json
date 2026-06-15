@@ -2302,5 +2302,17 @@
     "answer": "By using clustering and load balancing to distribute requests across multiple instances and measuring response times with APM tools.",
     "date": "2026-06-14T02:12:42.683Z",
     "reason": "This question assesses a candidate's ability to implement performance optimizations in Node.js applications, which is crucial for maintaining responsiveness under high traffic. It also evaluates their understanding of tools and techniques for measuring performance impact."
+  },
+  {
+    "question": "Can you describe your approach to implementing efficient data access patterns in a microservices architecture that utilizes both SQL and NoSQL databases? What factors do you consider when deciding which type of database to use for specific services, and how do you handle data synchronization between them?",
+    "options": [
+      "A) I always choose SQL for all data storage needs due to its reliability.",
+      "B) I assess the data access patterns, scalability requirements, and consistency needs, selecting the database type accordingly while implementing synchronization strategies.",
+      "C) I use NoSQL databases exclusively for all services to simplify the architecture.",
+      "D) I rely on a single database type for consistency across the application."
+    ],
+    "answer": "B) I assess the data access patterns, scalability requirements, and consistency needs, selecting the database type accordingly while implementing synchronization strategies.",
+    "date": "2026-06-15T02:28:23.782Z",
+    "reason": "This question is valuable because it assesses a candidate's understanding of database selection criteria in a microservices architecture, which is critical for ensuring optimal performance and data integrity. It also explores their ability to manage the complexities of using multiple database technologies."
   }
 ]
