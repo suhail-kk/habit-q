@@ -2314,5 +2314,17 @@
     "answer": "B) I assess the data access patterns, scalability requirements, and consistency needs, selecting the database type accordingly while implementing synchronization strategies.",
     "date": "2026-06-15T02:28:23.782Z",
     "reason": "This question is valuable because it assesses a candidate's understanding of database selection criteria in a microservices architecture, which is critical for ensuring optimal performance and data integrity. It also explores their ability to manage the complexities of using multiple database technologies."
+  },
+  {
+    "question": "Can you explain how you would design a system to handle real-time data processing in a microservices architecture, particularly focusing on the trade-offs between using a message queue versus direct service-to-service communication? What factors would influence your decision?",
+    "options": [
+      "A) I would always use direct service-to-service communication for better performance.",
+      "B) I would choose a message queue for all scenarios to ensure reliability.",
+      "C) The decision would depend on the requirements for scalability, fault tolerance, and data consistency.",
+      "D) I would not consider scalability in my design."
+    ],
+    "answer": "C",
+    "date": "2026-06-16T02:31:10.468Z",
+    "reason": "This question evaluates the candidate's understanding of architectural design principles, trade-offs in communication patterns, and their ability to make informed decisions based on system requirements. It also tests their knowledge of real-time data processing concepts, which are critical in modern applications."
   }
 ]
