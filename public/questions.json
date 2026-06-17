@@ -2326,5 +2326,17 @@
     "answer": "C",
     "date": "2026-06-16T02:31:10.468Z",
     "reason": "This question evaluates the candidate's understanding of architectural design principles, trade-offs in communication patterns, and their ability to make informed decisions based on system requirements. It also tests their knowledge of real-time data processing concepts, which are critical in modern applications."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a CI/CD pipeline for a microservices architecture? What tools would you leverage for automation, testing, and deployment, and how would you handle challenges related to versioning and service dependencies?",
+    "options": [
+      "Utilize Jenkins for CI and AWS CodeDeploy for CD, focusing on automated testing using Jest.",
+      "Implement GitHub Actions for CI and Kubernetes for CD, ensuring all services are independently versioned.",
+      "Use GitLab CI for both CI and CD, while employing Docker for containerization and monitoring service dependencies through a service mesh.",
+      "Incorporate CircleCI for CI and AWS Elastic Beanstalk for CD, with manual testing as a key component of the pipeline."
+    ],
+    "answer": "Use GitLab CI for both CI and CD, while employing Docker for containerization and monitoring service dependencies through a service mesh.",
+    "date": "2026-06-17T02:15:57.672Z",
+    "reason": "This question assesses the candidate's understanding of CI/CD practices in a microservices context, their familiarity with modern tools, and their ability to address complexities such as service versioning and dependencies."
   }
 ]
