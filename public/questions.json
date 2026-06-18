@@ -2338,5 +2338,17 @@
     "answer": "Use GitLab CI for both CI and CD, while employing Docker for containerization and monitoring service dependencies through a service mesh.",
     "date": "2026-06-17T02:15:57.672Z",
     "reason": "This question assesses the candidate's understanding of CI/CD practices in a microservices context, their familiarity with modern tools, and their ability to address complexities such as service versioning and dependencies."
+  },
+  {
+    "question": "Can you describe your strategy for implementing error handling in asynchronous JavaScript code, particularly when dealing with Promises and async/await? What best practices do you follow to ensure that errors are logged and that the application remains robust?",
+    "options": [
+      "Use try/catch blocks around the async functions and log errors to a monitoring service.",
+      "Ignore errors in async functions to keep the application running smoothly.",
+      "Wrap all Promises in a global error handler without specific logging.",
+      "Use synchronous error handling techniques instead of adapting to asynchronous patterns."
+    ],
+    "answer": "Use try/catch blocks around the async functions and log errors to a monitoring service.",
+    "date": "2026-06-18T02:14:13.781Z",
+    "reason": "This question assesses the candidate's understanding of error handling in asynchronous programming, which is crucial for building reliable applications in JavaScript. It also highlights their approach to error logging and application robustness."
   }
 ]
