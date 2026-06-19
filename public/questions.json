@@ -2350,5 +2350,17 @@
     "answer": "Use try/catch blocks around the async functions and log errors to a monitoring service.",
     "date": "2026-06-18T02:14:13.781Z",
     "reason": "This question assesses the candidate's understanding of error handling in asynchronous programming, which is crucial for building reliable applications in JavaScript. It also highlights their approach to error logging and application robustness."
+  },
+  {
+    "question": "Can you describe your approach to implementing data migration strategies in a microservices architecture? What considerations would you take into account regarding data consistency, downtime, and rollback procedures during the migration process?",
+    "options": [
+      "A. Focus solely on data backup and recovery without planning for the migration process.",
+      "B. Prioritize speed over accuracy, migrating data as quickly as possible without testing.",
+      "C. Develop a phased migration approach with thorough testing and rollback strategies to ensure data integrity.",
+      "D. Ignore the need for data consistency as the services are independent."
+    ],
+    "answer": "C. Develop a phased migration approach with thorough testing and rollback strategies to ensure data integrity.",
+    "date": "2026-06-19T02:42:58.288Z",
+    "reason": "This question assesses the candidate's understanding of critical aspects of data migration within a microservices architecture, including planning, testing, and strategies for ensuring data consistency and minimizing downtime, which are essential for maintaining system reliability and integrity."
   }
 ]
