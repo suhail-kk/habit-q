@@ -2362,5 +2362,17 @@
     "answer": "C. Develop a phased migration approach with thorough testing and rollback strategies to ensure data integrity.",
     "date": "2026-06-19T02:42:58.288Z",
     "reason": "This question assesses the candidate's understanding of critical aspects of data migration within a microservices architecture, including planning, testing, and strategies for ensuring data consistency and minimizing downtime, which are essential for maintaining system reliability and integrity."
+  },
+  {
+    "question": "Can you describe your approach to designing a resilient and scalable cloud-based application that leverages both serverless and containerized services? What factors would you consider regarding load balancing, service communication, and failure recovery?",
+    "options": [
+      "1. Focus solely on serverless architecture without considering containerization.",
+      "2. Ensure tight coupling between services for easier communication.",
+      "3. Prioritize scalability over cost and performance considerations.",
+      "4. Evaluate the trade-offs between serverless and containerized services to optimize load balancing, service communication, and ensure effective failure recovery."
+    ],
+    "answer": "4. Evaluate the trade-offs between serverless and containerized services to optimize load balancing, service communication, and ensure effective failure recovery.",
+    "date": "2026-06-20T02:02:51.590Z",
+    "reason": "This question assesses the candidate's understanding of modern cloud architectures, including the ability to evaluate and balance the benefits and challenges of both serverless and containerized approaches, which is essential for designing robust applications."
   }
 ]
