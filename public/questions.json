@@ -2374,5 +2374,17 @@
     "answer": "4. Evaluate the trade-offs between serverless and containerized services to optimize load balancing, service communication, and ensure effective failure recovery.",
     "date": "2026-06-20T02:02:51.590Z",
     "reason": "This question assesses the candidate's understanding of modern cloud architectures, including the ability to evaluate and balance the benefits and challenges of both serverless and containerized approaches, which is essential for designing robust applications."
+  },
+  {
+    "question": "Can you explain your approach to designing a scalable system architecture that efficiently handles asynchronous tasks in a Node.js application? What patterns would you leverage to ensure performance, reliability, and maintainability?",
+    "options": [
+      "Using a monolithic architecture for simplicity and ease of deployment",
+      "Implementing a microservices architecture with message queues for communication between services",
+      "Using synchronous programming to ensure tasks are completed in order",
+      "Building a serverless architecture with no consideration for task management"
+    ],
+    "answer": "Implementing a microservices architecture with message queues for communication between services",
+    "date": "2026-06-21T02:15:10.494Z",
+    "reason": "This question is valuable as it assesses the candidate's understanding of asynchronous processing in Node.js, their ability to design scalable systems, and their knowledge of architectural patterns that ensure performance and reliability."
   }
 ]
