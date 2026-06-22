@@ -2386,5 +2386,17 @@
     "answer": "Implementing a microservices architecture with message queues for communication between services",
     "date": "2026-06-21T02:15:10.494Z",
     "reason": "This question is valuable as it assesses the candidate's understanding of asynchronous processing in Node.js, their ability to design scalable systems, and their knowledge of architectural patterns that ensure performance and reliability."
+  },
+  {
+    "question": "How do you approach designing an API for a real-time data application using both Node.js and Python? What considerations do you take into account regarding performance, scalability, and real-time communication technologies?",
+    "options": [
+      "Prioritize synchronous communication to ensure immediate responses.",
+      "Focus solely on SQL databases for data storage due to their reliability.",
+      "Implement a mix of WebSockets for real-time communication and RESTful endpoints for data retrieval, while considering load balancing and caching strategies.",
+      "Use only serverless architecture to manage scaling automatically."
+    ],
+    "answer": "Implement a mix of WebSockets for real-time communication and RESTful endpoints for data retrieval, while considering load balancing and caching strategies.",
+    "date": "2026-06-22T02:30:06.456Z",
+    "reason": "This question assesses the candidate's ability to design an API that balances real-time requirements with performance and scalability considerations, showcasing their understanding of both Node.js and Python technologies."
   }
 ]
