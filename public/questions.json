@@ -2398,5 +2398,17 @@
     "answer": "Implement a mix of WebSockets for real-time communication and RESTful endpoints for data retrieval, while considering load balancing and caching strategies.",
     "date": "2026-06-22T02:30:06.456Z",
     "reason": "This question assesses the candidate's ability to design an API that balances real-time requirements with performance and scalability considerations, showcasing their understanding of both Node.js and Python technologies."
+  },
+  {
+    "question": "Can you describe your approach to designing a robust and scalable event-driven architecture using Node.js? What patterns and technologies would you consider, and how would you address challenges such as event ordering, message processing, and system resilience?",
+    "options": [
+      "Focus solely on using a single message queue without considering alternative patterns.",
+      "Utilize an event sourcing pattern while neglecting scalability considerations.",
+      "Implement event-driven design using message queues and publish-subscribe patterns, addressing concerns like message ordering and system resilience.",
+      "Avoid using event-driven architecture to maintain simplicity in the application."
+    ],
+    "answer": "Implement event-driven design using message queues and publish-subscribe patterns, addressing concerns like message ordering and system resilience.",
+    "date": "2026-06-23T01:57:05.295Z",
+    "reason": "This question is valuable as it assesses the candidate's understanding of event-driven architecture, a crucial aspect of modern application design, especially in distributed systems. It also evaluates their ability to think critically about scalability and resilience, which are vital for maintaining performance in real-world applications."
   }
 ]
