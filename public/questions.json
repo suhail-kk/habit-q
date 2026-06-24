@@ -2410,5 +2410,17 @@
     "answer": "Implement event-driven design using message queues and publish-subscribe patterns, addressing concerns like message ordering and system resilience.",
     "date": "2026-06-23T01:57:05.295Z",
     "reason": "This question is valuable as it assesses the candidate's understanding of event-driven architecture, a crucial aspect of modern application design, especially in distributed systems. It also evaluates their ability to think critically about scalability and resilience, which are vital for maintaining performance in real-world applications."
+  },
+  {
+    "question": "Can you discuss your experience with implementing data caching strategies in a cloud-based application? What caching mechanisms have you used, how did you determine what to cache, and what strategies did you implement for cache invalidation and consistency?",
+    "options": [
+      "1. I have primarily used in-memory caching with Redis and focused on caching database query results for performance.",
+      "2. I have implemented caching strategies using CDN services for static assets while managing dynamic data through server-side caching.",
+      "3. I have experience using local storage for caching in client-side applications but haven't implemented server-side caching.",
+      "4. I have mostly avoided caching due to concerns about data consistency and prefer to rely on direct database queries."
+    ],
+    "answer": "1. I have primarily used in-memory caching with Redis and focused on caching database query results for performance.",
+    "date": "2026-06-24T01:56:48.548Z",
+    "reason": "This question assesses the candidate's understanding of caching strategies, their practical experience in a cloud context, and their ability to balance performance with data consistency, which is crucial for scalable applications."
   }
 ]
