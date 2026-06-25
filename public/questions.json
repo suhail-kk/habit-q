@@ -2422,5 +2422,17 @@
     "answer": "1. I have primarily used in-memory caching with Redis and focused on caching database query results for performance.",
     "date": "2026-06-24T01:56:48.548Z",
     "reason": "This question assesses the candidate's understanding of caching strategies, their practical experience in a cloud context, and their ability to balance performance with data consistency, which is crucial for scalable applications."
+  },
+  {
+    "question": "Can you discuss your approach to designing a microservices architecture that ensures high availability and scalability, particularly focusing on how you would handle service discovery and load balancing? What tools and patterns would you utilize to achieve these goals?",
+    "options": [
+      "Utilizing Kubernetes for orchestration and Consul for service discovery.",
+      "Implementing a monolithic architecture to simplify management.",
+      "Using manual load balancing techniques without automation.",
+      "Focusing solely on database optimization to enhance performance."
+    ],
+    "answer": "Utilizing Kubernetes for orchestration and Consul for service discovery.",
+    "date": "2026-06-25T01:59:37.996Z",
+    "reason": "This question assesses the candidate's understanding of essential microservices concepts, including high availability, scalability, service discovery, and load balancing, which are critical for building resilient distributed systems."
   }
 ]
