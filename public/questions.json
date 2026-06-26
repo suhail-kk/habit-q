@@ -2434,5 +2434,17 @@
     "answer": "Utilizing Kubernetes for orchestration and Consul for service discovery.",
     "date": "2026-06-25T01:59:37.996Z",
     "reason": "This question assesses the candidate's understanding of essential microservices concepts, including high availability, scalability, service discovery, and load balancing, which are critical for building resilient distributed systems."
+  },
+  {
+    "question": "Can you describe your approach to designing a robust and maintainable microservices architecture that incorporates both synchronous and asynchronous communication patterns? What specific challenges have you faced, and how did you address issues such as data consistency and service interactions?",
+    "options": [
+      "Focus solely on synchronous communication to simplify service interactions.",
+      "Use a mix of synchronous and asynchronous patterns based on service requirements and latency needs.",
+      "Design the architecture to only support asynchronous communication for all services.",
+      "Avoid using microservices and stick to a monolithic application to simplify communication."
+    ],
+    "answer": "Use a mix of synchronous and asynchronous patterns based on service requirements and latency needs.",
+    "date": "2026-06-26T02:01:31.976Z",
+    "reason": "This question evaluates the candidate's understanding of microservices architecture, their ability to balance different communication patterns, and their experience in handling complexities such as data consistency, which are critical for building scalable and maintainable systems."
   }
 ]
