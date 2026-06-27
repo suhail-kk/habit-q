@@ -2446,5 +2446,17 @@
     "answer": "Use a mix of synchronous and asynchronous patterns based on service requirements and latency needs.",
     "date": "2026-06-26T02:01:31.976Z",
     "reason": "This question evaluates the candidate's understanding of microservices architecture, their ability to balance different communication patterns, and their experience in handling complexities such as data consistency, which are critical for building scalable and maintainable systems."
+  },
+  {
+    "question": "Can you describe your approach to implementing a testing strategy for a microservices architecture that includes both unit and integration testing? What tools and practices do you consider essential for ensuring the reliability and maintainability of your test suite, and how do you handle the challenges of testing distributed systems?",
+    "options": [
+      "Focus solely on unit testing to ensure individual components work correctly.",
+      "Use a combination of unit and integration testing, leveraging tools like Jest for unit tests and Postman for integration tests, while also ensuring proper documentation and automation.",
+      "Implement end-to-end testing only, as it covers all aspects of the application.",
+      "Prioritize manual testing to capture edge cases that automated tests might miss."
+    ],
+    "answer": "Use a combination of unit and integration testing, leveraging tools like Jest for unit tests and Postman for integration tests, while also ensuring proper documentation and automation.",
+    "date": "2026-06-27T01:55:09.379Z",
+    "reason": "This question assesses the candidate's understanding of testing strategies in a complex system, their familiarity with tools, and their ability to address challenges specific to microservices, which is crucial for maintaining high-quality software."
   }
 ]
