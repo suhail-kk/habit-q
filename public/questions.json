@@ -2458,5 +2458,17 @@
     "answer": "Use a combination of unit and integration testing, leveraging tools like Jest for unit tests and Postman for integration tests, while also ensuring proper documentation and automation.",
     "date": "2026-06-27T01:55:09.379Z",
     "reason": "This question assesses the candidate's understanding of testing strategies in a complex system, their familiarity with tools, and their ability to address challenges specific to microservices, which is crucial for maintaining high-quality software."
+  },
+  {
+    "question": "Can you describe your approach to implementing a strategy for managing API security in a microservices architecture? What specific practices and tools would you use to safeguard against common vulnerabilities and ensure secure communication between services?",
+    "options": [
+      "Implementing OAuth2 for authentication and using HTTPS for secure communication.",
+      "Using public APIs without authentication for ease of access.",
+      "Focusing solely on network security without considering application-level vulnerabilities.",
+      "Ignoring error messages to prevent information leakage."
+    ],
+    "answer": "Implementing OAuth2 for authentication and using HTTPS for secure communication.",
+    "date": "2026-06-28T02:05:37.627Z",
+    "reason": "This question assesses the candidate's understanding of API security practices, which are crucial for maintaining the integrity and confidentiality of microservices communication. It also evaluates their awareness of common vulnerabilities and the tools required to mitigate risks."
   }
 ]
