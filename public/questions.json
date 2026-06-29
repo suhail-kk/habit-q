@@ -2470,5 +2470,17 @@
     "answer": "Implementing OAuth2 for authentication and using HTTPS for secure communication.",
     "date": "2026-06-28T02:05:37.627Z",
     "reason": "This question assesses the candidate's understanding of API security practices, which are crucial for maintaining the integrity and confidentiality of microservices communication. It also evaluates their awareness of common vulnerabilities and the tools required to mitigate risks."
+  },
+  {
+    "question": "Can you discuss your experience with designing and implementing a CI/CD pipeline for a cloud-based application? What tools and practices did you find most effective for automating testing, deployment, and scaling, and how did you address challenges related to service dependencies and versioning?",
+    "options": [
+      "1. I mostly rely on manual deployment processes.",
+      "2. I have used Jenkins and GitLab CI for automating testing and deployment.",
+      "3. I avoid CI/CD and prefer simpler deployment methods.",
+      "4. I don't have experience with CI/CD pipelines."
+    ],
+    "answer": "2. I have used Jenkins and GitLab CI for automating testing and deployment.",
+    "date": "2026-06-29T02:06:20.269Z",
+    "reason": "This question assesses the candidate's hands-on experience with CI/CD practices, understanding of cloud environments, and ability to manage complexities related to automation, testing, and deployment."
   }
 ]
