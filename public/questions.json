@@ -2482,5 +2482,17 @@
     "answer": "2. I have used Jenkins and GitLab CI for automating testing and deployment.",
     "date": "2026-06-29T02:06:20.269Z",
     "reason": "This question assesses the candidate's hands-on experience with CI/CD practices, understanding of cloud environments, and ability to manage complexities related to automation, testing, and deployment."
+  },
+  {
+    "question": "Can you explain how you would approach building a scalable data architecture that supports both SQL and NoSQL databases in a microservices environment? What considerations would you have regarding data access patterns, consistency, and integration between different database technologies?",
+    "options": [
+      "Focus solely on one type of database to avoid complexity.",
+      "Design an architecture that allows each microservice to choose the most suitable database technology based on its requirements.",
+      "Use a universal database technology for all microservices to simplify integration.",
+      "Ignore data consistency issues as they will be managed by the microservices themselves."
+    ],
+    "answer": "Design an architecture that allows each microservice to choose the most suitable database technology based on its requirements.",
+    "date": "2026-06-30T02:00:28.268Z",
+    "reason": "This question assesses the candidate's understanding of architectural design principles, their ability to integrate different database technologies, and their approach to data consistency and access patterns, which are crucial for scalable microservices architectures."
   }
 ]
