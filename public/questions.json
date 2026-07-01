@@ -2494,5 +2494,17 @@
     "answer": "Design an architecture that allows each microservice to choose the most suitable database technology based on its requirements.",
     "date": "2026-06-30T02:00:28.268Z",
     "reason": "This question assesses the candidate's understanding of architectural design principles, their ability to integrate different database technologies, and their approach to data consistency and access patterns, which are crucial for scalable microservices architectures."
+  },
+  {
+    "question": "Can you discuss your experience with optimizing database performance in a cloud-based application? What strategies have you employed to ensure efficient querying and data retrieval, and how do you handle scaling as data volume increases?",
+    "options": [
+      "A. By using indexing, query optimization techniques, and caching strategies to enhance performance.",
+      "B. By relying on the cloud provider's default settings without any modifications.",
+      "C. By only focusing on SQL databases and ignoring NoSQL options.",
+      "D. By avoiding any changes to the database once it's set up."
+    ],
+    "answer": "A. By using indexing, query optimization techniques, and caching strategies to enhance performance.",
+    "date": "2026-07-01T02:06:03.730Z",
+    "reason": "This question assesses the candidate's practical experience with database optimization, a crucial skill for mid-level and senior developers. It evaluates their understanding of performance strategies and their ability to adapt to increasing data loads, which is vital for maintaining application efficiency and scalability."
   }
 ]
