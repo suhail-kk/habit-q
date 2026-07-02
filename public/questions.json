@@ -2506,5 +2506,17 @@
     "answer": "A. By using indexing, query optimization techniques, and caching strategies to enhance performance.",
     "date": "2026-07-01T02:06:03.730Z",
     "reason": "This question assesses the candidate's practical experience with database optimization, a crucial skill for mid-level and senior developers. It evaluates their understanding of performance strategies and their ability to adapt to increasing data loads, which is vital for maintaining application efficiency and scalability."
+  },
+  {
+    "question": "Can you describe your approach to implementing a microservices architecture that leverages event sourcing? What advantages do you see in using event sourcing for state management, and how would you address challenges related to data retrieval and query performance?",
+    "options": [
+      "Focus solely on the advantages of event sourcing without addressing challenges.",
+      "Implement event sourcing without considering the implications on data retrieval.",
+      "Discuss both the advantages and challenges of event sourcing in a balanced manner.",
+      "Avoid mentioning any specific technologies related to event sourcing."
+    ],
+    "answer": "Discuss both the advantages and challenges of event sourcing in a balanced manner.",
+    "date": "2026-07-02T01:59:29.499Z",
+    "reason": "This question assesses a candidate's understanding of event sourcing as a design pattern in microservices, encourages them to think critically about its benefits and drawbacks, and evaluates their ability to design scalable architectures."
   }
 ]
