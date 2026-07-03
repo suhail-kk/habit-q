@@ -2518,5 +2518,17 @@
     "answer": "Discuss both the advantages and challenges of event sourcing in a balanced manner.",
     "date": "2026-07-02T01:59:29.499Z",
     "reason": "This question assesses a candidate's understanding of event sourcing as a design pattern in microservices, encourages them to think critically about its benefits and drawbacks, and evaluates their ability to design scalable architectures."
+  },
+  {
+    "question": "Can you describe a complex technical challenge you faced while integrating multiple database technologies, such as SQL and NoSQL, in a microservices architecture? How did you approach the problem, and what strategies did you implement to ensure data consistency and efficient access patterns across different storage systems?",
+    "options": [
+      "A. I used a single database technology to avoid complexity.",
+      "B. I implemented eventual consistency and utilized a combination of data replication and synchronization strategies.",
+      "C. I focused solely on SQL databases and ignored NoSQL.",
+      "D. I created multiple APIs for each database without any integration."
+    ],
+    "answer": "B. I implemented eventual consistency and utilized a combination of data replication and synchronization strategies.",
+    "date": "2026-07-03T01:30:06.348Z",
+    "reason": "This question assesses the candidate's ability to handle the complexities of using multiple database technologies within a microservices architecture, which is crucial for ensuring data integrity and performance in modern applications."
   }
 ]
