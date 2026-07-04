@@ -2530,5 +2530,17 @@
     "answer": "B. I implemented eventual consistency and utilized a combination of data replication and synchronization strategies.",
     "date": "2026-07-03T01:30:06.348Z",
     "reason": "This question assesses the candidate's ability to handle the complexities of using multiple database technologies within a microservices architecture, which is crucial for ensuring data integrity and performance in modern applications."
+  },
+  {
+    "question": "Can you discuss your experience with implementing message queuing systems in a microservices architecture? How do you decide between different messaging patterns (e.g., point-to-point vs. publish-subscribe) and what strategies do you use to ensure message delivery and processing reliability?",
+    "options": [
+      "I primarily use point-to-point messaging for all services due to its simplicity.",
+      "I focus on using publish-subscribe patterns exclusively for all event-driven architectures.",
+      "I evaluate the specific requirements of each service to determine whether to use point-to-point or publish-subscribe patterns, and I implement strategies like message acknowledgment and retries to ensure reliability.",
+      "I don't use message queuing in my microservices architecture."
+    ],
+    "answer": "I evaluate the specific requirements of each service to determine whether to use point-to-point or publish-subscribe patterns, and I implement strategies like message acknowledgment and retries to ensure reliability.",
+    "date": "2026-07-04T01:29:32.083Z",
+    "reason": "This question assesses the candidate's understanding of message queuing, which is critical for ensuring reliable communication in microservices. It also evaluates their ability to make architectural decisions based on specific use cases."
   }
 ]
