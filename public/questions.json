@@ -2542,5 +2542,17 @@
     "answer": "I evaluate the specific requirements of each service to determine whether to use point-to-point or publish-subscribe patterns, and I implement strategies like message acknowledgment and retries to ensure reliability.",
     "date": "2026-07-04T01:29:32.083Z",
     "reason": "This question assesses the candidate's understanding of message queuing, which is critical for ensuring reliable communication in microservices. It also evaluates their ability to make architectural decisions based on specific use cases."
+  },
+  {
+    "question": "Can you explain your approach to designing a resilient and scalable API for a microservices architecture using Node.js and Python? What considerations would you take into account regarding performance, error handling, and service interactions?",
+    "options": [
+      "Focusing solely on performance optimizations without considering error handling strategies.",
+      "Ignoring scalability and using a monolithic approach for simplicity.",
+      "Ensuring performance optimizations while implementing robust error handling and service interaction strategies.",
+      "Prioritizing rapid development without addressing scalability or performance."
+    ],
+    "answer": "Ensuring performance optimizations while implementing robust error handling and service interaction strategies.",
+    "date": "2026-07-05T01:45:16.777Z",
+    "reason": "This question evaluates the candidate's understanding of API design principles, especially in a microservices context, which is crucial for building resilient and scalable systems."
   }
 ]
