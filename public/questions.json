@@ -2554,5 +2554,17 @@
     "answer": "Ensuring performance optimizations while implementing robust error handling and service interaction strategies.",
     "date": "2026-07-05T01:45:16.777Z",
     "reason": "This question evaluates the candidate's understanding of API design principles, especially in a microservices context, which is crucial for building resilient and scalable systems."
+  },
+  {
+    "question": "How would you design a resilient data architecture for a microservices application that requires high availability and low latency, particularly when integrating both SQL and NoSQL databases? What strategies would you use to ensure that data is accessible and consistent across services while managing the challenges of scaling and performance?",
+    "options": [
+      "1. Implement horizontal scaling for all databases and use a single API gateway for all services.",
+      "2. Use a polyglot persistence approach, selecting the right database for each service's requirements, and implement caching layers to enhance performance while ensuring data synchronization.",
+      "3. Rely solely on a relational database and avoid using NoSQL databases to maintain consistency.",
+      "4. Design the architecture without considering data access patterns, focusing only on ease of implementation."
+    ],
+    "answer": "2. Use a polyglot persistence approach, selecting the right database for each service's requirements, and implement caching layers to enhance performance while ensuring data synchronization.",
+    "date": "2026-07-06T01:51:33.414Z",
+    "reason": "This question evaluates the candidate's understanding of complex data architectures, their ability to choose appropriate technologies based on use cases, and their strategies for ensuring data integrity and performance in a microservices environment."
   }
 ]
