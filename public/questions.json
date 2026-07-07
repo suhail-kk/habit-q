@@ -2566,5 +2566,17 @@
     "answer": "2. Use a polyglot persistence approach, selecting the right database for each service's requirements, and implement caching layers to enhance performance while ensuring data synchronization.",
     "date": "2026-07-06T01:51:33.414Z",
     "reason": "This question evaluates the candidate's understanding of complex data architectures, their ability to choose appropriate technologies based on use cases, and their strategies for ensuring data integrity and performance in a microservices environment."
+  },
+  {
+    "question": "Can you describe your approach to designing a robust and scalable microservices architecture that integrates multiple data storage solutions, such as SQL and NoSQL, while ensuring data consistency and performance? What design patterns and techniques do you consider essential for achieving this?",
+    "options": [
+      "1. Focus solely on a single database technology to ensure simplicity and avoid consistency issues.",
+      "2. Use a combination of CQRS and event sourcing to manage data interactions and ensure eventual consistency across services.",
+      "3. Rely on manual data synchronization between services to ensure data consistency.",
+      "4. Only perform database migrations when absolutely necessary to avoid downtime."
+    ],
+    "answer": "2. Use a combination of CQRS and event sourcing to manage data interactions and ensure eventual consistency across services.",
+    "date": "2026-07-07T01:48:47.607Z",
+    "reason": "This question assesses the candidate's understanding of architectural patterns and their ability to design scalable systems that manage complex data interactions, which is crucial for modern microservices applications."
   }
 ]
