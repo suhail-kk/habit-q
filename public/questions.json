@@ -2578,5 +2578,17 @@
     "answer": "2. Use a combination of CQRS and event sourcing to manage data interactions and ensure eventual consistency across services.",
     "date": "2026-07-07T01:48:47.607Z",
     "reason": "This question assesses the candidate's understanding of architectural patterns and their ability to design scalable systems that manage complex data interactions, which is crucial for modern microservices applications."
+  },
+  {
+    "question": "Can you describe your approach to implementing a serverless architecture on AWS using Lambda and how you would manage state, monitor performance, and handle potential cold start issues?",
+    "options": [
+      "By using DynamoDB for state management, employing CloudWatch for monitoring, and optimizing Lambda functions to reduce cold starts.",
+      "By relying solely on S3 for storage, without any monitoring strategies, and ignoring cold start issues as they are not significant.",
+      "By utilizing EC2 instances to manage state, manually monitoring performance through logs, and accepting cold start delays as normal.",
+      "By using a monolithic architecture to avoid the complexities of serverless and relying on traditional database solutions."
+    ],
+    "answer": "By using DynamoDB for state management, employing CloudWatch for monitoring, and optimizing Lambda functions to reduce cold starts.",
+    "date": "2026-07-08T01:20:34.443Z",
+    "reason": "This question assesses the candidate's understanding of serverless architectures, their ability to manage state and performance in a cloud environment, and their awareness of common issues such as cold starts, which are critical for building efficient serverless applications."
   }
 ]
