@@ -2590,5 +2590,17 @@
     "answer": "By using DynamoDB for state management, employing CloudWatch for monitoring, and optimizing Lambda functions to reduce cold starts.",
     "date": "2026-07-08T01:20:34.443Z",
     "reason": "This question assesses the candidate's understanding of serverless architectures, their ability to manage state and performance in a cloud environment, and their awareness of common issues such as cold starts, which are critical for building efficient serverless applications."
+  },
+  {
+    "question": "Can you discuss how you would approach designing a system that handles user authentication and authorization in a microservices architecture? What strategies would you implement to ensure secure communication between services and manage user sessions effectively?",
+    "options": [
+      "Implement OAuth2 for authorization and JWT for secure token-based communication between services.",
+      "Use a single database for user credentials and manage authentication through a central service.",
+      "Create a monolithic service to handle all authentication and user management tasks.",
+      "Utilize basic authentication over HTTP for simplicity and ease of implementation."
+    ],
+    "answer": "Implement OAuth2 for authorization and JWT for secure token-based communication between services.",
+    "date": "2026-07-09T01:29:01.365Z",
+    "reason": "This question assesses the candidate's understanding of security principles in a microservices architecture, as well as their ability to design scalable and secure systems for user management."
   }
 ]
