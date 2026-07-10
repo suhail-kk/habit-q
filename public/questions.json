@@ -2602,5 +2602,17 @@
     "answer": "Implement OAuth2 for authorization and JWT for secure token-based communication between services.",
     "date": "2026-07-09T01:29:01.365Z",
     "reason": "This question assesses the candidate's understanding of security principles in a microservices architecture, as well as their ability to design scalable and secure systems for user management."
+  },
+  {
+    "question": "Can you describe your approach to implementing a strategy for managing data consistency in a microservices architecture that utilizes both SQL and NoSQL databases? What specific challenges have you faced, and how did you address them?",
+    "options": [
+      "1. I prioritize using only one type of database to avoid consistency issues.",
+      "2. I establish a shared data model that both databases adhere to, ensuring consistency across services.",
+      "3. I implement eventual consistency mechanisms, such as change data capture and messaging, to synchronize data changes between the databases.",
+      "4. I rely on manual sync processes to ensure data consistency, as automated solutions can introduce complexity."
+    ],
+    "answer": "3. I implement eventual consistency mechanisms, such as change data capture and messaging, to synchronize data changes between the databases.",
+    "date": "2026-07-10T01:26:21.997Z",
+    "reason": "This question assesses the candidate's understanding of complex data management issues in a microservices environment, particularly when dealing with multiple database technologies. It also reveals their problem-solving ability and familiarity with strategies for maintaining data integrity and consistency across disparate systems."
   }
 ]
