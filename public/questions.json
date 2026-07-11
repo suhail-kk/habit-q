@@ -2614,5 +2614,17 @@
     "answer": "3. I implement eventual consistency mechanisms, such as change data capture and messaging, to synchronize data changes between the databases.",
     "date": "2026-07-10T01:26:21.997Z",
     "reason": "This question assesses the candidate's understanding of complex data management issues in a microservices environment, particularly when dealing with multiple database technologies. It also reveals their problem-solving ability and familiarity with strategies for maintaining data integrity and consistency across disparate systems."
+  },
+  {
+    "question": "Can you discuss your experience with designing a service-oriented architecture (SOA) and how it differs from microservices? What considerations do you take into account when choosing between the two architectures, particularly regarding scalability, performance, and maintainability?",
+    "options": [
+      "Service-oriented architecture focuses on reusability and interoperability between different services, while microservices emphasize small, self-contained services that can be independently deployed and scaled.",
+      "Both architectures are identical in approach and have no significant differences.",
+      "Microservices are always the preferred choice for all applications due to their flexibility.",
+      "Service-oriented architecture is outdated and should not be considered in modern applications."
+    ],
+    "answer": "Service-oriented architecture focuses on reusability and interoperability between different services, while microservices emphasize small, self-contained services that can be independently deployed and scaled.",
+    "date": "2026-07-11T01:19:55.418Z",
+    "reason": "This question assesses the candidate's understanding of architectural principles, their experience with different system designs, and their ability to make decisions based on specific project requirements."
   }
 ]
