@@ -2626,5 +2626,17 @@
     "answer": "Service-oriented architecture focuses on reusability and interoperability between different services, while microservices emphasize small, self-contained services that can be independently deployed and scaled.",
     "date": "2026-07-11T01:19:55.418Z",
     "reason": "This question assesses the candidate's understanding of architectural principles, their experience with different system designs, and their ability to make decisions based on specific project requirements."
+  },
+  {
+    "question": "Can you elaborate on your approach to designing and implementing a robust data access layer in a microservices architecture that utilizes both SQL and NoSQL databases? What patterns would you consider to ensure data consistency, efficient querying, and scalability across different data storage solutions?",
+    "options": [
+      "Using a single database technology and implementing a data replication strategy.",
+      "Implementing a data access layer with repository and unit of work patterns to abstract database interactions.",
+      "Relying solely on microservices communicating directly with their respective databases for data access.",
+      "Utilizing a shared database approach for all services to simplify data access."
+    ],
+    "answer": "Implementing a data access layer with repository and unit of work patterns to abstract database interactions.",
+    "date": "2026-07-12T01:21:28.054Z",
+    "reason": "This question assesses a candidate's understanding of architectural patterns, their ability to manage data consistency across different types of databases, and their experience with scalability and performance considerations in a microservices context."
   }
 ]
