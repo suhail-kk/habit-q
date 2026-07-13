@@ -2638,5 +2638,17 @@
     "answer": "Implementing a data access layer with repository and unit of work patterns to abstract database interactions.",
     "date": "2026-07-12T01:21:28.054Z",
     "reason": "This question assesses a candidate's understanding of architectural patterns, their ability to manage data consistency across different types of databases, and their experience with scalability and performance considerations in a microservices context."
+  },
+  {
+    "question": "Can you describe your approach to implementing performance monitoring and optimization in a Node.js application? What tools and strategies do you use to identify bottlenecks and improve response times?",
+    "options": [
+      "1. I primarily rely on manual code reviews to identify performance issues.",
+      "2. I use performance monitoring tools like New Relic or AppDynamics, combined with profiling and logging to identify bottlenecks.",
+      "3. I focus solely on optimizing database queries to enhance application performance.",
+      "4. I believe performance optimization is not necessary for most applications."
+    ],
+    "answer": "2. I use performance monitoring tools like New Relic or AppDynamics, combined with profiling and logging to identify bottlenecks.",
+    "date": "2026-07-13T01:23:01.137Z",
+    "reason": "This question assesses the candidate's understanding of performance monitoring tools and strategies in Node.js, which is crucial for ensuring application efficiency and responsiveness in production environments."
   }
 ]
