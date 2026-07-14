@@ -2650,5 +2650,17 @@
     "answer": "2. I use performance monitoring tools like New Relic or AppDynamics, combined with profiling and logging to identify bottlenecks.",
     "date": "2026-07-13T01:23:01.137Z",
     "reason": "This question assesses the candidate's understanding of performance monitoring tools and strategies in Node.js, which is crucial for ensuring application efficiency and responsiveness in production environments."
+  },
+  {
+    "question": "Can you explain how you would approach implementing a strategy for data migration in a microservices architecture? What considerations would you take into account regarding data integrity, downtime, and rollback procedures during the migration process?",
+    "options": [
+      "A) Focus solely on the database migration without considering application downtime.",
+      "B) Ensure data integrity, implement versioning, and have a robust rollback plan.",
+      "C) Migrate all data in a single step to reduce complexity.",
+      "D) Ignore rollback procedures as data migration is typically one-way."
+    ],
+    "answer": "B) Ensure data integrity, implement versioning, and have a robust rollback plan.",
+    "date": "2026-07-14T01:12:10.151Z",
+    "reason": "This question assesses the candidate's understanding of data migration strategies in a microservices context, highlighting their ability to prioritize data integrity and manage migration risks effectively."
   }
 ]
