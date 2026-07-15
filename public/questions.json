@@ -2662,5 +2662,17 @@
     "answer": "B) Ensure data integrity, implement versioning, and have a robust rollback plan.",
     "date": "2026-07-14T01:12:10.151Z",
     "reason": "This question assesses the candidate's understanding of data migration strategies in a microservices context, highlighting their ability to prioritize data integrity and manage migration risks effectively."
+  },
+  {
+    "question": "Can you discuss your approach to architecting a serverless application using AWS services such as Lambda and API Gateway? What considerations do you take into account regarding scaling, security, and inter-service communication?",
+    "options": [
+      "Focusing solely on cost without considering performance optimizations.",
+      "Prioritizing data storage solutions while neglecting security practices.",
+      "Utilizing best practices for performance, security, and monitoring.",
+      "Avoiding the use of monitoring tools to save on costs."
+    ],
+    "answer": "Utilizing best practices for performance, security, and monitoring.",
+    "date": "2026-07-15T01:09:28.213Z",
+    "reason": "This question evaluates the candidate's understanding of serverless architecture, their ability to consider scalability and security, and their approach to integrating multiple AWS services effectively."
   }
 ]
