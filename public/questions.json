@@ -2674,5 +2674,17 @@
     "answer": "Utilizing best practices for performance, security, and monitoring.",
     "date": "2026-07-15T01:09:28.213Z",
     "reason": "This question evaluates the candidate's understanding of serverless architecture, their ability to consider scalability and security, and their approach to integrating multiple AWS services effectively."
+  },
+  {
+    "question": "Can you describe your approach to architecting a system that leverages both synchronous and asynchronous communication in a microservices architecture? What design patterns and technologies would you consider to effectively manage service interactions while ensuring scalability and resilience?",
+    "options": [
+      "Focus solely on synchronous communication to simplify interactions.",
+      "Use asynchronous communication exclusively to avoid dependency issues.",
+      "Combine both synchronous and asynchronous patterns, utilizing message queues for asynchronous tasks and direct HTTP calls for synchronous needs.",
+      "Implement a monolithic architecture to manage all service interactions."
+    ],
+    "answer": "Combine both synchronous and asynchronous patterns, utilizing message queues for asynchronous tasks and direct HTTP calls for synchronous needs.",
+    "date": "2026-07-16T01:18:32.635Z",
+    "reason": "This question assesses the candidate's understanding of microservices communication patterns, their experience with concurrency models, and their ability to design resilient architectures that handle diverse workloads effectively."
   }
 ]
