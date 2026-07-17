@@ -2686,5 +2686,17 @@
     "answer": "Combine both synchronous and asynchronous patterns, utilizing message queues for asynchronous tasks and direct HTTP calls for synchronous needs.",
     "date": "2026-07-16T01:18:32.635Z",
     "reason": "This question assesses the candidate's understanding of microservices communication patterns, their experience with concurrency models, and their ability to design resilient architectures that handle diverse workloads effectively."
+  },
+  {
+    "question": "Can you describe your approach to ensuring fault tolerance in a distributed system, particularly focusing on how you would design your application's architecture to handle partial failures gracefully? What patterns and practices would you implement to maintain system reliability?",
+    "options": [
+      "Implementing retries with exponential backoff and circuit breakers",
+      "Using a monolithic architecture to avoid distributed failures",
+      "Avoiding external service dependencies altogether",
+      "Designing a system that does not require fault tolerance"
+    ],
+    "answer": "Implementing retries with exponential backoff and circuit breakers",
+    "date": "2026-07-17T01:22:09.209Z",
+    "reason": "This question assesses a candidate's understanding of fault tolerance principles, their ability to design resilient systems, and familiarity with best practices in managing distributed architectures."
   }
 ]
