@@ -2698,5 +2698,17 @@
     "answer": "Implementing retries with exponential backoff and circuit breakers",
     "date": "2026-07-17T01:22:09.209Z",
     "reason": "This question assesses a candidate's understanding of fault tolerance principles, their ability to design resilient systems, and familiarity with best practices in managing distributed architectures."
+  },
+  {
+    "question": "Can you discuss your approach to designing a cloud-native application that leverages microservices architecture on AWS? What considerations would you have regarding service discovery, load balancing, and data management across different AWS services like Lambda, S3, and DynamoDB?",
+    "options": [
+      "A) Focus only on service discovery using AWS Cloud Map and ignore load balancing.",
+      "B) Prioritize using a single service for data management and not consider scalability.",
+      "C) Implement a combination of AWS Elastic Load Balancing, AWS Lambda for compute, and DynamoDB for data storage, ensuring each service is independently scalable and manageable.",
+      "D) Use only traditional monolithic architecture to avoid the complexities of microservices."
+    ],
+    "answer": "C",
+    "date": "2026-07-18T01:14:09.673Z",
+    "reason": "This question assesses the candidate's understanding of cloud-native principles, microservices design, and their ability to integrate multiple AWS services effectively while considering performance and scalability."
   }
 ]
