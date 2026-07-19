@@ -2710,5 +2710,17 @@
     "answer": "C",
     "date": "2026-07-18T01:14:09.673Z",
     "reason": "This question assesses the candidate's understanding of cloud-native principles, microservices design, and their ability to integrate multiple AWS services effectively while considering performance and scalability."
+  },
+  {
+    "question": "Can you discuss your experience with designing a microservices architecture that accommodates both synchronous and asynchronous data processing? What specific challenges have you encountered regarding data consistency and message reliability, and how did you address them?",
+    "options": [
+      "1. Focus on optimizing the synchronous communication channels only.",
+      "2. Implementing retries and dead-letter queues for message reliability.",
+      "3. Avoiding any asynchronous processing to simplify architecture.",
+      "4. Using a single database type to ensure consistency."
+    ],
+    "answer": "2. Implementing retries and dead-letter queues for message reliability.",
+    "date": "2026-07-19T01:19:33.035Z",
+    "reason": "This question assesses the candidate's understanding of microservices architecture complexities, particularly in balancing synchronous and asynchronous processes, which is crucial for maintaining data integrity and performance in distributed systems."
   }
 ]
