@@ -2722,5 +2722,17 @@
     "answer": "2. Implementing retries and dead-letter queues for message reliability.",
     "date": "2026-07-19T01:19:33.035Z",
     "reason": "This question assesses the candidate's understanding of microservices architecture complexities, particularly in balancing synchronous and asynchronous processes, which is crucial for maintaining data integrity and performance in distributed systems."
+  },
+  {
+    "question": "Can you describe your approach to handling and mitigating performance bottlenecks in a cloud-based Node.js application that interacts with both SQL and NoSQL databases? What tools and techniques would you employ to diagnose and resolve these issues?",
+    "options": [
+      "Utilize profiling tools to identify slow queries and optimize database indexes.",
+      "Implement caching strategies to reduce database load and improve response times.",
+      "Analyze application logs to identify and refactor inefficient code paths.",
+      "All of the above."
+    ],
+    "answer": "All of the above.",
+    "date": "2026-07-20T03:12:24.261Z",
+    "reason": "This question evaluates the candidate's experience and understanding of performance optimization in a cloud-based environment, as well as their familiarity with both database types and their ability to apply various tools and strategies in real-world scenarios."
   }
 ]
