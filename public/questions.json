@@ -2734,5 +2734,17 @@
     "answer": "All of the above.",
     "date": "2026-07-20T03:12:24.261Z",
     "reason": "This question evaluates the candidate's experience and understanding of performance optimization in a cloud-based environment, as well as their familiarity with both database types and their ability to apply various tools and strategies in real-world scenarios."
+  },
+  {
+    "question": "Can you explain your approach to designing a data synchronization strategy between a microservices architecture that utilizes both SQL and NoSQL databases? What specific challenges have you faced in maintaining data consistency across different systems, and how did you address them?",
+    "options": [
+      "A) Use a single database type for all services to avoid synchronization issues.",
+      "B) Implement an eventual consistency model with background synchronization processes.",
+      "C) Rely on manual data reconciliation between services as needed.",
+      "D) Use a hybrid approach combining both synchronous and asynchronous data replication methods."
+    ],
+    "answer": "B) Implement an eventual consistency model with background synchronization processes.",
+    "date": "2026-07-21T01:19:38.388Z",
+    "reason": "This question evaluates a candidate's understanding of data consistency challenges in microservices architectures and their experience with practical strategies for managing synchronization between different database technologies."
   }
 ]
