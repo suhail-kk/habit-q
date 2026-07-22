@@ -2746,5 +2746,17 @@
     "answer": "B) Implement an eventual consistency model with background synchronization processes.",
     "date": "2026-07-21T01:19:38.388Z",
     "reason": "This question evaluates a candidate's understanding of data consistency challenges in microservices architectures and their experience with practical strategies for managing synchronization between different database technologies."
+  },
+  {
+    "question": "Can you describe your approach to designing and implementing a data access layer in a microservices architecture that utilizes both SQL and NoSQL databases? What patterns and strategies would you employ to ensure data consistency, efficient querying, and scalability across different data storage solutions?",
+    "options": [
+      "Using an ORM for SQL databases while accessing NoSQL databases directly to optimize performance.",
+      "Implementing a unified API for all database interactions, allowing services to interact with both SQL and NoSQL databases through a single interface.",
+      "Adopting a micro ORM for SQL databases and data replication for NoSQL databases to maintain consistency.",
+      "Utilizing a service mesh to manage database interactions and ensure data consistency across microservices."
+    ],
+    "answer": "Implementing a unified API for all database interactions, allowing services to interact with both SQL and NoSQL databases through a single interface.",
+    "date": "2026-07-22T01:18:12.191Z",
+    "reason": "This question assesses the candidate's understanding of architectural patterns, data consistency management, and their ability to integrate different database technologies in a microservices environment, which are critical skills at mid-level and senior developer positions."
   }
 ]
