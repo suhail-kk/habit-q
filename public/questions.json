@@ -2758,5 +2758,17 @@
     "answer": "Implementing a unified API for all database interactions, allowing services to interact with both SQL and NoSQL databases through a single interface.",
     "date": "2026-07-22T01:18:12.191Z",
     "reason": "This question assesses the candidate's understanding of architectural patterns, data consistency management, and their ability to integrate different database technologies in a microservices environment, which are critical skills at mid-level and senior developer positions."
+  },
+  {
+    "question": "Can you discuss your approach to designing a highly scalable data architecture for a cloud-based application that uses both SQL and NoSQL databases? What specific patterns and practices do you consider essential for ensuring optimal performance and data consistency across different database technologies?",
+    "options": [
+      "A) Focus solely on SQL databases for simplicity and consistency.",
+      "B) Implement a hybrid approach, using SQL for structured data and NoSQL for unstructured data, while ensuring data synchronization across both.",
+      "C) Avoid using NoSQL databases as they are less reliable than SQL.",
+      "D) Use a single database technology for all data storage needs to minimize complexity."
+    ],
+    "answer": "B",
+    "date": "2026-07-23T01:25:17.821Z",
+    "reason": "This question assesses the candidate's understanding of data architecture principles, their ability to work with multiple database technologies, and their approach to performance and consistency—key skills for mid-level or senior developers in modern cloud environments."
   }
 ]
