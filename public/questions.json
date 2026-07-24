@@ -2770,5 +2770,17 @@
     "answer": "B",
     "date": "2026-07-23T01:25:17.821Z",
     "reason": "This question assesses the candidate's understanding of data architecture principles, their ability to work with multiple database technologies, and their approach to performance and consistency—key skills for mid-level or senior developers in modern cloud environments."
+  },
+  {
+    "question": "Can you discuss your experience with designing and implementing a caching strategy for a cloud-based application? What factors do you consider when deciding what data to cache, and how do you manage cache invalidation and consistency?",
+    "options": [
+      "Focus solely on caching database queries to improve performance.",
+      "Only use in-memory caching for static assets, ignoring dynamic data.",
+      "Implement a comprehensive caching strategy that includes both read and write operations, considering cache expiration and invalidation strategies.",
+      "Avoid caching altogether to simplify the architecture."
+    ],
+    "answer": "Implement a comprehensive caching strategy that includes both read and write operations, considering cache expiration and invalidation strategies.",
+    "date": "2026-07-24T01:21:48.626Z",
+    "reason": "This question is valuable because it assesses the candidate's understanding of caching mechanisms, which are crucial for optimizing performance in cloud applications. It also evaluates their ability to think strategically about data management and consistency."
   }
 ]
