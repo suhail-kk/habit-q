@@ -2782,5 +2782,17 @@
     "answer": "Implement a comprehensive caching strategy that includes both read and write operations, considering cache expiration and invalidation strategies.",
     "date": "2026-07-24T01:21:48.626Z",
     "reason": "This question is valuable because it assesses the candidate's understanding of caching mechanisms, which are crucial for optimizing performance in cloud applications. It also evaluates their ability to think strategically about data management and consistency."
+  },
+  {
+    "question": "Can you discuss your experience with implementing a comprehensive logging strategy in a microservices architecture? What tools and practices do you consider essential for effective log management, and how do you ensure that logs provide actionable insights for monitoring and debugging?",
+    "options": [
+      "Using centralized logging tools and structured log formats to aggregate and analyze logs from multiple services.",
+      "Focusing only on error logs and ignoring performance-related logs to reduce storage costs.",
+      "Implementing logging at the database level and avoiding application-level logging to simplify architecture.",
+      "Using only console logs for debugging during development and not implementing any logging in production."
+    ],
+    "answer": "Using centralized logging tools and structured log formats to aggregate and analyze logs from multiple services.",
+    "date": "2026-07-25T01:22:05.084Z",
+    "reason": "This question assesses the candidate's understanding of logging practices in microservices, which is crucial for monitoring, debugging, and maintaining system health. Effective logging strategies are essential for identifying issues and ensuring system reliability."
   }
 ]
