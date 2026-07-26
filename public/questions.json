@@ -2794,5 +2794,17 @@
     "answer": "Using centralized logging tools and structured log formats to aggregate and analyze logs from multiple services.",
     "date": "2026-07-25T01:22:05.084Z",
     "reason": "This question assesses the candidate's understanding of logging practices in microservices, which is crucial for monitoring, debugging, and maintaining system health. Effective logging strategies are essential for identifying issues and ensuring system reliability."
+  },
+  {
+    "question": "Can you describe your approach to implementing observability in a microservices architecture, particularly focusing on metrics, logging, and tracing? What tools and practices do you find most effective for gaining insights into system performance and troubleshooting issues?",
+    "options": [
+      "A. Implementing logging with static log levels and manual log analysis",
+      "B. Using distributed tracing solutions, standardized logging formats, and metric aggregation tools",
+      "C. Relying on ad-hoc monitoring and occasional performance reviews",
+      "D. Focusing solely on metrics without considering logs or traces"
+    ],
+    "answer": "B. Using distributed tracing solutions, standardized logging formats, and metric aggregation tools",
+    "date": "2026-07-26T01:25:04.780Z",
+    "reason": "This question assesses a candidate's understanding of observability practices in microservices, which are crucial for maintaining application health, performance monitoring, and effective debugging."
   }
 ]
