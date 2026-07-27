@@ -2806,5 +2806,17 @@
     "answer": "B. Using distributed tracing solutions, standardized logging formats, and metric aggregation tools",
     "date": "2026-07-26T01:25:04.780Z",
     "reason": "This question assesses a candidate's understanding of observability practices in microservices, which are crucial for maintaining application health, performance monitoring, and effective debugging."
+  },
+  {
+    "question": "Can you describe your approach to implementing event-driven architecture in a Node.js application? What design patterns and technologies would you leverage, and how would you ensure reliability and scalability in handling events?",
+    "options": [
+      "1. Utilizing EventEmitter and a microservices approach to communicate events asynchronously.",
+      "2. Implementing a centralized message broker like RabbitMQ or Kafka to manage event distribution.",
+      "3. Using a combination of REST APIs and WebSockets for event handling.",
+      "4. Relying solely on database triggers to manage events and state changes."
+    ],
+    "answer": "2. Implementing a centralized message broker like RabbitMQ or Kafka to manage event distribution.",
+    "date": "2026-07-27T01:29:31.193Z",
+    "reason": "This question is valuable as it assesses the candidate's understanding of event-driven architecture, their ability to choose appropriate technologies for asynchronous communication, and their approach to ensuring system scalability and reliability."
   }
 ]
