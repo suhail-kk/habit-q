@@ -2818,5 +2818,17 @@
     "answer": "2. Implementing a centralized message broker like RabbitMQ or Kafka to manage event distribution.",
     "date": "2026-07-27T01:29:31.193Z",
     "reason": "This question is valuable as it assesses the candidate's understanding of event-driven architecture, their ability to choose appropriate technologies for asynchronous communication, and their approach to ensuring system scalability and reliability."
+  },
+  {
+    "question": "Can you discuss your approach to designing a robust data pipeline that integrates both real-time and batch data processing in a microservices architecture? What specific challenges do you anticipate, and how would you address issues such as data latency and consistency?",
+    "options": [
+      "1. Focus solely on batch processing to simplify the architecture.",
+      "2. Implement separate pipelines for real-time and batch data, avoiding integration.",
+      "3. Use a unified approach that leverages stream processing frameworks alongside batch processing tools, addressing latency and consistency through effective data management strategies.",
+      "4. Rely on manual processes for data integration and consistency."
+    ],
+    "answer": "3",
+    "date": "2026-07-28T01:17:03.604Z",
+    "reason": "This question evaluates the candidate's understanding of data processing methodologies and their ability to design systems that handle diverse data workflows, which is crucial for modern applications."
   }
 ]
