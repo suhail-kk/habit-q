@@ -2842,5 +2842,17 @@
     "answer": "Use a combination of AWS CloudWatch for logs and performance metrics, along with integrating a logging library like Winston for structured logging.",
     "date": "2026-07-29T01:19:27.671Z",
     "reason": "This question assesses the candidate's understanding of logging and monitoring in a cloud environment, which is crucial for maintaining application performance and debugging issues effectively."
+  },
+  {
+    "question": "Can you discuss your experience with designing and implementing a distributed caching strategy in a microservices architecture? What factors do you consider when deciding what to cache, and how do you handle cache invalidation and data consistency across services?",
+    "options": [
+      "Focus only on caching query results from the database without considering data updates.",
+      "Use an in-memory cache exclusively for all data types, regardless of access patterns.",
+      "Implement a hybrid caching strategy that includes both in-memory and distributed caches, taking into account data access patterns and update frequency.",
+      "Rely solely on database performance optimization without any caching implementation."
+    ],
+    "answer": "Implement a hybrid caching strategy that includes both in-memory and distributed caches, taking into account data access patterns and update frequency.",
+    "date": "2026-07-30T01:12:23.229Z",
+    "reason": "This question assesses the candidate's understanding of caching strategies in microservices, which is crucial for optimizing performance and managing data consistency in distributed systems."
   }
 ]
