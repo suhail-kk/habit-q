@@ -2854,5 +2854,17 @@
     "answer": "Implement a hybrid caching strategy that includes both in-memory and distributed caches, taking into account data access patterns and update frequency.",
     "date": "2026-07-30T01:12:23.229Z",
     "reason": "This question assesses the candidate's understanding of caching strategies in microservices, which is crucial for optimizing performance and managing data consistency in distributed systems."
+  },
+  {
+    "question": "Can you explain your approach to designing a cloud architecture that seamlessly integrates serverless components with traditional server-based services? What factors do you consider for service communication, scaling, and monitoring across both environments?",
+    "options": [
+      "Focus solely on serverless architecture to reduce costs.",
+      "Use a hybrid approach with clear boundaries between serverless and server-based components, ensuring efficient communication and scaling.",
+      "Eliminate traditional server-based services to fully adopt serverless.",
+      "Prioritize only monitoring serverless components."
+    ],
+    "answer": "Use a hybrid approach with clear boundaries between serverless and server-based components, ensuring efficient communication and scaling.",
+    "date": "2026-07-31T01:25:33.414Z",
+    "reason": "This question assesses a candidate's understanding of hybrid cloud architectures, which is crucial for modern applications, and evaluates their ability to think about scalability, service communication, and monitoring across different architectures."
   }
 ]
