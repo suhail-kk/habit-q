@@ -2866,5 +2866,17 @@
     "answer": "Use a hybrid approach with clear boundaries between serverless and server-based components, ensuring efficient communication and scaling.",
     "date": "2026-07-31T01:25:33.414Z",
     "reason": "This question assesses a candidate's understanding of hybrid cloud architectures, which is crucial for modern applications, and evaluates their ability to think about scalability, service communication, and monitoring across different architectures."
+  },
+  {
+    "question": "Can you describe your approach to implementing a strategy for ensuring secure communication between microservices in a cloud-native architecture? What specific practices and technologies would you employ to protect against vulnerabilities and manage authentication and authorization effectively?",
+    "options": [
+      "Using mutual TLS for service-to-service communication and implementing OAuth 2.0 for user authentication.",
+      "Relying solely on API keys for service communication and using basic authentication for user access.",
+      "Implementing a simple firewall to restrict access between services without additional security measures.",
+      "Using HTTP basic authentication for all service interactions and ensuring that all communication is done over HTTP."
+    ],
+    "answer": "Using mutual TLS for service-to-service communication and implementing OAuth 2.0 for user authentication.",
+    "date": "2026-08-01T01:27:04.562Z",
+    "reason": "This question assesses the candidate's understanding of security practices in distributed systems, which is critical for protecting sensitive data and maintaining system integrity in microservices architecture."
   }
 ]
