@@ -2878,5 +2878,17 @@
     "answer": "Using mutual TLS for service-to-service communication and implementing OAuth 2.0 for user authentication.",
     "date": "2026-08-01T01:27:04.562Z",
     "reason": "This question assesses the candidate's understanding of security practices in distributed systems, which is critical for protecting sensitive data and maintaining system integrity in microservices architecture."
+  },
+  {
+    "question": "Can you discuss your approach to implementing security best practices in a microservices architecture? What specific measures would you take to ensure data protection, secure communication between services, and compliance with regulations?",
+    "options": [
+      "Implementing OAuth for authentication and using HTTPS for secure communication.",
+      "Building a monolithic application to avoid security complexities.",
+      "Using only database-level security measures and ignoring application-level security.",
+      "Relying solely on third-party services for security without implementing internal measures."
+    ],
+    "answer": "Implementing OAuth for authentication and using HTTPS for secure communication.",
+    "date": "2026-08-02T01:24:56.113Z",
+    "reason": "This question assesses a candidate's understanding of security principles in microservices, which is crucial for protecting sensitive data and maintaining system integrity in a distributed architecture."
   }
 ]
