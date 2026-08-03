@@ -2890,5 +2890,17 @@
     "answer": "Implementing OAuth for authentication and using HTTPS for secure communication.",
     "date": "2026-08-02T01:24:56.113Z",
     "reason": "This question assesses a candidate's understanding of security principles in microservices, which is crucial for protecting sensitive data and maintaining system integrity in a distributed architecture."
+  },
+  {
+    "question": "Can you discuss your approach to implementing and managing observability in a microservices architecture? What tools and practices do you find most effective for gaining insights into system performance and troubleshooting issues, and how do you address the challenges of maintaining observability across multiple services?",
+    "options": [
+      "Utilizing centralized logging and monitoring tools such as ELK stack and Prometheus to aggregate logs and metrics.",
+      "Implementing manual logging in each service and relying on basic monitoring tools.",
+      "Focusing solely on application performance without considering user experience.",
+      "Neglecting observability due to resource constraints and relying on the team to manually diagnose issues."
+    ],
+    "answer": "Utilizing centralized logging and monitoring tools such as ELK stack and Prometheus to aggregate logs and metrics.",
+    "date": "2026-08-03T01:24:59.363Z",
+    "reason": "This question assesses the candidate's understanding of observability, which is crucial for maintaining the health of microservices and ensuring quick issue resolution. It also evaluates their familiarity with relevant tools and best practices."
   }
 ]
