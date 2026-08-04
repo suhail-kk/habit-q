@@ -2902,5 +2902,17 @@
     "answer": "Utilizing centralized logging and monitoring tools such as ELK stack and Prometheus to aggregate logs and metrics.",
     "date": "2026-08-03T01:24:59.363Z",
     "reason": "This question assesses the candidate's understanding of observability, which is crucial for maintaining the health of microservices and ensuring quick issue resolution. It also evaluates their familiarity with relevant tools and best practices."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive strategy for API versioning in a microservices architecture? What factors do you consider when deciding between different versioning strategies, and how do you manage backward compatibility and documentation?",
+    "options": [
+      "A. By only allowing breaking changes in major releases and using URL path versioning.",
+      "B. By implementing versioning based solely on the database schema changes.",
+      "C. By choosing a versioning strategy based on user feedback and technical feasibility, while ensuring documentation is updated accordingly.",
+      "D. By avoiding API versioning altogether and focusing on continuous deployment."
+    ],
+    "answer": "C. By choosing a versioning strategy based on user feedback and technical feasibility, while ensuring documentation is updated accordingly.",
+    "date": "2026-08-04T01:15:59.096Z",
+    "reason": "This question assesses the candidate's understanding of API versioning, a critical aspect of maintaining and evolving microservices without disrupting existing clients. Their approach to managing backward compatibility and documentation reflects their experience and strategic thinking in software development."
   }
 ]
