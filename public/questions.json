@@ -2914,5 +2914,17 @@
     "answer": "C. By choosing a versioning strategy based on user feedback and technical feasibility, while ensuring documentation is updated accordingly.",
     "date": "2026-08-04T01:15:59.096Z",
     "reason": "This question assesses the candidate's understanding of API versioning, a critical aspect of maintaining and evolving microservices without disrupting existing clients. Their approach to managing backward compatibility and documentation reflects their experience and strategic thinking in software development."
+  },
+  {
+    "question": "Can you explain your approach to leveraging design patterns in a microservices architecture to enhance scalability and maintainability? What specific patterns have you found most effective, and how do they address common challenges in distributed systems?",
+    "options": [
+      "A) Focus on using only a single pattern for consistency throughout the architecture.",
+      "B) Implement design patterns that specifically address service communication and data management challenges.",
+      "C) Avoid design patterns altogether to keep the architecture simple.",
+      "D) Use design patterns only during the initial phase of development and not during iterations."
+    ],
+    "answer": "B) Implement design patterns that specifically address service communication and data management challenges.",
+    "date": "2026-08-05T01:17:56.493Z",
+    "reason": "This question assesses the candidate's understanding of design patterns and their application in real-world microservices scenarios, which is essential for creating scalable and maintainable systems."
   }
 ]
