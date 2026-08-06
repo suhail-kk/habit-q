@@ -2926,5 +2926,17 @@
     "answer": "B) Implement design patterns that specifically address service communication and data management challenges.",
     "date": "2026-08-05T01:17:56.493Z",
     "reason": "This question assesses the candidate's understanding of design patterns and their application in real-world microservices scenarios, which is essential for creating scalable and maintainable systems."
+  },
+  {
+    "question": "Can you describe a situation where you had to choose between using a SQL database and a NoSQL database for a project? What factors influenced your decision, and how did you ensure that the chosen database met the project requirements?",
+    "options": [
+      "I only choose SQL databases regardless of the project needs.",
+      "I make decisions based solely on the cost of the databases.",
+      "I analyze the data structure, scalability requirements, and access patterns, and choose the database accordingly.",
+      "I always default to NoSQL databases for all projects."
+    ],
+    "answer": "I analyze the data structure, scalability requirements, and access patterns, and choose the database accordingly.",
+    "date": "2026-08-06T01:15:41.635Z",
+    "reason": "This question assesses the candidate's understanding of database technologies and their ability to make informed architectural decisions based on specific project requirements. It helps gauge their experience with both SQL and NoSQL databases."
   }
 ]
