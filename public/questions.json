@@ -2938,5 +2938,17 @@
     "answer": "I analyze the data structure, scalability requirements, and access patterns, and choose the database accordingly.",
     "date": "2026-08-06T01:15:41.635Z",
     "reason": "This question assesses the candidate's understanding of database technologies and their ability to make informed architectural decisions based on specific project requirements. It helps gauge their experience with both SQL and NoSQL databases."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a strategy for monitoring and optimizing the performance of a Node.js application deployed in a cloud environment? What specific tools and techniques would you use to identify performance bottlenecks and ensure that the application scales efficiently?",
+    "options": [
+      "A) Use built-in Node.js performance monitoring tools and ignore application-level metrics.",
+      "B) Implement profiling tools, log analysis, and cloud monitoring services while focusing on application-level metrics.",
+      "C) Rely solely on server resource statistics and avoid user interaction metrics.",
+      "D) Optimize code without monitoring and assume performance will improve."
+    ],
+    "answer": "B",
+    "date": "2026-08-07T01:57:39.576Z",
+    "reason": "This question assesses the candidate's understanding of performance monitoring and optimization strategies in a cloud-based Node.js application, which is crucial for maintaining application efficiency and scalability."
   }
 ]
