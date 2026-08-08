@@ -2950,5 +2950,17 @@
     "answer": "B",
     "date": "2026-08-07T01:57:39.576Z",
     "reason": "This question assesses the candidate's understanding of performance monitoring and optimization strategies in a cloud-based Node.js application, which is crucial for maintaining application efficiency and scalability."
+  },
+  {
+    "question": "Can you discuss your experience with implementing advanced JavaScript concepts such as closures, the event loop, and asynchronous patterns in a project? How did these concepts impact the overall architecture and performance of your application?",
+    "options": [
+      "I have not used advanced JavaScript concepts in my projects.",
+      "I have implemented closures but not explored the event loop or asynchronous patterns.",
+      "I have experience with all mentioned concepts and can explain their impact.",
+      "I understand the concepts but have not applied them in real projects."
+    ],
+    "answer": "I have experience with all mentioned concepts and can explain their impact.",
+    "date": "2026-08-08T00:40:53.081Z",
+    "reason": "This question assesses the candidate's understanding and practical application of advanced JavaScript concepts, which are critical for developing high-performance applications. It also invites discussion on how these concepts influence architectural decisions."
   }
 ]
