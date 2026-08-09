@@ -2962,5 +2962,17 @@
     "answer": "I have experience with all mentioned concepts and can explain their impact.",
     "date": "2026-08-08T00:40:53.081Z",
     "reason": "This question assesses the candidate's understanding and practical application of advanced JavaScript concepts, which are critical for developing high-performance applications. It also invites discussion on how these concepts influence architectural decisions."
+  },
+  {
+    "question": "Can you describe your experience with optimizing the performance of a Node.js application that interacts with both SQL and NoSQL databases? What strategies did you implement to address challenges such as latency, data retrieval efficiency, and scaling issues?",
+    "options": [
+      "Utilized connection pooling and optimized query performance for SQL, and implemented sharding for NoSQL.",
+      "Implemented a monolithic architecture to reduce complexity and improve performance.",
+      "Relied solely on in-memory databases to handle all application data.",
+      "Used only SQL databases to eliminate the need for data consistency across different systems."
+    ],
+    "answer": "Utilized connection pooling and optimized query performance for SQL, and implemented sharding for NoSQL.",
+    "date": "2026-08-09T00:43:12.674Z",
+    "reason": "This question assesses the candidate's practical experience with performance optimization in complex database interactions, which is critical for ensuring efficient application behavior under load."
   }
 ]
