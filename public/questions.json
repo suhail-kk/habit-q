@@ -2974,5 +2974,17 @@
     "answer": "Utilized connection pooling and optimized query performance for SQL, and implemented sharding for NoSQL.",
     "date": "2026-08-09T00:43:12.674Z",
     "reason": "This question assesses the candidate's practical experience with performance optimization in complex database interactions, which is critical for ensuring efficient application behavior under load."
+  },
+  {
+    "question": "Can you describe your experience with implementing and managing a CI/CD pipeline for a cloud-based application that uses both Node.js and Python? What challenges did you face during the automation of testing and deployment, and how did you ensure the reliability and scalability of the pipeline?",
+    "options": [
+      "A. I have not implemented a CI/CD pipeline before.",
+      "B. I primarily focused on manual deployment processes without automation.",
+      "C. I implemented a CI/CD pipeline but faced minimal challenges.",
+      "D. I have experience implementing a CI/CD pipeline, faced various challenges, and used specific tools and practices to ensure reliability."
+    ],
+    "answer": "D. I have experience implementing a CI/CD pipeline, faced various challenges, and used specific tools and practices to ensure reliability.",
+    "date": "2026-08-10T00:44:43.952Z",
+    "reason": "This question assesses the candidate's practical experience with CI/CD pipelines, their understanding of automation in the context of cloud-based applications, and their problem-solving abilities in addressing real-world challenges, which are crucial for mid-level and senior developers."
   }
 ]
