@@ -2998,5 +2998,17 @@
     "answer": "C",
     "date": "2026-08-11T00:44:27.052Z",
     "reason": "This question assesses the candidate's understanding of versioning in microservices, which is crucial for maintaining service integrity and managing changes over time while ensuring clear communication and documentation."
+  },
+  {
+    "question": "Can you describe your experience with implementing caching strategies in a microservices architecture? What factors do you consider when deciding what data to cache, and how do you manage cache invalidation and consistency across services?",
+    "options": [
+      "1. I focus primarily on caching the entire database to reduce load.",
+      "2. I consider caching frequently accessed data, and I use versioning and TTL for cache invalidation.",
+      "3. I rely on the database to handle all caching mechanisms.",
+      "4. I generally avoid using caching due to its complexity."
+    ],
+    "answer": "2. I consider caching frequently accessed data, and I use versioning and TTL for cache invalidation.",
+    "date": "2026-08-12T00:52:16.498Z",
+    "reason": "This question evaluates the candidate's understanding of caching strategies in a microservices environment, which is crucial for optimizing performance and resource utilization while also ensuring data consistency and accuracy across services."
   }
 ]
