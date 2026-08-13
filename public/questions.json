@@ -3010,5 +3010,17 @@
     "answer": "2. I consider caching frequently accessed data, and I use versioning and TTL for cache invalidation.",
     "date": "2026-08-12T00:52:16.498Z",
     "reason": "This question evaluates the candidate's understanding of caching strategies in a microservices environment, which is crucial for optimizing performance and resource utilization while also ensuring data consistency and accuracy across services."
+  },
+  {
+    "question": "Can you describe your approach to architecting a system that supports real-time data processing in a microservices architecture? What design patterns, tools, and technologies would you leverage to ensure data consistency and low latency in data delivery?",
+    "options": [
+      "A. Implement a monolithic architecture with synchronous data processing",
+      "B. Use message queues and event-driven patterns to manage real-time data streams",
+      "C. Rely solely on SQL databases for data management",
+      "D. Avoid using caching mechanisms to reduce complexity"
+    ],
+    "answer": "B. Use message queues and event-driven patterns to manage real-time data streams",
+    "date": "2026-08-13T00:53:39.092Z",
+    "reason": "This question evaluates the candidate's understanding of real-time data processing, their familiarity with microservices architecture, and their ability to implement appropriate design patterns and technologies for maintaining data consistency and performance."
   }
 ]
