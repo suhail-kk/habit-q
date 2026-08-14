@@ -3022,5 +3022,17 @@
     "answer": "B. Use message queues and event-driven patterns to manage real-time data streams",
     "date": "2026-08-13T00:53:39.092Z",
     "reason": "This question evaluates the candidate's understanding of real-time data processing, their familiarity with microservices architecture, and their ability to implement appropriate design patterns and technologies for maintaining data consistency and performance."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a strategy for managing state in a serverless application on AWS, particularly focusing on how you would handle data persistence and temporary storage across services? What techniques and AWS services would you leverage to ensure data integrity and performance?",
+    "options": [
+      "Utilize AWS S3 for all data storage needs and rely solely on client-side state management.",
+      "Implement a combination of AWS Lambda and DynamoDB for state management, using S3 for static assets.",
+      "Use only AWS RDS for all database interactions without considering caching strategies.",
+      "Handle state management exclusively on the client-side, minimizing server interactions."
+    ],
+    "answer": "Implement a combination of AWS Lambda and DynamoDB for state management, using S3 for static assets.",
+    "date": "2026-08-14T00:53:09.236Z",
+    "reason": "This question assesses the candidate's understanding of state management in serverless architectures and their ability to leverage AWS services effectively to ensure data integrity and performance, which is crucial for building scalable applications."
   }
 ]
