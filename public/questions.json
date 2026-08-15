@@ -3034,5 +3034,17 @@
     "answer": "Implement a combination of AWS Lambda and DynamoDB for state management, using S3 for static assets.",
     "date": "2026-08-14T00:53:09.236Z",
     "reason": "This question assesses the candidate's understanding of state management in serverless architectures and their ability to leverage AWS services effectively to ensure data integrity and performance, which is crucial for building scalable applications."
+  },
+  {
+    "question": "Can you explain your approach to designing a system that leverages both synchronous and asynchronous communication in a microservices architecture? What considerations do you take into account regarding performance, reliability, and scalability?",
+    "options": [
+      "Focus solely on synchronous communication to simplify service interactions.",
+      "Use asynchronous communication for all services to maximize performance.",
+      "Mix both synchronous and asynchronous communication based on service requirements and network conditions.",
+      "Ignore communication patterns and optimize other aspects of the architecture."
+    ],
+    "answer": "Mix both synchronous and asynchronous communication based on service requirements and network conditions.",
+    "date": "2026-08-15T00:30:16.183Z",
+    "reason": "This question assesses the candidate's understanding of communication patterns in microservices and their ability to balance performance and reliability, which is crucial for scalable system design."
   }
 ]
