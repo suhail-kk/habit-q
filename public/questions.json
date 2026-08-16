@@ -3046,5 +3046,17 @@
     "answer": "Mix both synchronous and asynchronous communication based on service requirements and network conditions.",
     "date": "2026-08-15T00:30:16.183Z",
     "reason": "This question assesses the candidate's understanding of communication patterns in microservices and their ability to balance performance and reliability, which is crucial for scalable system design."
+  },
+  {
+    "question": "Can you describe your experience in designing asynchronous systems using JavaScript? What patterns have you found most effective in managing complexity, and how do you ensure that asynchronous operations do not lead to callback hell or unhandled promise rejections?",
+    "options": [
+      "I primarily use async/await and Promises, and I ensure proper error handling with try/catch blocks.",
+      "I rely on traditional callback functions and focus on modularizing my code.",
+      "I use synchronous programming techniques to avoid complexity altogether.",
+      "I prefer to avoid asynchronous code and stick to synchronous methods."
+    ],
+    "answer": "I primarily use async/await and Promises, and I ensure proper error handling with try/catch blocks.",
+    "date": "2026-08-16T00:30:28.353Z",
+    "reason": "This question assesses the candidate's understanding of advanced JavaScript concepts, specifically in managing asynchronous operations, which are crucial in modern web development and application performance."
   }
 ]
