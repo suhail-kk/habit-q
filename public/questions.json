@@ -3058,5 +3058,17 @@
     "answer": "I primarily use async/await and Promises, and I ensure proper error handling with try/catch blocks.",
     "date": "2026-08-16T00:30:28.353Z",
     "reason": "This question assesses the candidate's understanding of advanced JavaScript concepts, specifically in managing asynchronous operations, which are crucial in modern web development and application performance."
+  },
+  {
+    "question": "Can you describe your approach to designing a robust error handling strategy in a Node.js application, particularly focusing on how you would manage different types of errors (e.g., synchronous vs. asynchronous) and ensure that the application maintains its performance and reliability?",
+    "options": [
+      "Implement a centralized error handling middleware that categorizes errors and logs them appropriately.",
+      "Use try-catch blocks in every function to handle errors individually.",
+      "Ignore errors and let the application crash to avoid performance overhead.",
+      "Utilize third-party libraries exclusively to manage errors without custom handling."
+    ],
+    "answer": "Implement a centralized error handling middleware that categorizes errors and logs them appropriately.",
+    "date": "2026-08-17T00:29:21.093Z",
+    "reason": "This question assesses a candidate's understanding of error management in Node.js applications, which is crucial for maintaining application reliability and performance. It also explores their familiarity with best practices such as centralized error handling."
   }
 ]
