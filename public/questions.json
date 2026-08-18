@@ -3070,5 +3070,17 @@
     "answer": "Implement a centralized error handling middleware that categorizes errors and logs them appropriately.",
     "date": "2026-08-17T00:29:21.093Z",
     "reason": "This question assesses a candidate's understanding of error management in Node.js applications, which is crucial for maintaining application reliability and performance. It also explores their familiarity with best practices such as centralized error handling."
+  },
+  {
+    "question": "Can you explain your approach to implementing asynchronous patterns in JavaScript, particularly focusing on how you manage complexity and enhance code readability? What strategies do you use to avoid common pitfalls such as callback hell or unhandled promise rejections?",
+    "options": [
+      "Using only callbacks and avoiding promises",
+      "Implementing async/await consistently across the application",
+      "Relying on synchronous code to maintain simplicity",
+      "Using third-party libraries exclusively for handling async operations"
+    ],
+    "answer": "Implementing async/await consistently across the application",
+    "date": "2026-08-18T00:28:54.147Z",
+    "reason": "This question assesses the candidate's understanding of advanced JavaScript concepts, their ability to manage complexity in asynchronous code, and their familiarity with best practices to enhance code readability and maintainability."
   }
 ]
