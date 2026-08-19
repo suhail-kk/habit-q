@@ -3082,5 +3082,17 @@
     "answer": "Implementing async/await consistently across the application",
     "date": "2026-08-18T00:28:54.147Z",
     "reason": "This question assesses the candidate's understanding of advanced JavaScript concepts, their ability to manage complexity in asynchronous code, and their familiarity with best practices to enhance code readability and maintainability."
+  },
+  {
+    "question": "Can you discuss your approach to implementing observability in a microservices architecture? What specific metrics, tools, and practices do you consider essential for gaining insights into system performance and troubleshooting issues across multiple services?",
+    "options": [
+      "Focus solely on logging and ignore metrics and tracing.",
+      "Utilize a single tool for all aspects of observability.",
+      "Implement a combination of logging, metrics, and tracing using multiple tools tailored for specific use cases.",
+      "Prioritize metrics over logging and tracing."
+    ],
+    "answer": "Implement a combination of logging, metrics, and tracing using multiple tools tailored for specific use cases.",
+    "date": "2026-08-19T00:29:33.926Z",
+    "reason": "This question assesses the candidate's understanding of observability as a holistic practice that combines different techniques and tools, which is crucial for maintaining and improving system reliability in a microservices architecture."
   }
 ]
