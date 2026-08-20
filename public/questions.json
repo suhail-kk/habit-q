@@ -3094,5 +3094,17 @@
     "answer": "Implement a combination of logging, metrics, and tracing using multiple tools tailored for specific use cases.",
     "date": "2026-08-19T00:29:33.926Z",
     "reason": "This question assesses the candidate's understanding of observability as a holistic practice that combines different techniques and tools, which is crucial for maintaining and improving system reliability in a microservices architecture."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive testing strategy for a microservices architecture? What specific testing methodologies would you employ to ensure functional correctness, performance, and security across distributed services, and how do you integrate these tests into your CI/CD pipeline?",
+    "options": [
+      "A testing strategy focused solely on unit tests to validate individual components.",
+      "A combination of unit, integration, and end-to-end tests with an emphasis on performance and security testing integrated into the CI/CD pipeline.",
+      "Using manual testing exclusively to ensure quality across services.",
+      "Implementing tests only after the deployment to catch any potential issues."
+    ],
+    "answer": "A combination of unit, integration, and end-to-end tests with an emphasis on performance and security testing integrated into the CI/CD pipeline.",
+    "date": "2026-08-20T00:29:19.793Z",
+    "reason": "This question assesses the candidate's understanding of comprehensive testing strategies essential for maintaining quality in complex microservices environments, while also evaluating their experience with CI/CD practices."
   }
 ]
