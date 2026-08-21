@@ -3106,5 +3106,17 @@
     "answer": "A combination of unit, integration, and end-to-end tests with an emphasis on performance and security testing integrated into the CI/CD pipeline.",
     "date": "2026-08-20T00:29:19.793Z",
     "reason": "This question assesses the candidate's understanding of comprehensive testing strategies essential for maintaining quality in complex microservices environments, while also evaluating their experience with CI/CD practices."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive logging strategy in a distributed system that leverages both Node.js and Python microservices? What tools and practices would you consider essential for effective log management, and how do you ensure that logs provide actionable insights for monitoring and debugging across multiple services?",
+    "options": [
+      "Use a centralized logging system like ELK stack, focusing on structured logging and log aggregation.",
+      "Implement logging only at the application level without considering centralized systems.",
+      "Use local file-based logging for each microservice to avoid complexity.",
+      "Only log errors and critical information to reduce overhead."
+    ],
+    "answer": "Use a centralized logging system like ELK stack, focusing on structured logging and log aggregation.",
+    "date": "2026-08-21T00:32:20.744Z",
+    "reason": "This question assesses the candidate's understanding of logging practices in microservices, which is crucial for observability and troubleshooting in distributed systems. It explores their familiarity with tools and methodologies that enhance logging effectiveness."
   }
 ]
