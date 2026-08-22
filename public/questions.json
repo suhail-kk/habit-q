@@ -3118,5 +3118,17 @@
     "answer": "Use a centralized logging system like ELK stack, focusing on structured logging and log aggregation.",
     "date": "2026-08-21T00:32:20.744Z",
     "reason": "This question assesses the candidate's understanding of logging practices in microservices, which is crucial for observability and troubleshooting in distributed systems. It explores their familiarity with tools and methodologies that enhance logging effectiveness."
+  },
+  {
+    "question": "Can you discuss your approach to implementing a scaling strategy for a cloud-based application that relies on both Node.js and Python services? What specific considerations do you take into account regarding load balancing, auto-scaling, and resource management, and how do you ensure the application remains performant under varying loads?",
+    "options": [
+      "A) Focus only on optimizing the Node.js services, as they handle the majority of requests.",
+      "B) Implement a rigid scaling policy that does not adapt to real-time metrics.",
+      "C) Utilize cloud services' built-in auto-scaling features and monitor performance metrics to adaptively manage resources.",
+      "D) Rely solely on manual intervention to adjust resources during peak usage times."
+    ],
+    "answer": "C) Utilize cloud services' built-in auto-scaling features and monitor performance metrics to adaptively manage resources.",
+    "date": "2026-08-22T00:29:34.566Z",
+    "reason": "This question assesses the candidate's understanding of scalability in cloud environments, particularly with mixed technology stacks, and their ability to implement effective resource management strategies."
   }
 ]
