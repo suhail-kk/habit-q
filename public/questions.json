@@ -3130,5 +3130,17 @@
     "answer": "C) Utilize cloud services' built-in auto-scaling features and monitor performance metrics to adaptively manage resources.",
     "date": "2026-08-22T00:29:34.566Z",
     "reason": "This question assesses the candidate's understanding of scalability in cloud environments, particularly with mixed technology stacks, and their ability to implement effective resource management strategies."
+  },
+  {
+    "question": "Can you describe your approach to leveraging advanced JavaScript concepts like closures and the event loop in your projects? How do these concepts influence your application's architecture and performance, particularly in relation to asynchronous programming patterns?",
+    "options": [
+      "I focus mostly on basic JavaScript concepts and avoid advanced techniques.",
+      "I use closures solely for encapsulation without considering their impact on performance.",
+      "I apply advanced concepts strategically to optimize performance and manage asynchronous operations effectively.",
+      "I rely on external libraries to handle asynchronous programming instead of using native JavaScript features."
+    ],
+    "answer": "I apply advanced concepts strategically to optimize performance and manage asynchronous operations effectively.",
+    "date": "2026-08-23T00:31:46.306Z",
+    "reason": "This question assesses the candidate's understanding of complex JavaScript concepts that are crucial for building efficient and high-performance applications, especially in the context of asynchronous programming, which is essential for modern web development."
   }
 ]
