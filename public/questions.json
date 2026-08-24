@@ -3142,5 +3142,17 @@
     "answer": "I apply advanced concepts strategically to optimize performance and manage asynchronous operations effectively.",
     "date": "2026-08-23T00:31:46.306Z",
     "reason": "This question assesses the candidate's understanding of complex JavaScript concepts that are crucial for building efficient and high-performance applications, especially in the context of asynchronous programming, which is essential for modern web development."
+  },
+  {
+    "question": "Can you discuss your approach to implementing security measures in a Node.js application that interacts with AWS services? What specific strategies would you use to secure API endpoints, manage user authentication, and ensure data protection in transit and at rest?",
+    "options": [
+      "1. Use HTTPS for secure communication, implement JWT for user authentication, and encrypt sensitive data in the database.",
+      "2. Rely on the default security settings of AWS services, and do not implement any additional measures.",
+      "3. Use a single API key for all services and expose it in the frontend code for ease of access.",
+      "4. Implement security only at the API gateway level without considering data encryption."
+    ],
+    "answer": "1. Use HTTPS for secure communication, implement JWT for user authentication, and encrypt sensitive data in the database.",
+    "date": "2026-08-24T00:30:53.663Z",
+    "reason": "This question evaluates the candidate's understanding of security best practices in cloud-based applications, particularly in the context of a Node.js application interacting with AWS. It assesses their knowledge of data protection, authentication mechanisms, and secure communication, which are crucial for developing secure software."
   }
 ]
