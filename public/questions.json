@@ -3154,5 +3154,17 @@
     "answer": "1. Use HTTPS for secure communication, implement JWT for user authentication, and encrypt sensitive data in the database.",
     "date": "2026-08-24T00:30:53.663Z",
     "reason": "This question evaluates the candidate's understanding of security best practices in cloud-based applications, particularly in the context of a Node.js application interacting with AWS. It assesses their knowledge of data protection, authentication mechanisms, and secure communication, which are crucial for developing secure software."
+  },
+  {
+    "question": "Can you describe your approach to managing state in a complex application using both JavaScript on the front-end and Python on the back-end? What strategies and patterns do you employ to ensure state consistency and effective data flow between the client and server?",
+    "options": [
+      "Utilize Redux on the front-end and REST APIs for state management.",
+      "Implement WebSockets for real-time state synchronization between front-end and back-end.",
+      "Use localStorage for client-side state management and a SQL database for server-side.",
+      "Manage state exclusively on the server-side and fetch fresh data on each user interaction."
+    ],
+    "answer": "Implement WebSockets for real-time state synchronization between front-end and back-end.",
+    "date": "2026-08-25T00:30:21.828Z",
+    "reason": "This question assesses the candidate's understanding of state management across different layers of an application, as well as their ability to apply appropriate strategies to maintain state consistency and data flow effectively."
   }
 ]
