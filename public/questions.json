@@ -3166,5 +3166,17 @@
     "answer": "Implement WebSockets for real-time state synchronization between front-end and back-end.",
     "date": "2026-08-25T00:30:21.828Z",
     "reason": "This question assesses the candidate's understanding of state management across different layers of an application, as well as their ability to apply appropriate strategies to maintain state consistency and data flow effectively."
+  },
+  {
+    "question": "Can you describe your approach to implementing a comprehensive strategy for managing asynchronous operations in a JavaScript application, particularly focusing on error handling, performance optimization, and maintaining code readability? What patterns and tools do you find most effective in achieving these goals?",
+    "options": [
+      "1. Using async/await for all asynchronous operations, ignoring error handling.",
+      "2. Implementing promise chaining without considering code readability.",
+      "3. Utilizing callback functions exclusively for all async operations.",
+      "4. Combining async/await with try/catch for error handling and libraries like Axios for managing requests."
+    ],
+    "answer": "4. Combining async/await with try/catch for error handling and libraries like Axios for managing requests.",
+    "date": "2026-08-26T00:31:28.477Z",
+    "reason": "This question assesses the candidate's understanding of modern JavaScript asynchronous patterns, error handling strategies, and ability to maintain clean and efficient code. It also allows them to showcase their experience with popular libraries and best practices in the field."
   }
 ]
