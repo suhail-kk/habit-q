@@ -3178,5 +3178,17 @@
     "answer": "4. Combining async/await with try/catch for error handling and libraries like Axios for managing requests.",
     "date": "2026-08-26T00:31:28.477Z",
     "reason": "This question assesses the candidate's understanding of modern JavaScript asynchronous patterns, error handling strategies, and ability to maintain clean and efficient code. It also allows them to showcase their experience with popular libraries and best practices in the field."
+  },
+  {
+    "question": "Can you explain your approach to optimizing the performance of a Python application that utilizes both synchronous and asynchronous programming? What specific techniques and libraries do you find effective for improving efficiency and responsiveness, especially in I/O-bound scenarios?",
+    "options": [
+      "Using only synchronous programming to simplify the codebase.",
+      "Utilizing libraries such as asyncio and aiohttp to manage asynchronous I/O operations effectively.",
+      "Focusing solely on CPU-bound optimizations without considering I/O performance.",
+      "Implementing a single-threaded approach for all tasks."
+    ],
+    "answer": "Utilizing libraries such as asyncio and aiohttp to manage asynchronous I/O operations effectively.",
+    "date": "2026-08-27T05:20:42.208Z",
+    "reason": "This question assesses the candidate's understanding of performance optimization in Python, particularly in the context of asynchronous programming, which is crucial for building responsive applications that handle I/O-bound tasks efficiently."
   }
 ]
