@@ -3190,5 +3190,17 @@
     "answer": "Utilizing libraries such as asyncio and aiohttp to manage asynchronous I/O operations effectively.",
     "date": "2026-08-27T05:20:42.208Z",
     "reason": "This question assesses the candidate's understanding of performance optimization in Python, particularly in the context of asynchronous programming, which is crucial for building responsive applications that handle I/O-bound tasks efficiently."
+  },
+  {
+    "question": "Can you describe your experience with implementing real-time data processing in a cloud-based application? What design patterns, tools, and technologies did you utilize to ensure low latency, data consistency, and system scalability?",
+    "options": [
+      "Discuss the use of WebSockets and an event-driven architecture to handle real-time updates.",
+      "Explain how to implement a microservices architecture without discussing real-time data.",
+      "Focus solely on using batch processing techniques without real-time considerations.",
+      "Describe a monolithic architecture approach to real-time data processing."
+    ],
+    "answer": "Discuss the use of WebSockets and an event-driven architecture to handle real-time updates.",
+    "date": "2026-08-28T07:17:54.226Z",
+    "reason": "This question assesses a candidate's understanding of modern architectures and techniques used for real-time processing, crucial for developing responsive applications. It also reveals their familiarity with best practices in system design and technology choices."
   }
 ]
