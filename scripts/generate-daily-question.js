@@ -1,5 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
+import { fileURLToPath } from "url";
 import dotenv from "dotenv";
 
 dotenv.config();
@@ -39,6 +40,24 @@ async function readKeyState() {
 
 async function writeKeyState(state) {
   await fs.writeFile(keyStatePath, JSON.stringify(state, null, 2));
+}
+
+export function isKeyFailure(status, errorText) {
+  const lower = String(errorText || "").toLowerCase();
+
+  if (status === 401 || status === 402 || status === 403) return true;
+  return (
+    lower.includes("user not found") ||
+    lower.includes("invalid api key") ||
+    lower.includes("api key") ||
+    lower.includes("not authorized") ||
+    lower.includes("unauthorized") ||
+    lower.includes("authentication") ||
+    lower.includes("permission denied") ||
+    lower.includes("invalid authorization") ||
+    lower.includes("insufficient credits") ||
+    lower.includes("more credits")
+  );
 }
 
 function isCreditError(status, errorText) {
@@ -140,9 +159,9 @@ async function generateDailyQuestion() {
         if (!res.ok) {
           const errorText = await res.text();
           lastErrorText = errorText;
-          if (isCreditError(res.status, errorText)) {
+          if (isCreditError(res.status, errorText) || isKeyFailure(res.status, errorText)) {
             console.warn(
-              `⚠️ Key ${key.name} appears out of credits (status ${res.status}). Trying next key...`,
+              `⚠️ Key ${key.name} is invalid or exhausted (status ${res.status}). Trying next key...`,
             );
             continue;
           }
@@ -205,4 +224,8 @@ async function generateDailyQuestion() {
   }
 }
 
-generateDailyQuestion();
+const isDirectRun = process.argv[1] && fileURLToPath(import.meta.url) === process.argv[1];
+
+if (isDirectRun) {
+  generateDailyQuestion();
+}
